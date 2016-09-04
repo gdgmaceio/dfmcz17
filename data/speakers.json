@@ -1,7 +1,7 @@
 {
     "2": {
         "id": 2,
-        "featured": "true",
+        "featured": true,
         "name": "Gabriel Carvalho",
         "title": "Latam Sales Engineer, Google Maps for Work",
         "company": "Google",
@@ -31,14 +31,14 @@
     },
     "3": {
         "id": 3,
-        "featured": "true",
+        "featured": true,
         "name": "Ciro Nunes",
         "title": "Lead Front-end Engineer",
         "company": "CrossEngage",
         "companyLogo": "/images/logos/cross-engage.svg",
         "country": "Berlim 🇩🇪",
         "photoUrl": "/images/people/ciro-nunes.jpg",
-        "shortBio": "Google Developer Expert in Angular, Angular contributor, Lead Front-end Engineer at CrossEngage GmbH in Berlin",
+        "shortBio": "Google Developer Expert in Angular, Angular contributor, Lead Front-end Engineer at CrossEngage GmbH in Berlin...",
         "bio": "Google Developer Expert in Angular, Angular contributor, Lead Front-end Engineer at CrossEngage GmbH in Berlin. Ciro is passionate about Front-end development and participated in many different large scale JavaScript projects from E-commerces, passing through Financial Trading to Marketing Tools. His goal as a speaker is to improve developers productivity and the performance of their apps. Currently in love with TypeScript and Angular 2.",
         "tags": [
             "Angular",
@@ -66,7 +66,7 @@
     },
     "4": {
         "id": 4,
-        "featured": "true",
+        "featured": true,
         "name": "Loiane Groner",
         "title": "Senior Developer Evangelist Connected Home",
         "company": "Citibank",
@@ -107,7 +107,7 @@
     },
     "5": {
         "id": 5,
-        "featured": "true",
+        "featured": true,
         "name": "Juarez Filho",
         "title": "Google Developer Expert",
         "company": "Google Developer Expert",
@@ -154,7 +154,7 @@
     },
     "6": {
         "id": 6,
-        "featured": "true",
+        "featured": true,
         "name": "Nelson Glauber",
         "title": "Engenheiro de Software",
         "company": "Mokriya",
@@ -193,7 +193,43 @@
     },
     "7": {
         "id": 7,
-        "featured": "true",
+        "featured": true,
+        "name": "Ana Paula Batista",
+        "title": "UX Design",
+        "company": "AppProva",
+        "companyLogo": "/images/logos/app-prova.png",
+        "country": "Belo Horizonte 🇧🇷",
+        "photoUrl": "/images/people/ana-paula-batista.jpg",
+        "shortBio": "UX designer com dezesseis anos de experiência em projetos para diferentes segmentos. É especializada em estratégia de experiência do usuário, com foco na conversão em baixas custos em ambientes ágeis...",
+        "bio": "UX designer com dezesseis anos de experiência em projetos para diferentes segmentos. É especializada em estratégia de experiência do usuário, com foco na conversão em baixas custos em ambientes ágeis. Atualmente, Google Expert em UX / UI, Head de Produto no AppProva, Certified Design Sprint Master e local leader do IxDA-BH. Mora em Belo Horizonte, Brasil. Atua também mentora de startups e palestrante sobre temas como UX design e métodos de pesquisa do usuário.",
+        "tags": [
+            "UX",
+            "UI",
+            "Prototyping"
+        ],
+        "badges": [
+            {
+                "name": "GDE",
+                "description": "UX / UI Expert",
+                "link": "https://developers.google.com/experts/people/ana-paula-batista"
+            }
+        ],
+        "socials": [
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/anabatista"
+            },
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "https://plus.google.com/+AnaPaulaBatistaUX"
+            }
+        ]
+    },
+    "8": {
+        "id": 8,
+        "featured": true,
         "name": "Walmyr Carvalho",
         "title": "Desenvolvedor Android Senior",
         "company": "M4U",
@@ -230,45 +266,9 @@
             }
         ]
     },
-    "8": {
-        "id": 8,
-        "featured": "true",
-        "name": "Ana Paula Batista",
-        "title": "UX Design",
-        "company": "AppProva",
-        "companyLogo": "/images/logos/app-prova.png",
-        "country": "Belo Horizonte 🇧🇷",
-        "photoUrl": "/images/people/ana-paula-batista.jpg",
-        "shortBio": "UX designer com dezesseis anos de experiência em projetos para diferentes segmentos. É especializada em estratégia de experiência do usuário, com foco na conversão em baixas custos em ambientes ágeis...",
-        "bio": "UX designer com dezesseis anos de experiência em projetos para diferentes segmentos. É especializada em estratégia de experiência do usuário, com foco na conversão em baixas custos em ambientes ágeis. Atualmente, Google Expert em UX / UI, Head de Produto no AppProva, Certified Design Sprint Master e local leader do IxDA-BH. Mora em Belo Horizonte, Brasil. Atua também mentora de startups e palestrante sobre temas como UX design e métodos de pesquisa do usuário.",
-        "tags": [
-            "UX",
-            "UI",
-            "Prototyping"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "UX / UI Expert",
-                "link": "https://developers.google.com/experts/people/ana-paula-batista"
-            }
-        ],
-        "socials": [
-            {
-                "icon": "linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/anabatista"
-            },
-            {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "https://plus.google.com/+AnaPaulaBatistaUX"
-            }
-        ]
-    },
     "9": {
         "id": 9,
-        "featured": "true",
+        "featured": true,
         "name": "Augusto Pascutti",
         "title": "Software Engineer",
         "company": "Easy Taxi",
@@ -307,8 +307,30 @@
     },
     "10": {
         "id": 10,
+        "featured": false,
+        "name": "Emmanuelle Richard",
+        "title": "Desenvolvedora Web",
+        "country": "Natal 🇧🇷",
+        "photoUrl": "/images/people/emmanuelle-richard.jpg",
+        "shortBio": "Desenvolvi meu primeiro aplicativo aos 12 anos e desde então minha vida mudou. Já palestrei em diversos eventos como a Campus Party, Flisol, PhP Experience e outros, mostrando a todos que programar é divertido...",
+        "bio": "Desenvolvi meu primeiro aplicativo aos 12 anos e desde então minha vida mudou. Já palestrei em diversos eventos como a Campus Party, Flisol, PhP Experience e outros, mostrando a todos que programar é divertido além de ser uma atividade fascinante, e, graças à programação, tenho conhecido muitas pessoas inspiradoras fascinando-me cada vez mais com este novo mundo que surgiu à minha frente.",
+        "tags": [
+            "AngularJS",
+            "ROR"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/manuuuh_richard"
+            }
+        ]
+    },
+    "11": {
+        "id": 11,
         "featured": true,
         "company": "GDG Maceió",
+        "companyLogo": "/images/gdg-logo.svg",
         "name": "Gustavo Costa",
         "title": "Front-end/Mobile Developer",
         "country": "Maceió 🇧🇷",
@@ -341,27 +363,6 @@
                 "icon": "gplus",
                 "name": "Google+",
                 "link": "https://plus.google.com/+GustavoCostaW"
-            }
-        ]
-    },
-    "11": {
-        "id": 11,
-        "featured": false,
-        "name": "Emmanuelle Richard",
-        "title": "Desenvolvedora Web",
-        "country": "Natal 🇧🇷",
-        "photoUrl": "/images/people/emmanuelle-richard.jpg",
-        "shortBio": "Desenvolvi meu primeiro aplicativo aos 12 anos e desde então minha vida mudou. Já palestrei em diversos eventos como a Campus Party, Flisol, PhP Experience e outros, mostrando a todos que programar é divertido...",
-        "bio": "Desenvolvi meu primeiro aplicativo aos 12 anos e desde então minha vida mudou. Já palestrei em diversos eventos como a Campus Party, Flisol, PhP Experience e outros, mostrando a todos que programar é divertido além de ser uma atividade fascinante, e, graças à programação, tenho conhecido muitas pessoas inspiradoras fascinando-me cada vez mais com este novo mundo que surgiu à minha frente.",
-        "tags": [
-            "AngularJS",
-            "ROR"
-        ],
-        "socials": [
-            {
-                "icon": "twitter",
-                "name": "Twitter",
-                "link": "https://twitter.com/manuuuh_richard"
             }
         ]
     },
@@ -404,6 +405,34 @@
     "13": {
         "id": 13,
         "featured": false,
+        "name": "Marina Limeira",
+        "title": "Quality Assurance",
+        "company": "Tidy",
+        "companyLogo": "/images/logos/tidy.png",
+        "country": "Maceió 🇧🇷",
+        "photoUrl": "/images/people/marina-limeira.jpg",
+        "shortBio": "Estudante de Ciência da Computação na UFAL, atualmente trabalha como Quality Assurance Developer na Tidy. Apaixonada por software livre...",
+        "bio": "Estudante de Ciência da Computação na UFAL, atualmente trabalha como Quality Assurance Developer na Tidy. Apaixonada por software livre, começou a contribuir para a comunidade Mozilla Brasil no final de 2014, focando em projetos sociais, como L10n e WoMoz. Vem trabalhando há mais de um ano com Ruby, e é organizer do Rails Girls Maceió.",
+        "tags": [
+            "Ruby",
+            "Quality Assurance"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/marinalimeira_"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/marinalimeira"
+            }
+        ]
+    },
+    "14": {
+        "id": 14,
+        "featured": false,
         "name": "Vicente Alencar",
         "title": "Lead Software Engineer",
         "company": "JusBrasil",
@@ -413,8 +442,8 @@
         "shortBio": "Atualmente atua como Líder Técnico na startup Jusbrasil, responsável pelo maior site jurídico do mundo, atualmente com 20MM de visitantes únicos por mês...",
         "bio": "Vicente é formado em engenharia de computação pelo ITA e trabalhou na Microsoft, nos EUA, de 2008 a 2013 com desenvolvimento para iOS e Android. Lá, dentre outras coisas, ele ajudou a desenvolver um framework interno parecido com o Cordova utilizado para embarcar o Outlook Web App em aplicativos. Atualmente Vicente atua como Líder Técnico na startup Jusbrasil, responsável pelo maior site jurídico do mundo, atualmente com 20MM de visitantes únicos por mês. Em um ambiente extremamente desafiador de uma startup em expansão acelerada, Vicente aplica diversos dos conhecimentos adquiridos na sua vida acadêmica e profissional, usando uma gama de linguagens e tecnologias open source diferentes em uma arquitetura de micro serviços, para causar um grande impacto nos seus usuários, colocando em produção funcionalidades escaláveis e de alta performance. Além de programação, Vicente é apaixonado por Economia, Nutrição e Economia Comportamental.",
         "tags": [
-            "Software Engineering",
-            "Web Development"
+            "Web",
+            "Software Engineering"
         ],
         "socials": [
             {
@@ -424,11 +453,13 @@
             }
         ]
     },
-    "14": {
-        "id": 14,
+    "16": {
+        "id": 16,
         "featured": false,
         "name": "Camilla Paiva",
         "title": "UI Designer",
+        "company": "Women Techmakers",
+        "companyLogo": "/images/logos/wtm.png",
         "country": "Fortaleza 🇧🇷",
         "photoUrl": "/images/people/camilla-paiva.jpg",
         "shortBio": "UI Designer, apaixonada por Front End e tudo que envolve tecnologia, com um forte background na área do empreendedorismo, adora viajar...",
@@ -447,32 +478,6 @@
                 "icon": "gplus",
                 "name": "Google+",
                 "link": "https://plus.google.com/+CamillaPaiva"
-            }
-        ]
-    },
-    "15": {
-        "id": 15,
-        "featured": false,
-        "name": "Marina Limeira",
-        "title": "Quality Assurance",
-        "country": "Maceió 🇧🇷",
-        "photoUrl": "/images/people/marina-limeira.jpg",
-        "shortBio": "UI Designer, apaixonada por Front End e tudo que envolve tecnologia, com um forte background na área do empreendedorismo, adora viajar...",
-        "bio": "Estudante de Ciência da Computação na UFAL, atualmente trabalha como Quality Assurance Developer na Tidy. Apaixonada por software livre, começou a contribuir para a comunidade Mozilla Brasil no final de 2014, focando em projetos sociais, como L10n e WoMoz. Vem trabalhando há mais de um ano com Ruby, e é organizer do Rails Girls Maceió.",
-        "tags": [
-            "Ruby",
-            "Quality Assurance"
-        ],
-        "socials": [
-            {
-                "icon": "twitter",
-                "name": "Twitter",
-                "link": "https://twitter.com/marinalimeira_"
-            },
-            {
-                "icon": "github",
-                "name": "GitHub",
-                "link": "https://github.com/marinalimeira"
             }
         ]
     }
