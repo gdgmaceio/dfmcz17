@@ -1,9 +1,7 @@
 {
     "140": {
         "id": 140,
-        "title": "TBD",
-        "description": "TBD",
-        "language": "English"
+        "title": "Em breve"
     },
     "139": {
         "id": 139,
@@ -13,8 +11,8 @@
     },
     "138": {
         "id": 138,
-        "title": "Conference closing and contest winners announcements",
-        "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+        "title": "Lazer e almoço",
+        "description": "Aproveite o Pratagy, (SlackLine, Stand UP, Vôlei e claro, Networking. (Almoço não incluso))",
         "image": "/images/backgrounds/closing.jpg"
     },
     "137": {
@@ -60,7 +58,7 @@
             9
         ],
         "tags": [
-            "Cloud"
+            "Backend"
         ]
     },
     "116": {
@@ -68,10 +66,10 @@
         "title": "Qualidade de software: como e por quê.",
         "description": "Como construir software de qualidade? Fazer entregas contínuas? Garantir que depois de um refatoramento a aplicação continua funcionando? Criar casos de teste é responsabilidade do programador também! Aquela conversa de 'sou pago para fazer código que funciona' já ficou para trás há muito tempo.",
         "speakers": [
-            15
+            13
         ],
         "tags": [
-            "Cloud"
+            "Backend"
         ]
     },
     "115": {
@@ -79,7 +77,7 @@
         "title": "Angular.JS Estado atual",
         "description": "Criado em 2009 o Angular.JS se tornou um dos frameworks mais populares de Front-End, mas por quê? Nessa palestra vamos entender o porque do sucesso e o estado atual da versão Angular.JS 1.x.x comentar e resolver um dos principais problemas da versão 1: A Performance. Veremos também como você desenvolvedor pode se preparar HOJE para o presente e futuro: A versão 2. E como obter todos os benefícios do ECMA 6 e muito mais inclusive na versão 1.",
         "speakers": [
-            10
+            11
         ],
         "tags": [
             "Web"
@@ -101,10 +99,10 @@
         "title": "Dominando o Data Binding no Android",
         "description": "Com a biblioteca de Data Binding do Android os desenvolvedores podem implementar a lógica da interface gráfica do aplicativo de forma mais fácil, rápida e menos sujeita a bugs. Por meio da Expression Language (EL) podemos facilmente ligar as nossas classes de dados à UI do aplicativo. Tudo isso sem nenhum impacto na performance. Nessa apresentação, você conhecerá as principais técnicas para aplicar o data binding em seus projetos Android.",
         "speakers": [
-            11
+            6
         ],
         "tags": [
-            "Android"
+            "Mobile"
         ]
     },
     "112": {
@@ -112,10 +110,10 @@
         "title": "VectorDrawables e AnimatedVectorDrawables - Trabalhando com vetores no Android de forma eficiente",
         "description": "Cansado de gerar infinitos PNGs pros seus projetos Android? Já desistiu de fazer aquela animação bacana de loading por não se dar bem com as APIs de animação? Nesse talk eu vou falar um pouco sobre VectorDrawables, AnimatedVectorDrawables e como você pode trabalhar com vetores de forma eficiente no Android, inclusive em versões mais antigas!",
         "speakers": [
-            10
+            8
         ],
         "tags": [
-            "Android"
+            "Mobile"
         ]
     },
     "111": {
@@ -123,114 +121,87 @@
         "title": "Microservices FTW: Rewrite slowly, ship fast!",
         "description": "Nessa apresentação explico como nós estamos fazendo para, aos poucos, quebrar nosso aplicativo web monolítico (escrito originalmente em python) em diversos aplicativos diferentes, adotando uma arquitetura de micro serviços com Mesos e Marathon. Nessa nossa arquitetura, cada seção diferente do Jusbrasil pode estar sendo servida utilizando um app escrito com uma stack completamente diferente.",
         "speakers": [
-            9
+            14
         ],
         "tags": [
-            "Cloud"
+            "Backend"
         ]
     },
     "110": {
         "id": 110,
-        "title": "The ultimate guide to MVP pattern on Android",
-        "description": "There's a lot of hype around MVP pattern in the Android world. Now it's time for concretes. During his presentation Mateusz will tell you how IG divided responsibilities between pattern's different components, how they tied Presenters' and Views' lifecycles and what they did to make it all testable. If you'd love to make your Fragments' and Activities' code simpler and increase your coverage, but you're confused how to glue it all together - don't miss Mateusz's talk.",
+        "title": "Angular 2: Um framework. Mobile e desktop.",
+        "description": "Entenda os princípios por trás da nova versão e conheça as ferramentas criadas ao redor que fazem desenvolver usando o framework uma experiência incrível.",
         "speakers": [
-            8
+            3
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
+            "Web"
         ]
     },
     "109": {
         "id": 109,
-        "title": "How much money Firebase can save you",
-        "description": "TBD",
+        "title": "Progressive Web Apps & Angular 2",
+        "description": "",
         "speakers": [
-            7
+            5
         ],
-        "language": "English",
-        "complexity": "Beginner",
         "tags": [
-            "Cloud"
+            "Web"
         ]
     },
     "108": {
         "id": 108,
-        "title": "New Data Architecture in Angular 2",
-        "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming using RxJS 5. We are really excited to see the new approach using Observable sequences aka Observables. We will cover a basic introduction of Angular 2 followed by RxJS 5 and the new HTTP API covering some basic use cases.",
+        "title": "Aplicativos híbridos com Ionic 2",
+        "description": "Ionic 2 é um framework open source para desenvolvimento de aplicativos mobile híbrido, onde se pode desenvolver o aplicativo usando HTML/CSS e JavaScript, fazer acesso nativo usando essas tecnologias e compilar o app para diferentes plataformas como iOS, Android e Windows Phone e publicá-lo nas respectivas app stores.",
         "speakers": [
-            6
+            4
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
             "Web"
         ]
     },
     "107": {
         "id": 107,
-        "title": "Introduction to Progressive Web Apps in Angular 2",
-        "description": "There's been much discussion about Progressive Web Apps. They're still a relatively new model. In this talk, I'll summarise few options and techniques for getting started with your own Progressive Web App",
-        "speakers": [
-            6
-        ],
-        "language": "English",
-        "complexity": "Beginner",
+        "title": "Firebase",
         "tags": [
-            "Web"
+            "Mobile"
         ]
     },
     "106": {
         "id": 106,
-        "title": "Fuelio. Success story",
-        "description": "Fuelio. Success story (I'll write more info later)",
-        "speakers": [
-            5
-        ],
-        "language": "English",
-        "complexity": "Beginner",
+        "title": "Perguntas e Respostas",
         "tags": [
-            "Android"
+            "Backend",
+            "Web"
         ]
     },
     "105": {
         "id": 105,
-        "title": "Intro to TensorFlow",
-        "description": "TBD",
-        "speakers": [
-            4
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
+        "title": "Perguntas e Respostas",
         "tags": [
-            "Cloud"
+            "Cloud",
+            "Mobile"
         ]
     },
     "104": {
         "id": 104,
-        "title": "The Physical Web: Context is King!",
-        "description": "It's no longer just about digitizing our environment. It\u2019s rather about pervasive and ubiquitous computing. Almost all everyday things will turn into connected devices soon. This \u201cInternet of Things\u201d will allow the Web to be physically tangible. But what is the value, and how can one prevent IoT applications which just seem to be only more expensive and complicated than conventional solutions. Sascha will discuss the purpose and guide you through this complex topic showing inspiring solutions, tips from practice, and code samples in a variety of technologies from simple Bluetooth Eddystone Beacons to more sophisticated IoT platforms like Eclipse SmartHome.",
-        "speakers": [
-            3
-        ],
-        "language": "English",
-        "complexity": "Beginner",
+        "title": "Encerramento",
         "tags": [
-            "Web"
+            "Web",
+            "Backend",
+            "Mobile",
+            "Cloud"
         ]
     },
     "103": {
         "id": 103,
-        "title": "Knock knock! Who's there? Doze.",
-        "description": "Doze mode is just around the corner. \nIntroduced in Marshmallow, as the shy guy that was allowed to step in only when your device went to sleep. ZzzZzzzz\nWith the new N release, Doze mode becomes the rockstar. He rushes into the room with a big shabang by shooting all background services and network requests that forgot to get away. \nHe should no longer be shy. He just shoots and dances on bones of your scheduled alarms, while you wonder why this particular task is no longer running.\nWith the new Doze mode, you require to adapt your app architecture to the new reality.\nOn this talk, we will learn how to survive Doze mode using Job Scheduler, Content Provider and stay in one piece.",
+        "title": "Como eu integrei Angular com Rails",
+        "description": "Nesta palestra, mostro como eu integrei AngularJs com Rails, utilizando Angularjs no client e Rails no server além de utilizar Ionic para gerar tanto a versão mobile quanto web, incluindo autenticação de usuários e a manutenção de dados offline.",
         "speakers": [
-            2
+            10
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
+            "Backend"
         ]
     }
 }
