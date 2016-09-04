@@ -2,36 +2,22 @@
   "pages": {
     "home": {
       "headerSettings": {
-        "backgroundColor": "#FF9800",
-        "backgroundImage": "/images/backgrounds/home.png",
+        "backgroundColor": "#3c5b79",
+        "backgroundImage": "/images/backgrounds/home.jpg",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Ukraine 2016",
-          "youtubeId": "DfMnJAzOFng",
-          "text": "See how it was in 2015"
+          "title": "GDG DevFest Nordeste 2016",
+          "youtubeId": "XvE_0fHPCns",
+          "text": "Confira o convite do Alê Borba"
         },
         "hideLogo": true,
         "minHeight": "360px"
       }
     },
-    "blog": {
-      "headerSettings": {
-        "backgroundColor": "#03a9f4",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
     "speakers": {
       "headerSettings": {
         "backgroundColor": "#3f51b5",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "schedule": {
-      "headerSettings": {
-        "backgroundColor": "#673ab7",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
@@ -49,6 +35,14 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
+    },
+    "hub": {
+      "headerSettings": {
+        "backgroundImage": "images/backgrounds/hub.jpg",
+        "backgroundColor": "#4caf50",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
     }
   },
   "navigation": [
@@ -57,47 +51,27 @@
       "permalink": "/"
     },
     {
-      "route": "blog",
-      "permalink": "/blog/"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/"
-    },
-    {
       "route": "speakers",
       "permalink": "/speakers/"
-    },
-    {
-      "route": "team",
-      "permalink": "/team/"
     }
   ],
-  "url": "https://hoverboard.firebaseapp.com/",
+  "url": "https://devfestne.com.br/",
   "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
-    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
+    "url": "https://devfestne.us8.list-manage.com/subscribe/post?u=89545d81cc2471a50c83a319d&amp;id=782140f19d",
+    "name": "b_89545d81cc2471a50c83a319d_782140f19d"
   },
-  "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "disqusShortName": "hoverboard-gdg-x",
+  "partnershipProposition": "https://drive.google.com/open?id=0Bydt4i3bNmYCRGMwZkM5WDYteTg",
+  "disqusShortName": "dfne16",
   "languages": [
     {
       "name": "English",
       "key": "en"
-    },
-    {
-      "name": "Українська",
-      "key": "uk"
     }
   ],
   "footerBlocks": [
     {
       "title": "for-visitors",
       "links": [
-        {
-          "text": "team",
-          "url": "/team/"
-        },
         {
           "text": "cod",
           "url": "/cod/"
@@ -108,18 +82,13 @@
           "newTab": true
         },
         {
-          "text": "df-13",
-          "url": "http://gdg-devfest-ua.appspot.com/",
+          "text": "df-15",
+          "url": "https://2015.devfestne.com.br",
           "newTab": true
         },
         {
           "text": "df-14",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "df-15",
-          "url": "http://devfest.gdg.org.ua/2015/",
+          "url": "https://2014.devfestne.com.br",
           "newTab": true
         }
       ]
@@ -129,12 +98,12 @@
       "links": [
         {
           "text": "partnership-proposition",
-          "url": "http://bit.ly/df16-sponsor",
+          "url": "https://drive.google.com/open?id=0Bydt4i3bNmYCRGMwZkM5WDYteTg",
           "newTab": true
         },
         {
           "text": "media-kit",
-          "url": "http://bit.ly/df16-media",
+          "url": "http://bit.ly/dfne16-media",
           "newTab": true
         }
       ]
@@ -143,18 +112,18 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "ola@devfestne.com.br",
+        "url": "mailto:ola@devfestne.com.br"
       }
     ]
   },
   "tickets": {
-    "url": "http://2event.com/events/630032",
+    "url": "http://even.tc/dfne16-uma-experiencia-unica",
     "elements": [
       {
         "name": "student-ticket",
-        "price": 500,
-        "currency": "₴",
+        "price": 55,
+        "currency": "R$",
         "starts": "student-ticket-starts",
         "ends": "student-ticket-ends",
         "info": "student-ticket-info",
@@ -162,19 +131,11 @@
       },
       {
         "name": "early-ticket",
-        "price": 750,
-        "currency": "₴",
+        "price": 110,
+        "currency": "R$",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
         "info": "early-ticket-info",
-        "soldOut": true
-      },
-      {
-        "name": "lazy-ticket",
-        "price": 1000,
-        "currency": "₴",
-        "starts": "lazy-ticket-starts",
-        "ends": "lazy-ticket-ends",
         "soldOut": false
       }
     ]
@@ -183,77 +144,68 @@
   "teamPageText": "team-page-text",
   "statistics": [
     {
-      "counter": 600,
+      "counter": 400,
       "caption": "attendees"
     },
     {
-      "counter": 2,
-      "caption": "days"
-    },
-    {
-      "counter": 30,
+      "counter": 18,
       "caption": "sessions"
     },
     {
-      "counter": 3,
+      "counter": 2,
       "caption": "tracks"
+    },
+    {
+      "counter": 1,
+      "caption": "hackathon"
     }
   ],
-  "hashtag": "dfua",
+  "hashtag": "dfne16",
   "social": [
     {
       "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
+      "nickname": "devfestne",
+      "url": "https://twitter.com/devfestne"
     },
     {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
+      "nickname": "+DevfestNEBR",
+      "url": "https://plus.google.com/+DevfestNEBR"
     },
     {
       "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
-    },
-    {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "nickname": "DevFest Nordeste",
+      "url": "https://fb.com/devfestne"
     }
   ],
   "tweetsSource": "/data/tweets.json",
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl": "https://plus.google.com/events/gallery/cdpcrg6ff287chtnc3puqr0gt4c?sort=6",
     "photos": {
-      "big": "/images/backgrounds/2015_1.jpg",
+      "big": "/images/backgrounds/2014_1.jpg",
       "small": [
-        "/images/backgrounds/2015_2.jpg",
-        "/images/backgrounds/2015_3.jpg"
+        "/images/backgrounds/2014_2.jpg",
+        "/images/backgrounds/2015_1.jpg"
       ]
     }
   },
   "location": {
-    "apiKey": "",
-    "link": "https://www.facebook.com/expopivdennij",
+    "apiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
+    "link": "https://www.facebook.com/PratagyBeachResort",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": -9.550167,
+      "longitude": 35.630891,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": -9.550167,
+      "longitude": -35.630891
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
       "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg"
+      "/images/backgrounds/location_3.jpg",
+      "/images/backgrounds/location_4.jpg"
     ]
-  },
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
-  "callToAction": {
-    "videoTitle": "action-title",
-    "videoId": "DfMnJAzOFng"
   }
 }

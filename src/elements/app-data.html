@@ -11,8 +11,6 @@
     <iron-ajax auto url="[[postsSource]]" handle-as="json" on-response="_reversePosts"></iron-ajax>
     <iron-ajax auto url="[[partnersSource]]" handle-as="json" last-response="{{app.partners}}"></iron-ajax>
     <iron-ajax auto url="[[scheduleSource]]" handle-as="json" last-response="{{_scheduleRaw}}"></iron-ajax>
-    <iron-ajax auto url="[[teamSource]]" handle-as="json" last-response="{{app.team}}"></iron-ajax>
-    <iron-ajax auto url="[[videosSource]]" handle-as="json" last-response="{{app.videos}}"></iron-ajax>
   </template>
   <script>
     (function () {
