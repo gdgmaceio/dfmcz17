@@ -56,7 +56,6 @@
     "120": {
         "id": 120,
         "title": "Melhorando a comunicação da API através de DSL",
-        "description": "\"Remember back when AJAX completely changed what was possible in the desktop web? Progressive web apps are that same fundamental shift for the mobile web.\" said Rahul Row-Chowdhury (Google\u2019s product lead for chrome and the web platform) on stage at Google I/O 2016. - Progressive web apps use service workers, app shell, push notifications, RAIL and other capabilities to deliver an app-like user experience.",
         "speakers": [
             9
         ],
@@ -66,80 +65,68 @@
     },
     "116": {
         "id": 116,
-        "title": "On Polymer and smileys... or Polysmileys",
-        "description": "One of my favourite things about the web are ASCII smileys. They're sweet, fun and simply make the web a better place. How could anyone not like them \u00af(\u30c4)/\u00af?\n\nThis talk is an overdose of smileys, because they're the perfect excuse to get started with Polymer. Polymer is a library built on top of the Web Components standards that helps developers create reusable components for the modern web. And since I know that everybody has been wondering how one could take over the world by creating a suite of Polymer animated emoticon components, we're going to do exactly that.",
+        "title": "Qualidade de software: como e por quê.",
+        "description": "Como construir software de qualidade? Fazer entregas contínuas? Garantir que depois de um refatoramento a aplicação continua funcionando? Criar casos de teste é responsabilidade do programador também! Aquela conversa de 'sou pago para fazer código que funciona' já ficou para trás há muito tempo.",
         "speakers": [
-            14
+            15
         ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Web"
-        ]
-    },
-    "115": {
-        "id": 115,
-        "title": "Android tool-chain and run-time improvements in N",
-        "description": "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
-        "speakers": [
-            13
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Android"
-        ]
-    },
-    "114": {
-        "id": 114,
-        "title": "I\u2019ve been doing some syncing\u2026",
-        "description": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful\u2014and underrated\u2014account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
-        "speakers": [
-            12
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
-    },
-    "113": {
-        "id": 113,
-        "title": "Microservices in Google App Engine",
-        "description": "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
-        "speakers": [
-            11
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
             "Cloud"
         ]
     },
-    "112": {
-        "id": 112,
-        "title": "Building web apps in 2016",
-        "description": "Last year brought a lot of new capabilities to browsers, fundamentally changing the way we will build web apps in 2016. 60FPS, push messages, offline support and background sync became a reality marking the birth of Progressive Web Apps.",
+    "115": {
+        "id": 115,
+        "title": "Angular.JS Estado atual",
+        "description": "Criado em 2009 o Angular.JS se tornou um dos frameworks mais populares de Front-End, mas por quê? Nessa palestra vamos entender o porque do sucesso e o estado atual da versão Angular.JS 1.x.x comentar e resolver um dos principais problemas da versão 1: A Performance. Veremos também como você desenvolvedor pode se preparar HOJE para o presente e futuro: A versão 2. E como obter todos os benefícios do ECMA 6 e muito mais inclusive na versão 1.",
         "speakers": [
             10
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
             "Web"
         ]
     },
+    "114": {
+        "id": 114,
+        "title": "Web Components: Mais simples e produtivo com Polymer!",
+        "description": "A Web mudou! E agora como desenvolver utilizando Web Components? Polymer é a resposta do Google para isto, a biblioteca que torna tudo mais simples, performático e produtivo! Nesta palestra vou explicar o uso da biblioteca, porque escolhemos Polymer para substituir o Angular.JS em grandes aplicações, nossos desafios e resultados. Mostraremos na prática a nova maneira de desenvolver para a internet.",
+        "speakers": [
+            12
+        ],
+        "tags": [
+            "Web"
+        ]
+    },
+    "113": {
+        "id": 113,
+        "title": "Dominando o Data Binding no Android",
+        "description": "Com a biblioteca de Data Binding do Android os desenvolvedores podem implementar a lógica da interface gráfica do aplicativo de forma mais fácil, rápida e menos sujeita a bugs. Por meio da Expression Language (EL) podemos facilmente ligar as nossas classes de dados à UI do aplicativo. Tudo isso sem nenhum impacto na performance. Nessa apresentação, você conhecerá as principais técnicas para aplicar o data binding em seus projetos Android.",
+        "speakers": [
+            11
+        ],
+        "tags": [
+            "Android"
+        ]
+    },
+    "112": {
+        "id": 112,
+        "title": "VectorDrawables e AnimatedVectorDrawables - Trabalhando com vetores no Android de forma eficiente",
+        "description": "Cansado de gerar infinitos PNGs pros seus projetos Android? Já desistiu de fazer aquela animação bacana de loading por não se dar bem com as APIs de animação? Nesse talk eu vou falar um pouco sobre VectorDrawables, AnimatedVectorDrawables e como você pode trabalhar com vetores de forma eficiente no Android, inclusive em versões mais antigas!",
+        "speakers": [
+            10
+        ],
+        "tags": [
+            "Android"
+        ]
+    },
     "111": {
         "id": 111,
-        "title": "Dagger 2: dependency Injection Android way",
-        "description": "It's beauty, it's handy, it's fast, it's easy - all about Dagger 2",
+        "title": "Microservices FTW: Rewrite slowly, ship fast!",
+        "description": "Nessa apresentação explico como nós estamos fazendo para, aos poucos, quebrar nosso aplicativo web monolítico (escrito originalmente em python) em diversos aplicativos diferentes, adotando uma arquitetura de micro serviços com Mesos e Marathon. Nessa nossa arquitetura, cada seção diferente do Jusbrasil pode estar sendo servida utilizando um app escrito com uma stack completamente diferente.",
         "speakers": [
             9
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
+            "Cloud"
         ]
     },
     "110": {
