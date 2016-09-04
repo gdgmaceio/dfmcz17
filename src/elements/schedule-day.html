@@ -156,6 +156,13 @@
       .speaker-title {
         font-size: 13px;
       }
+    .section-photo {
+        width:35px;
+        position: relative;
+        background-size: contain;
+        height: 35px;
+        border-radius: 50%;
+    }
     </style>
 
     <template is="dom-repeat" items="[[day.timeslots]]" as="timeslot">
@@ -172,7 +179,6 @@
             <div class="session" layout vertical flex$="{{!app.isPhoneSize}}">
               <template is="dom-repeat" items="[[session]]" as="subSession"
                         filter="{{_filterSession(filters.splices)}}">
-
                 <a href$="/schedule/[[name]]?sessionId=[[subSession.id]]" class="sub-session" with-background$="[[subSession.image]]" layout flex-auto>
                   <paper-card layout flex-auto>
 
@@ -210,7 +216,7 @@
                                style$="background-color: [[_getCustomStyleValue(subSession.mainTag)]]" fit></div>
                           <template is="dom-repeat" items="[[subSession.speakers]]" as="speaker">
                             <div class="speaker" layout horizontal center>
-                              <iron-icon icon="account"></iron-icon>
+                              <div class="section-photo" style="background-image: url([[speaker.photoUrl]])"></div>
                               <div class="person-detail" flex>
                                 <span class="speaker-name">[[speaker.name]]</span>
                                 <div class="speaker-title">
