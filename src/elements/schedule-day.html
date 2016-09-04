@@ -216,7 +216,7 @@
                                style$="background-color: [[_getCustomStyleValue(subSession.mainTag)]]" fit></div>
                           <template is="dom-repeat" items="[[subSession.speakers]]" as="speaker">
                             <div class="speaker" layout horizontal center>
-                              <div class="section-photo" style="background-image: url([[speaker.photoUrl]])"></div>
+                             <img src="[[speaker.photoUrl]]" alt="[[speaker.name]]" class="section-photo"/>
                               <div class="person-detail" flex>
                                 <span class="speaker-name">[[speaker.name]]</span>
                                 <div class="speaker-title">
