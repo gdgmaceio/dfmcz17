@@ -50,21 +50,18 @@
     },
     "132": {
         "id": 132,
-        "title": "Registration & morning Coffee",
-        "description": "Get your badge, coffee, enjoy talking with tech edicts around",
+        "title": "Início do credenciamento",
         "image": "/images/backgrounds/registration.jpg"
     },
     "120": {
         "id": 120,
-        "title": "Progressive web apps - prepare your web for 2017",
+        "title": "Melhorando a comunicação da API através de DSL",
         "description": "\"Remember back when AJAX completely changed what was possible in the desktop web? Progressive web apps are that same fundamental shift for the mobile web.\" said Rahul Row-Chowdhury (Google\u2019s product lead for chrome and the web platform) on stage at Google I/O 2016. - Progressive web apps use service workers, app shell, push notifications, RAIL and other capabilities to deliver an app-like user experience.",
         "speakers": [
-            18
+            9
         ],
-        "language": "English",
-        "complexity": "Beginner",
         "tags": [
-            "Web"
+            "Cloud"
         ]
     },
     "116": {

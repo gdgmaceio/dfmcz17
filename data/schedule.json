@@ -9,30 +9,17 @@
         "title": "Workshops hall"
     }],
     "timeslots": [{
-        "startTime": "09:00",
-        "endTime": "10:00",
+        "startTime": "08:00",
+        "endTime": "09:00",
         "sessions": [
             [132]
-        ]
-    }, {
-        "startTime": "10:00",
-        "endTime": "10:15",
-        "sessions": [
-            [136]
-        ]
-    }, {
-        "startTime": "10:15",
-        "endTime": "11:00",
-        "sessions": [
-            [139]
         ]
     }, {
         "startTime": "11:00",
         "endTime": "11:40",
         "sessions": [
             [103],
-            [120],
-            [109]
+            [120]
         ]
     }, {
         "startTime": "11:50",
