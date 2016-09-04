@@ -11,9 +11,9 @@
     },
     "138": {
         "id": 138,
-        "title": "Lazer e almoço",
-        "description": "Aproveite o Pratagy, (SlackLine, Stand UP, Vôlei e claro, Networking. (Almoço não incluso))",
-        "image": "/images/backgrounds/closing.jpg"
+        "title": "Lazer e Almoço",
+        "description": "Divirta-se com nossas atividades: SlackLine, Standup Paddle, Voleibol e muito networking. (Almoço não incluso no valor do ticket)",
+        "image": "/images/backgrounds/lunch.jpg"
     },
     "137": {
         "id": 137,
@@ -163,6 +163,7 @@
     "107": {
         "id": 107,
         "title": "Firebase",
+        "image": "/images/backgrounds/firebase.gif",
         "tags": [
             "Mobile"
         ]
@@ -179,19 +180,13 @@
         "id": 105,
         "title": "Perguntas e Respostas",
         "tags": [
-            "Cloud",
             "Mobile"
         ]
     },
     "104": {
         "id": 104,
         "title": "Encerramento",
-        "tags": [
-            "Web",
-            "Backend",
-            "Mobile",
-            "Cloud"
-        ]
+        "image": "/images/backgrounds/closing.jpg"
     },
     "103": {
         "id": 103,
