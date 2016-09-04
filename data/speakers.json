@@ -42,7 +42,7 @@
         "bio": "Google Developer Expert in Angular, Angular contributor, Lead Front-end Engineer at CrossEngage GmbH in Berlin. Ciro is passionate about Front-end development and participated in many different large scale JavaScript projects from E-commerces, passing through Financial Trading to Marketing Tools. His goal as a speaker is to improve developers productivity and the performance of their apps. Currently in love with TypeScript and Angular 2.",
         "tags": [
             "Angular",
-            "Unit Test"
+            "Unit Testing"
         ],
         "badges": [
             {
@@ -279,8 +279,7 @@
         "bio": "Web developer, passionate about people (community, agile practices), their code (open source, refactoring, web applications, continuous integration) and their languages (PHP, Javascript, Java, Web standards).",
         "tags": [
             "PHP",
-            "MySQL",
-            "OOP"
+            "MySQL"
         ],
         "socials": [
             {
@@ -316,7 +315,7 @@
         "bio": "Desenvolvi meu primeiro aplicativo aos 12 anos e desde então minha vida mudou. Já palestrei em diversos eventos como a Campus Party, Flisol, PhP Experience e outros, mostrando a todos que programar é divertido além de ser uma atividade fascinante, e, graças à programação, tenho conhecido muitas pessoas inspiradoras fascinando-me cada vez mais com este novo mundo que surgiu à minha frente.",
         "tags": [
             "AngularJS",
-            "ROR"
+            "Ruby on Rails"
         ],
         "socials": [
             {
