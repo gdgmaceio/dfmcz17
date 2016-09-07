@@ -61,6 +61,30 @@
             "Backend"
         ]
     },
+    "118": {
+        "id": 118,
+        "title": "Migrando para um mundo material",
+        "description": "Caso AppProva na migração do aplicativo Android para Material Design",
+        "speakers": [
+            7
+        ],
+        "tags": [
+            "Mobile",
+            "UX"
+        ]
+    },
+    "117": {
+        "id": 117,
+        "title": "Google Maps de uma forma que você nunca viu",
+        "description": "Pokemon Go é apenas um dos fantásticos exemplos que podem ser desenvolvidos com a plataforma Google Maps. Este bate papo vai mostrar ideias malucas/inovadoras que foram desenvolvidas ao redor do mundo para quem quer viajar, comprar café, buscar lojas, etc. Quem sabe você não pode ser o próximo a criar algo completamente fora da caixa, hein?",
+        "speakers": [
+            2
+        ],
+        "tags": [
+            "Mobile",
+            "Maps"
+        ]
+    },
     "116": {
         "id": 116,
         "title": "Qualidade de software: como e por quê.",
