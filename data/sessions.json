@@ -5,51 +5,64 @@
     },
     "139": {
         "id": 139,
-        "title": "Keynote",
-        "description": "",
-        "language": "English"
+        "title": "Codelabs (Treinamento)",
+        "description": ""
     },
     "138": {
         "id": 138,
         "title": "Lazer e Almoço",
         "description": "Divirta-se com nossas atividades: SlackLine, Standup Paddle, Voleibol e muito networking. (Almoço não incluso no valor do ticket)",
-        "image": "/images/backgrounds/lunch.jpg"
+        "image": "/images/backgrounds/lunch.jpg",
+        "track": {
+          "title": "🍴 *Não está incluso no valor do ingresso"
+        }
     },
     "137": {
         "id": 137,
-        "title": "Afterparty & Networking",
-        "description": "Afterparty is a great time to have some fun and meet new people",
+        "title": "Hackathon",
+        "description": "",
         "image": "/images/backgrounds/party.jpg"
     },
     "136": {
         "id": 136,
-        "title": "GDG DevFest Ukraine 2016 Opening",
-        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
-        "language": "English",
+        "title": "Olá DevFest Nordeste 2016",
+        "description": "Para iniciar o #dfne16 teremos no 1º dia o DevFest Challenge no estilo Hackathon e muito aprendizado com os Codelabs",
         "image": "/images/backgrounds/opening.jpg"
     },
     "135": {
         "id": 135,
-        "title": "Morning coffee",
-        "description": "Coffeeeeeee!",
-        "image": "/images/backgrounds/morning.jpg"
+        "title": "Até amanhã pessoal! 🙌",
+        "description": "",
+        "image": "/images/backgrounds/closing.jpg",
+        "track": {
+          "title": "Prepare-se para um Sábado repleto de aprendizado e diversão"
+        }
     },
     "134": {
         "id": 134,
         "title": "Coffee break",
         "description": "Coffeeeeeee!",
-        "image": "/images/backgrounds/coffee-break.jpg"
+        "image": "/images/backgrounds/coffee-break.jpg",
+        "track": {
+          "title": "Foyer"
+        }
     },
     "133": {
         "id": 133,
-        "title": "Lunch",
-        "description": "Foooooooood!",
-        "image": "/images/backgrounds/lunch.jpg"
+        "title": "Almoço",
+        "description": "",
+        "image": "/images/backgrounds/coffee-break.jpg",
+        "track": {
+          "title": "🍴 *Não está incluso no valor do ingresso"
+        }
     },
     "132": {
         "id": 132,
-        "title": "Início do credenciamento",
-        "image": "/images/backgrounds/registration.jpg"
+        "title": "Credenciamento",
+        "image": "/images/backgrounds/registration.jpg",
+        "track": {
+          "title": "Recepção do Pratagy"
+        }
     },
     "120": {
         "id": 120,

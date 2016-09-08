@@ -1,4 +1,45 @@
-[ {
+[{
+  "date": "2016-10-21",
+  "dateReadable": "21 de Outubro",
+  "tracks": [{
+      "title": "Auditório"
+  }, {
+      "title": "Área de Experimentos"
+  }],
+  "timeslots": [
+  {
+    "startTime": "08:00",
+    "endTime": "09:00",
+    "sessions": [[132]]
+  },
+    {
+    "startTime": "08:45",
+    "endTime": "09:00",
+    "sessions": [[136]]
+  },
+  {
+    "startTime": "09:00",
+    "endTime": "12:00",
+    "sessions": [[137],[139]]
+  },
+  {
+    "startTime": "12:00",
+    "endTime": "13:30",
+    "sessions": [[133]]
+  },
+  {
+    "startTime": "13:30",
+    "endTime": "18:30",
+    "sessions": [[137],[139]]
+  },
+  {
+    "startTime": "18:30",
+    "endTime": "19:00",
+    "sessions": [[135]]
+  }
+  ]
+},
+  {
     "date": "2016-10-22",
     "dateReadable": "22 de Outubro",
     "tracks": [{
