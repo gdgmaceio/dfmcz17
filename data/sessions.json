@@ -77,7 +77,7 @@
     "118": {
         "id": 118,
         "title": "Migrando para um mundo material",
-        "description": "Caso AppProva na migração do aplicativo Android para Material Design",
+        "description": "Material Design todo mundo já conhece. Mas, como mudo meu aplicativo para Material Design? É só ler e seguir a especificação para ter bons resultados, certo? Vamos conversar um pouco sobre o caso do AppProva na migração de seu aplicativo para Material Design. Dificuldades encontradas e lições aprendidas deste “novo mundo”.",
         "speakers": [
             7
         ],
