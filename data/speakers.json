@@ -452,6 +452,36 @@
             }
         ]
     },
+    "15": {
+        "id": 15,
+        "featured": false,
+        "name": "Ciro S. Costa",
+        "title": "Software Engineer",
+        "company": "Liferay",
+        "companyLogo": "/images/logos/partners/liferay.svg",
+        "country": "São Paulo 🇧🇷",
+        "photoUrl": "/images/people/ciro-costa.jpg",
+        "shortBio": "Engenheiro de Software na Liferay, está finalizando seus estudos na Universidade de São Paulo (USP) onde une seus interesses por Economia e Ciência da Computação...",
+        "bio": "Engenheiro de Software na Liferay, está finalizando seus estudos na Universidade de São Paulo (USP) onde une seus interesses por Economia e Ciência da Computação. É apaixonado por web e tecnologias que empoderam seu desenvolvimento.",
+        "tags": [
+            "Cloud",
+            "Docker",
+            "Linux",
+            "JavaScript"
+        ],
+        "socials": [
+           {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/cirowrc"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/cirocosta"
+            }
+        ]
+    },
     "16": {
         "id": 16,
         "featured": false,

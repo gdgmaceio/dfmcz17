@@ -24,13 +24,24 @@
     ]
   },
   {
+    "title": "ice-sponsor",
+    "logos": [
+      {
+        "name": "Liferay",
+        "url": "https://www.liferay.com/pt",
+        "logoUrl": "/images/logos/partners/liferay.svg",
+        "width": 130
+      }
+    ]
+  },
+  {
     "title": "honeycomb-sponsor",
     "logos": [
       {
         "name": "Ionic",
         "url": "https://ionic.io/",
         "logoUrl": "/images/logos/partners/ionic.png",
-        "width": 130
+        "width": 110
       }
     ]
   },
@@ -41,7 +52,7 @@
         "name": "Eventick",
         "url": "http://www.eventick.com.br",
         "logoUrl": "/images/logos/partners/eventick.png",
-        "width": 100
+        "width": 80
       }
     ]
   }

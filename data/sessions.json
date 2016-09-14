@@ -10,11 +10,11 @@
     },
     "138": {
         "id": 138,
-        "title": "Lazer e Almoço",
-        "description": "Divirta-se com nossas atividades: SlackLine, Standup Paddle, Voleibol e muito networking. (Almoço não incluso no valor do ticket)",
-        "image": "/images/backgrounds/lunch.jpg",
+        "title": "Coffee Break e Diversão",
+        "description": "Divirta-se com nossas atividades: SlackLine, Standup Paddle, Voleibol e muito networking. Recomendamos trazer roupas extras e não se preocupe pois teremos dois apartamentos (1 masculino e 1 feminino) exclusivos para tomar banho e trocar de roupa",
+        "image": "/images/backgrounds/having-a-good-time.jpg",
         "track": {
-          "title": "🍴 *Não está incluso no valor do ingresso"
+          "title": "Hora de se divertir!"
         }
     },
     "137": {
@@ -72,6 +72,17 @@
         ],
         "tags": [
             "Backend"
+        ]
+    },
+    "119": {
+        "id": 119,
+        "title": "Containers 101 e o Mundo Real",
+        "description": "Isolamento, portabilidade e infraestrutura imutável. Estes são os termos mais vistos junto aos nomes Docker e Containers. Ao mesmo tempo, há um grande gap entre o uso desta tecnologia em desenvolvimento e sua aplicação em produção. Destrinchando o que são Linux Containers a talk busca apresentar como estes são formados e como um PaaS toma proveito da tecnologia para tornar trivial o deploy de aplicações modernas.",
+        "speakers": [
+            15
+        ],
+        "tags": [
+            "Cloud"
         ]
     },
     "118": {
@@ -207,7 +218,8 @@
     },
     "106": {
         "id": 106,
-        "title": "Perguntas e Respostas",
+        "title": "Firechat com todos palestrantes",
+        "description": "Que tal tirar todas suas dúvidas com nossos experts.",
         "tags": [
             "Backend",
             "Web"
@@ -215,9 +227,12 @@
     },
     "105": {
         "id": 105,
-        "title": "Perguntas e Respostas",
+        "title": "Firechat com todos palestrantes",
+        "description": "Que tal tirar todas suas dúvidas com nossos experts.",
         "tags": [
-            "Mobile"
+            "Mobile",
+            "Cloud",
+            "UX"
         ]
     },
     "104": {

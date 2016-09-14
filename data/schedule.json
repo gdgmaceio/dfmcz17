@@ -55,83 +55,85 @@
         ]
     }, {
             "startTime": "09:00",
-            "endTime": "09:30",
+            "endTime": "09:45",
             "sessions": [
             [120],
             [117]
         ]
     }, {
-            "startTime": "09:30",
-            "endTime": "10:00",
+            "startTime": "09:45",
+            "endTime": "10:15",
             "sessions": [
             [116], [118]
         ]
     }, {
-            "startTime": "10:00",
-            "endTime": "10:30",
+            "startTime": "10:15",
+            "endTime": "10:45",
             "sessions": [
             [111], [140]
         ]
     }, {
-            "startTime": "10:30",
-            "endTime": "11:00",
+            "startTime": "10:45",
+            "endTime": "11:15",
             "sessions": [
-            [103], [140]
+            [103], [119]
         ]
     }, {
-            "startTime": "11:00",
+            "startTime": "11:15",
+            "endTime": "13:30",
+            "sessions": [
+            [133]
+        ]
+    }, {
+            "startTime": "13:30",
             "endTime": "14:00",
-            "sessions": [
-            [138]
-        ]
-    }, {
-            "startTime": "14:00",
-            "endTime": "14:30",
             "sessions": [
             [114], [140]
         ]
     }, {
-            "startTime": "14:30",
-            "endTime": "15:15",
+            "startTime": "14:00",
+            "endTime": "14:45",
             "sessions": [
-            [115], [112]
+            [115], [113]
         ]
     }, {
-            "startTime": "15:15",
-            "endTime": "16:00",
+            "startTime": "14:45",
+            "endTime": "15:30",
             "sessions": [
             [110], [140]
         ]
-    }, {
+    },
+    {
+            "startTime": "15:30",
+            "endTime": "16:00",
+            "sessions": [
+            [109],[112]
+        ]
+    },
+
+    {
             "startTime": "16:00",
-            "endTime": "16:30",
+            "endTime": "17:30",
             "sessions": [
-            [134]
+            [138]
         ]
     },
         {
-            "startTime": "16:30",
-            "endTime": "17:15",
-            "sessions": [
-            [109],[113]
-        ]
-    },
-        {
-            "startTime": "17:15",
-            "endTime": "18:00",
+            "startTime": "17:30",
+            "endTime": "18:15",
             "sessions": [
             [108],[107]
         ]
     },
         {
-            "startTime": "18:00",
-            "endTime": "18:30",
+            "startTime": "18:15",
+            "endTime": "19:00",
             "sessions": [
             [106],[105]
         ]
     },
         {
-            "startTime": "18:30",
+            "startTime": "19:00",
             "sessions": [
             [104]
         ]
