@@ -485,28 +485,29 @@
     "16": {
         "id": 16,
         "featured": false,
-        "name": "Camilla Paiva",
-        "title": "UI Designer",
-        "company": "Women Techmakers",
-        "companyLogo": "/images/logos/wtm.png",
-        "country": "Fortaleza 🇧🇷",
-        "photoUrl": "/images/people/camilla-paiva.jpg",
-        "shortBio": "UI Designer, apaixonada por Front End e tudo que envolve tecnologia, com um forte background na área do empreendedorismo, adora viajar...",
-        "bio": "UI Designer, apaixonada por Front End e tudo que envolve tecnologia, é ex Google Student Ambassador e atual Women Techmakers em Fortaleza. Com um forte background na área do empreendedorismo, adora viajar e acredita que não há nada que não se possa aprender.",
+        "name": "Felipe Arimateia",
+        "title": "Mobile Developer",
+        "company": "CI&T",
+        "companyLogo": "/images/logos/cit.png",
+        "country": "Belo Horizonte 🇧🇷",
+        "photoUrl": "/images/people/felipe-arimateia.jpg",
+        "shortBio": "Atualmente trabalha na CI&T com pesquisa e inovação no desenvolvimento mobile, além de organizar o Android Meetup BH...",
+        "bio": "Mobile Developer desde 2010, apaixonado por tecnologias como Android e Firebase, e claro vidrado por séries. Já passou por empresas como Buscapé, Pontomobi, e atualmente trabalha na CI&T com pesquisa e inovação no desenvolvimento mobile, além de organizar o Android Meetup BH.",
         "tags": [
-            "UI",
-            "Design"
+            "Android",
+            "Firebase",
+            "iOS"
         ],
         "socials": [
             {
                 "icon": "twitter",
                 "name": "Twitter",
-                "link": "https://twitter.com/cacahpm"
+                "link": "https://twitter.com/twiterdoari"
             },
             {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "https://plus.google.com/+CamillaPaiva"
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/felipearimateia"
             }
         ]
     }

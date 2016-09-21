@@ -64,6 +64,17 @@
           "title": "Recepção do Pratagy"
         }
     },
+    "121": {
+        "id": 121,
+        "title": "Construindo layouts complexos com ConstraintLayout",
+        "description": "Ei, preciso de ajuda! Qual gerenciador de layout eu escolho? Seus problemas acabaram! Nesta talk vou apresentar o ConstraintLayout e o novo editor de layouts do Android Studio. Com essa ferramenta, você não precisa ficar horas decidindo qual a especialização de ViewGroup escolher.",
+        "speakers": [
+            16
+        ],
+        "tags": [
+            "Mobile"
+        ]
+    },
     "120": {
         "id": 120,
         "title": "Melhorando a comunicação da API através de DSL",
