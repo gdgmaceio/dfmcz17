@@ -121,7 +121,7 @@
     "elements": [
       {
         "name": "student-ticket",
-        "price": 55,
+        "price": 70,
         "currency": "R$",
         "starts": "student-ticket-starts",
         "ends": "student-ticket-ends",
@@ -129,12 +129,12 @@
         "soldOut": false
       },
       {
-        "name": "early-ticket",
-        "price": 110,
+        "name": "lazy-ticket",
+        "price": 140,
         "currency": "R$",
-        "starts": "early-ticket-starts",
-        "ends": "early-ticket-ends",
-        "info": "early-ticket-info",
+        "starts": "lazy-ticket-starts",
+        "ends": "lazy-ticket-ends",
+        "info": "lazy-ticket-info",
         "soldOut": false
       }
     ]
