@@ -42,6 +42,12 @@
         "url": "https://ionic.io/",
         "logoUrl": "/images/logos/partners/ionic.png",
         "width": 110
+      },
+      {
+        "name": "Movile",
+        "url": "https://www.movile.com/pt/",
+        "logoUrl": "/images/logos/movile.png",
+        "width": 110
       }
     ]
   },
