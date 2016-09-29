@@ -24,6 +24,23 @@
     ]
   },
   {
+    "title": "jelly-sponsor",
+    "logos": [
+      {
+        "name": "Udacity",
+        "url": "https://br.udacity.com/",
+        "logoUrl": "/images/logos/partners/udacity.png",
+        "width": 160
+      },
+      {
+        "name": "Conhecimento Digital",
+        "url": "http://www.conhecimentodigital.com.br/",
+        "logoUrl": "/images/logos/partners/conhecimento-digital.png",
+        "width": 140
+      }
+    ]
+  },
+  {
     "title": "ice-sponsor",
     "logos": [
       {
