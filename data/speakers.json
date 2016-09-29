@@ -665,13 +665,13 @@
         "featured": false,
         "name": "Iago Barboza",
         "title": "Web Developer",
-        "company": "QuantoGastei",
+        "company": "Stebam",
         "country": "Maceió 🇧🇷",
         "photoUrl": "/images/people/iago-barbosa.jpg",
         "shortBio": "Trabalhou como engenheiro de software em órgãos do serviço público (Tribunal de contas do estado de Alagoas e Justiça Federal do estado de Alagoas), BlackBerry Tech Center, onde criou a GAP (Graphical Aid Plus) Suite...",
-        "bio": "Trabalhou como engenheiro de software em órgãos do serviço público (Tribunal de contas do estado de Alagoas e Justiça Federal do estado de Alagoas), BlackBerry Tech Center, onde criou a GAP (Graphical Aid Plus) Suite, um conjunto de ferramentas usadas globalmente por desenvolvedores BlackBerry que facilitam o processo de desenvolvimento de apps para a plataforma BlackBerry10. No laboratório de computação móvel e pervasiva (COMPE) da Universidade Federal de Alagoas criou o BalloonTour, um game para o tablet da BlackBerry com comandos de sopro, vencendo o AppContest Adobe Camp 2012. É co-fundador da startup QuantoGastei, um aplicativo mobile para controle financeiro pessoal com suporte à inserção de dados de forma automática e também é co-fundador da startup Stebam, um aplicativo web que fornece soluções inteligentes para campeonatos de pesca esportiva.   ",
+        "bio": "Trabalhou como engenheiro de software em órgãos do serviço público (Tribunal de contas do estado de Alagoas e Justiça Federal do estado de Alagoas), BlackBerry Tech Center, onde criou a GAP (Graphical Aid Plus) Suite, um conjunto de ferramentas usadas globalmente por desenvolvedores BlackBerry que facilitam o processo de desenvolvimento de apps para a plataforma BlackBerry10. No laboratório de computação móvel e pervasiva (COMPE) da Universidade Federal de Alagoas criou o BalloonTour, um game para o tablet da BlackBerry com comandos de sopro, vencendo o AppContest Adobe Camp 2012. É co-fundador da startup QuantoGastei, um aplicativo mobile para controle financeiro pessoal com suporte à inserção de dados de forma automática e também é co-fundador da startup Stebam, um aplicativo web que fornece soluções inteligentes para campeonatos de pesca esportiva.",
         "tags": [
-            "Firebase", "Angular", "Tenis de Mesa"
+            "Firebase", "Angular"
         ],
         "socials": [
             {
