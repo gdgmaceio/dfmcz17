@@ -510,5 +510,180 @@
                 "link": "https://www.linkedin.com/in/felipearimateia"
             }
         ]
+    },
+    "18": {
+        "id": 18,
+        "featured": false,
+        "name": "Thales Carvalho",
+        "title": "Mobile Developer",
+        "company": "Udacity",
+        "companyLogo": "/images/logos/partners/udacity.svg",
+        "country": "São Paulo 🇧🇷",
+        "photoUrl": "/images/people/thales-carvalho.jpg",
+        "shortBio": "Course Manager na Udacity Brasil e desenvolvedor web nas horas vagas, cursou Engenharia de Computação na UFES...",
+        "bio": "Course Manager na Udacity Brasil e desenvolvedor web nas horas vagas, cursou Engenharia de Computação na UFES (mesma universidade do professor que atropelou Ana Maria Braga com um carro autônomo) e criou do zero ainda na graduação um curso de programação para alunos de escolas públicas do Espírito Santo. Apaixonado por web, metodologias ágeis e educação online, está sempre preocupado em empoderar pessoas e aplicar tudo que aprende.",
+        "tags": [
+            "Web", "JavaScript", "Software Engineering"
+        ],
+        "socials": [
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://br.linkedin.com/in/thalesmoreiracarvalho"
+            },
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "https://plus.google.com/+ThalesMoreiraCarvalho"
+            }
+        ]
+    },
+    "19": {
+        "id": 19,
+        "featured": false,
+        "name": "Thulio Philipe",
+        "title": "Software Engineer",
+        "company": "Labcodes",
+        "companyLogo": "/images/logos/labcodes.svg",
+        "country": "Recife 🇧🇷",
+        "photoUrl": "/images/people/thulioph.jpg",
+        "shortBio": "Atualmente é Software Engineer na Labcodes. Possui graduação em Design Gráfico e pós em Desenvolvimento de Web Apps pela Universidade Brasileira de Tecnologia...",
+        "bio": "Atualmente é Software Engineer na Labcodes. Possui graduação em Design Gráfico e pós em Desenvolvimento de Web Apps pela Universidade Brasileira de Tecnologia (Unibratec). Apaixonado por visualização de dados utilizando Google Maps é também entusiasta do offline-first. Nas horas vagas tenta ser um sommelier de cervejas que coda!",
+        "tags": [
+            "Google Maps", "Angular", "Web Performance"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/thulioph_"
+            },
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/thulioph"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/thulioph"
+            }
+        ]
+    },
+    "21": {
+        "id": 21,
+        "featured": false,
+        "name": "Felipe Sousa",
+        "title": "Front end Developer",
+        "company": "Pipoca Digital",
+        "companyLogo": "/images/logos/pipoca-digital.png",
+        "country": "Fortaleza 🇧🇷",
+        "photoUrl": "/images/people/felipe-souza.jpg",
+        "shortBio": "Felipe Sousa é um Front end Developer apaixonado pela internet, dedica a maior parte do seu tempo estudando novas tecnologias e criando projetos pessoais...",
+        "bio": "Felipe Sousa é um Front end Developer apaixonado pela internet, dedica a maior parte do seu tempo estudando novas tecnologias e criando projetos pessoais. Trabalha atualmente na Pipoca Digital/RJ, é colaborador do GDG Fortaleza e deseja rodar o mundo fazendo o que ama.",
+        "tags": [
+            "Ionic", "Angular", "JavaScript"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/felipz_sousa"
+            },
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/luisfelipesousa"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/felipesousa"
+            }
+        ]
+    },
+    "22": {
+        "id": 22,
+        "featured": false,
+        "name": "Guilherme Farias",
+        "title": "Fullstack Developer",
+        "company": "Praxis BPO",
+        "country": "Recife 🇧🇷",
+        "photoUrl": "/images/people/guilherme-farias.jpg",
+        "shortBio": "Pernambucano, Graduado em Sistemas de Informações, possui 6 anos de trabalho intenso com tecnologias web, já palestrou em vários estados, é fullstack, já foi de java até javascript passando por php...",
+        "bio": "Pernambucano, Graduado em Sistemas de Informações, possui 6 anos de trabalho intenso com tecnologias web, já palestrou em vários estados, é fullstack, já foi de java até javascript passando por php, nas mais variadas funções desde front-end a back-end, incluindo devops, DBA e gerente de projetos, hoje continua fazendo tudo isso e mais um pouco na Praxis BPO.",
+        "tags": [
+            "Angular", "NodeJS", "JavaScript"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/guiky"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/guilhermefarias"
+            }
+        ]
+    },
+    "23": {
+        "id": 23,
+        "featured": false,
+        "name": "Italo Marcel",
+        "title": "Mobile Developer",
+        "company": "GDG Aracaju",
+        "companyLogo": "/images/logos/gdgaracaju.png",
+        "country": "Aracaju 🇧🇷",
+        "photoUrl": "/images/people/italo-marcel.jpg",
+        "shortBio": "Um gamer nato e apaixonado por Android, formado em Programação de Sistemas pelo Instituto Federal de Sergipe e graduando em Ciência da Computação...",
+        "bio": "Um gamer nato e apaixonado por Android, formado em Programação de Sistemas pelo Instituto Federal de Sergipe e graduando em Ciência da Computação pela Universidade Federal de Sergipe. Programa desde os 15 anos de idade, e já desenvolveu diversos aplicativos durante os mais de 6 anos como Developer Android. Inovar faz parte de seu DNA.",
+        "tags": [
+            "Android"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/italo_MSS"
+            },
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://br.linkedin.com/in/italo-marcel-2a469092"
+            },
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "https://plus.google.com/+ItaloMarcel"
+            }
+        ]
+    },
+    "24": {
+        "id": 24,
+        "featured": false,
+        "name": "Iago Barboza",
+        "title": "Web Developer",
+        "company": "QuantoGastei",
+        "country": "Maceió 🇧🇷",
+        "photoUrl": "/images/people/iago-barbosa.jpg",
+        "shortBio": "Trabalhou como engenheiro de software em órgãos do serviço público (Tribunal de contas do estado de Alagoas e Justiça Federal do estado de Alagoas), BlackBerry Tech Center, onde criou a GAP (Graphical Aid Plus) Suite...",
+        "bio": "Trabalhou como engenheiro de software em órgãos do serviço público (Tribunal de contas do estado de Alagoas e Justiça Federal do estado de Alagoas), BlackBerry Tech Center, onde criou a GAP (Graphical Aid Plus) Suite, um conjunto de ferramentas usadas globalmente por desenvolvedores BlackBerry que facilitam o processo de desenvolvimento de apps para a plataforma BlackBerry10. No laboratório de computação móvel e pervasiva (COMPE) da Universidade Federal de Alagoas criou o BalloonTour, um game para o tablet da BlackBerry com comandos de sopro, vencendo o AppContest Adobe Camp 2012. É co-fundador da startup QuantoGastei, um aplicativo mobile para controle financeiro pessoal com suporte à inserção de dados de forma automática e também é co-fundador da startup Stebam, um aplicativo web que fornece soluções inteligentes para campeonatos de pesca esportiva.   ",
+        "tags": [
+            "Firebase", "Angular", "Tenis de Mesa"
+        ],
+        "socials": [
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/iagobarboza"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/iagobarboza"
+            }
+        ]
     }
 }

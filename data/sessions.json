@@ -19,7 +19,7 @@
     },
     "137": {
         "id": 137,
-        "title": "Hackathon",
+        "title": "Hackathon & Codelabs",
         "description": "",
         "image": "/images/backgrounds/party.jpg"
     },
@@ -63,6 +63,83 @@
         "track": {
           "title": "Recepção do Pratagy"
         }
+    },
+    "128": {
+        "id": 128,
+        "title": "Crawler e automações com NodeJS",
+        "description": "Precisa de informações e não encontra uma API decente? ou o custo dela é inviável para o seu projeto é para resolver esse tipo de problema que surge os crawlers, nesta palestra será apresentado as vantagens de criar crawlers e robôs para automatizar processos repetitivos que levaria longas horas de esforço humano, iremos desmistificar e mostrar com poucas linhas de código o necessário para você sair por ai crawleando a web e otimizando o tempo de pessoas que trabalham com processos repetitivos.",
+        "speakers": [
+            22
+        ],
+        "tags": [
+            "Backend"
+        ]
+    },
+    "127": {
+        "id": 127,
+        "title": "Ionic & Firebase, a super dupla na criação de aplicações dinâmicas",
+        "description": "Não é de hoje que aplicações híbridas vem tomando lugar no mercado, startups ou empresas, todos já ouviram falar sobre como construir aplicações de forma simples utilizando muito pouco, mas, já pensou como seria turbinar seu web app usando Firebase? Iremos ver mais sobre como unir os super poderes do Ionic e Firebase para podermos criar aplicações de forma rápida e dinâmica.",
+        "speakers": [
+            21
+        ],
+        "tags": [
+            "Firebase", "Mobile"
+        ]
+    },
+    "126": {
+        "id": 126,
+        "title": "Construindo aplicações usando AngularJS e Firebase",
+        "description": "Combine o poder de um dos melhores e mais populares frameworks javascript com a facilidade das soluções backend oferecidas pelo Firebase e construa aplicativos com suporte à: Modularização (Padrão, Reuso, Compartilhamento), Banco de dados de tempo real que mantém todos os dados sincronizados entre todos os clientes,  Autenticação (email/senha, google, facebook, twitter, github), Push Notification, Storage de arquivos e muito mais.",
+        "speakers": [
+            24
+        ],
+        "tags": [
+            "Firebase", "Web"
+        ]
+    },
+    "125": {
+        "id": 125,
+        "title": "Construindo aplicativos Android com Firebase",
+        "description": "Ei developer! Você tem uma ideia de um app Android e não queria cirar um backend? Ou precisa de uma plataforma que te entregue serviços como database em tempo real, sistema de autenticação, serviço de push notification e muito mais? Então venha conhecer nessa talk o Firebase e o seu conjunto de ferramentas especializadas em mobile.",
+        "speakers": [
+            16
+        ],
+        "tags": [
+            "Firebase", "Mobile"
+        ]
+    },
+    "124": {
+        "id": 124,
+        "title": "Google Maps: Serviços e APIs",
+        "description": "Conhece o Google Maps API? Geocode, autocomplete, distance matrix, street view e static map, são nomes conhecidos por você? Saiba como cada um funciona e como você pode criar aplicações web cada vez mais interativas com a google maps api.",
+        "speakers": [
+            19
+        ],
+        "tags": [
+            "Google Maps"
+        ]
+    },
+    "123": {
+        "id": 123,
+        "title": "Não deixe seus usuários perdidos, aprenda como utilizar a API do Google Maps no Android",
+        "description": "Aprenda a implementar e personalizar mapas para seu aplicativo Android. Faremos o passo a passo para enriquecer ainda mais sua aplicação utilizando as ferramentas que a Google Maps API disponibiliza como marcadores, polilinhas, polígonos e outras. Veja também como combinar outras API para tornar ainda mais agradável a experiência do usuário final.",
+        "speakers": [
+            23
+        ],
+        "tags": [
+            "Google Maps", "Mobile"
+        ]
+    },
+    "122": {
+        "id": 122,
+        "title": "Android 7.0 for Developers",
+        "description": "Prepare-se para o Android Nougat!  Tudo que você precisa saber para tornar a sua aplicação ainda melhor utilizando as novas funcionalidades que o Android disponibiliza em sua mais nova versão.",
+        "speakers": [
+            23
+        ],
+        "tags": [
+            "Mobile"
+        ]
     },
     "121": {
         "id": 121,
@@ -116,8 +193,8 @@
             2
         ],
         "tags": [
-            "Mobile",
-            "Maps"
+          "Google Maps"
+
         ]
     },
     "116": {
