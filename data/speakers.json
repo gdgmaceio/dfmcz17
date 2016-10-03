@@ -309,6 +309,7 @@
         "featured": false,
         "name": "Emmanuelle Richard",
         "title": "Desenvolvedora Web",
+        "company": "BrodyCast",
         "country": "Natal 🇧🇷",
         "photoUrl": "/images/people/emmanuelle-richard.jpg",
         "shortBio": "Desenvolvi meu primeiro aplicativo aos 12 anos e desde então minha vida mudou. Já palestrei em diversos eventos como a Campus Party, Flisol, PhP Experience e outros, mostrando a todos que programar é divertido...",
@@ -321,7 +322,7 @@
             {
                 "icon": "twitter",
                 "name": "Twitter",
-                "link": "https://twitter.com/manuuuh_richard"
+                "link": "https://twitter.com/EmmaaRichard"
             }
         ]
     },
@@ -513,7 +514,7 @@
     },
     "18": {
         "id": 18,
-        "featured": false,
+        "featured": true,
         "name": "Thales Carvalho",
         "title": "Mobile Developer",
         "company": "Udacity",
@@ -521,7 +522,7 @@
         "country": "São Paulo 🇧🇷",
         "photoUrl": "/images/people/thales-carvalho.jpg",
         "shortBio": "Course Manager na Udacity Brasil e desenvolvedor web nas horas vagas, cursou Engenharia de Computação na UFES...",
-        "bio": "Course Manager na Udacity Brasil e desenvolvedor web nas horas vagas, cursou Engenharia de Computação na UFES (mesma universidade do professor que atropelou Ana Maria Braga com um carro autônomo) e criou do zero ainda na graduação um curso de programação para alunos de escolas públicas do Espírito Santo. Apaixonado por web, metodologias ágeis e educação online, está sempre preocupado em empoderar pessoas e aplicar tudo que aprende.",
+        "bio": "Course Manager na Udacity Brasil e desenvolvedor web nas horas vagas, cursou Engenharia de Computação na UFES (mesma universidade do carro autônomo que conheceu Ana Maria Braga) e criou do zero ainda na graduação um curso de programação para alunos de escolas públicas do Espírito Santo. Apaixonado por web, metodologias ágeis e educação online, está sempre preocupado em empoderar pessoas e aplicar tudo que aprende.",
         "tags": [
             "Web", "JavaScript", "Software Engineering"
         ],
@@ -683,6 +684,28 @@
                 "icon": "github",
                 "name": "GitHub",
                 "link": "https://github.com/iagobarboza"
+            }
+        ]
+    },
+    "25": {
+        "id": 25,
+        "featured": true,
+        "name": "Alexandre Takinami",
+        "title": "Lead Software Engineer",
+        "company": "GuiaBolso",
+        "companyLogo": "/images/logos/partners/guia-bolso.png",
+        "country": "São Paulo 🇧🇷",
+        "photoUrl": "/images/people/alexandre-takinami.jpg",
+        "shortBio": "Co-fundador e Líder Técnico do Guia Bolso formado em Ciência da Computação pela Universidade de São Paulo, atua muito próximo com o pessoal de produto ajudando a guiar os próximos passos da empresa...",
+        "bio": "Co-fundador e Líder Técnico do Guia Bolso formado em Ciência da Computação pela Universidade de São Paulo, atua muito próximo com o pessoal de produto ajudando a guiar os próximos passos da empresa, e junto ao time de dev garantindo que o GuiaBolso trabalhe em constante inovação tecnológica. Trabalhou como desenvolvedor backend no Clickon bem no auge das compras coletivas e na Rocket Internet GmbH em Berlim como líder de desenvolvimento Java. Apaixonado por Startups, Agile e novas tecnologias. Gosta de uma boa cervejinha com os Devs, corrida de rua e viajar pelo mundo.",
+        "tags": [
+            "Web", "Java", "Agile"
+        ],
+        "socials": [
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://br.linkedin.com/in/alexandretakinami"
             }
         ]
     }

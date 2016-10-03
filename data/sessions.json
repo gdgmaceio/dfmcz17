@@ -1,7 +1,13 @@
 {
     "140": {
         "id": 140,
-        "title": "Em breve"
+        "title": "Em breve",
+        "speakers": [
+            25
+        ],
+        "tags": [
+            "Geral"
+        ]
     },
     "139": {
         "id": 139,
@@ -63,6 +69,17 @@
         "track": {
           "title": "Recepção do Pratagy"
         }
+    },
+    "129": {
+        "id": 129,
+        "title": "Arrebentando no Hackathon",
+        "description": "Primeira vez em um Hackaton? Receoso de não dar tempo de terminar o protótipo da aplicação? Ainda falta o pitch? Nesse talk, vou falar sobre dicas de como participar de um Hackaton vinda de experientes no assunto, como alguns de nossos engenheiros da Udacity e campeões de Hackaton no Brasil. Já lanço aqui a primeira dica: feijão com arroz.",
+        "speakers": [
+            18
+        ],
+        "tags": [
+            "Geral"
+        ]
     },
     "128": {
         "id": 128,
@@ -330,7 +347,7 @@
     },
     "103": {
         "id": 103,
-        "title": "Como eu integrei Angular com Rails",
+        "title": "Como eu integrei Ionic Framework com Ruby on Rails",
         "description": "Nesta palestra, mostro como eu integrei AngularJs com Rails, utilizando Angularjs no client e Rails no server além de utilizar Ionic para gerar tanto a versão mobile quanto web, incluindo autenticação de usuários e a manutenção de dados offline.",
         "speakers": [
             10

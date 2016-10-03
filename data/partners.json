@@ -65,6 +65,12 @@
         "url": "https://www.movile.com/pt/",
         "logoUrl": "/images/logos/movile.png",
         "width": 110
+      },
+      {
+        "name": "GuiaBolso",
+        "url": "https://guiabolso.com.br",
+        "logoUrl": "/images/logos/partners/guia-bolso.png",
+        "width": 110
       }
     ]
   },

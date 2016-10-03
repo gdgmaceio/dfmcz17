@@ -120,17 +120,8 @@
     "url": "http://even.tc/dfne16-uma-experiencia-unica",
     "elements": [
       {
-        "name": "student-ticket",
-        "price": 70,
-        "currency": "R$",
-        "starts": "student-ticket-starts",
-        "ends": "student-ticket-ends",
-        "info": "student-ticket-info",
-        "soldOut": false
-      },
-      {
         "name": "lazy-ticket",
-        "price": 140,
+        "price": 70,
         "currency": "R$",
         "starts": "lazy-ticket-starts",
         "ends": "lazy-ticket-ends",
