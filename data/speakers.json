@@ -407,12 +407,12 @@
         "featured": false,
         "name": "Marina Limeira",
         "title": "Quality Assurance",
-        "company": "Tidy",
-        "companyLogo": "/images/logos/tidy.png",
+        "company": "Codeminer 42",
+        "companyLogo": "/images/logos/codeminer.png",
         "country": "Maceió 🇧🇷",
         "photoUrl": "/images/people/marina-limeira.jpg",
-        "shortBio": "Estudante de Ciência da Computação na UFAL, atualmente trabalha como Quality Assurance Developer na Tidy. Apaixonada por software livre...",
-        "bio": "Estudante de Ciência da Computação na UFAL, atualmente trabalha como Quality Assurance Developer na Tidy. Apaixonada por software livre, começou a contribuir para a comunidade Mozilla Brasil no final de 2014, focando em projetos sociais, como L10n e WoMoz. Vem trabalhando há mais de um ano com Ruby, e é organizer do Rails Girls Maceió.",
+        "shortBio": "Estudante de Ciência da Computação na UFAL, atualmente trabalha como desenvolvedora na Codeminer 42. Apaixonada por software livre...",
+        "bio": "Estudante de Ciência da Computação na UFAL, atualmente trabalha como desenvolvedora na Codeminer 42. Apaixonada por software livre, começou a contribuir para a comunidade Mozilla Brasil no final de 2014, focando em projetos sociais, como L10n e WoMoz. Vem trabalhando há mais de um ano com Ruby, e é organizer do Rails Girls Maceió.",
         "tags": [
             "Ruby",
             "Quality Assurance"
