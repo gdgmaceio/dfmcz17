@@ -46,11 +46,11 @@
     },
     "134": {
         "id": 134,
-        "title": "☕️ Coffee break",
-        "description": "Coffeeeeeee!",
+        "title": "🍴 Almoço",
+        "description": "Apenas uma sugestão de horário, mas sinta-se à vontade para fazer o seu horário para alimentação",
         "image": "/images/backgrounds/coffee-break.jpg",
         "track": {
-          "title": "Foyer"
+          "title": "*Almoço não incluso"
         }
     },
     "133": {
