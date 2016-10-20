@@ -16,11 +16,11 @@
     },
     "138": {
         "id": 138,
-        "title": "Coffee Break e Diversão",
-        "description": "Divirta-se com nossas atividades: SlackLine, Standup Paddle, Voleibol e muito networking. Recomendamos trazer roupas extras e não se preocupe pois teremos dois apartamentos (1 masculino e 1 feminino) exclusivos para tomar banho e trocar de roupa",
-        "image": "/images/backgrounds/having-a-good-time.jpg",
+        "title": "☕️ Coffee Break",
+        "description": "",
+        "image": "/images/backgrounds/coffee-break.jpg",
         "track": {
-          "title": "Hora de se divertir!"
+          "title": "Foyer"
         }
     },
     "137": {
@@ -46,7 +46,7 @@
     },
     "134": {
         "id": 134,
-        "title": "Coffee break",
+        "title": "☕️ Coffee break",
         "description": "Coffeeeeeee!",
         "image": "/images/backgrounds/coffee-break.jpg",
         "track": {
@@ -55,16 +55,16 @@
     },
     "133": {
         "id": 133,
-        "title": "Almoço",
-        "description": "",
-        "image": "/images/backgrounds/coffee-break.jpg",
+        "title": "🍴 Almoço & Diversão ⛱",
+        "description": "Divirta-se com nossas atividades: SlackLine, Standup Paddle, Voleibol e muito networking. Recomendamos trazer roupas extras e não se preocupe pois teremos dois apartamentos (1 masculino e 1 feminino) exclusivos para tomar banho e trocar de roupa",
+        "image": "/images/backgrounds/having-a-good-time.jpg",
         "track": {
-          "title": "🍴 *Não está incluso no valor do ingresso"
+          "title": "*Almoço não está incluso no valor do ingresso"
         }
     },
     "132": {
         "id": 132,
-        "title": "Credenciamento",
+        "title": "🎈 Credenciamento",
         "image": "/images/backgrounds/registration.jpg",
         "track": {
           "title": "Recepção do Pratagy"
@@ -315,7 +315,7 @@
     },
     "109": {
         "id": 109,
-        "title": "Progressive Web Apps & Angular 2",
+        "title": "Progressive Web Apps",
         "description": "",
         "speakers": [
             5
@@ -348,8 +348,9 @@
         "title": "Firechat com todos palestrantes",
         "description": "Que tal tirar todas suas dúvidas com nossos experts.",
         "tags": [
-            "Backend",
-            "Web"
+          "Web",
+          "Backend"
+
         ]
     },
     "105": {
@@ -358,14 +359,18 @@
         "description": "Que tal tirar todas suas dúvidas com nossos experts.",
         "tags": [
             "Mobile",
+            "Google Maps",
             "Cloud",
             "UX"
         ]
     },
     "104": {
         "id": 104,
-        "title": "Encerramento",
-        "image": "/images/backgrounds/closing.jpg"
+        "title": "Agradecimentos, Sorteios e Premiação do Hackathon",
+        "image": "/images/backgrounds/closing.jpg",
+        "track": {
+          "title": "Teatro"
+        }
     },
     "103": {
         "id": 103,
