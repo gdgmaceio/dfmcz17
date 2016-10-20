@@ -55,6 +55,12 @@
     "title": "honeycomb-sponsor",
     "logos": [
       {
+        "name": "SEBRAE",
+        "url": "http://www.sebrae.com.br/sites/PortalSebrae/ufs/al",
+        "logoUrl": "/images/logos/partners/sebrae-alagoas.png",
+        "width": 100
+      },
+      {
         "name": "Ionic",
         "url": "https://ionic.io/",
         "logoUrl": "/images/logos/partners/ionic.png",

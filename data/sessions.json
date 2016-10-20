@@ -70,6 +70,28 @@
           "title": "Recepção do Pratagy"
         }
     },
+    "131": {
+        "id": 131,
+        "title": "Firebots: Criando 'coisas' controladas pelo Firebase",
+        "description": "'Oxente, será que dá certo juntar todo o potencial do Firebase com toda essa coisa de Arduino e Internet das Coisas que temos a disposição?' Este foi o questionamento feito por Henri Cavalcante quando estava tentando juntar tudo isso e construir algo e é sobre a experiência que ele teve que ele vai falar.",
+        "speakers": [
+            26
+        ],
+        "tags": [
+            "Firebase"
+        ]
+    },
+    "130": {
+        "id": 130,
+        "title": "Interação Produto e Dev - como construímos o GuiaBolso",
+        "description": "Nessa palestra explico como foi a evolução do Guia Bolso desde nossa primeira versão até ser o aplicativo número 1 em finanças pessoais do Brasil. Explicarei como foi a evolução da empresa, os números e como crescemos nosso time. Com o crescimento vem os desafios de como manter o espírito inovador, entregar rápido com qualidade e manter a cultura da nossa empresa.",
+        "speakers": [
+            25
+        ],
+        "tags": [
+            "Mobile"
+        ]
+    },
     "129": {
         "id": 129,
         "title": "Arrebentando no Hackathon",
@@ -355,5 +377,16 @@
         "tags": [
             "Backend"
         ]
+    },
+      "102": {
+      "id": 102,
+      "title": "Explore o mundo do IoT com o MATRIX",
+      "description": "Olá Creator! Você já tentou desenvolver algo para IoT e teve que procurar o sensor certo para resolver o seu problema? Além de tudo, você já teve que aprender algum tipo de linguagem de baixo nível para dar vida a sua ideia? Então, nessa talk venha conhecer o projeto MATRIX. Com ele, é possível prototipar a sua solução de internet das coisas e tornar o seu senho realidade.",
+      "speakers": [
+          27
+      ],
+      "tags": [
+          "Iot"
+      ]
     }
 }

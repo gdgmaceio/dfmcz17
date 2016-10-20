@@ -708,5 +708,67 @@
                 "link": "https://br.linkedin.com/in/alexandretakinami"
             }
         ]
+    },
+    "26": {
+        "id": 26,
+        "featured": false,
+        "name": "Henri Cavalcante",
+        "title": "FullStack Developer",
+        "company": "ContaSystemer",
+        "country": "Natal 🇧🇷",
+        "photoUrl": "/images/people/henri-cavalcante.jpg",
+        "shortBio": "Google Developer Organizer e Desenvolvedor há mais de 10 anos. Atualmente focado na linguagem JavaScript e tecnologias IoT...",
+        "bio": "Google Developer Organizer e Desenvolvedor há mais de 10 anos. Atualmente focado na linguagem JavaScript e tecnologias IoT. CTO na plataforma de ensino hibrido Wiquadro e Full Stack Developer na empresa de gestão financeira na Noruega chamada ContaSystemer.",
+        "tags": [
+            "Javascript", "DevOps", "IoT"
+        ],
+       "socials": [
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://br.linkedin.com/in/henricavalcante"
+            },
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "https://plus.google.com/+HenriMichelCavalcante"
+            },
+            {
+                "icon": "github",
+                "name": "Github",
+                "link": "https://github.com/henricavalcante"
+            }
+        ]
+    },
+    "27": {
+        "id": 27,
+        "featured": false,
+        "name": "Diego Leite",
+        "title": "Software Developer",
+        "company": "AdMobilize and Tamse",
+        "country": "Feira de Santana 🇧🇷",
+        "photoUrl": "/images/people/diego-leite.jpg",
+        "shortBio": "Apaixonado por software livre, em especial JavaScript. Graduando em Engenharia de Computação pela UEFS. Trabalha no time de visão computacional...",
+        "bio": "Apaixonado por software livre, em especial JavaScript. Graduando em Engenharia de Computação pela UEFS. Trabalha no time de visão computacional de uma startup norte-americana, a AdMobilize. Também é fundador e desenvolvedor full stack em uma startup de mobilidade urbana de Feira de Santana - Bahia, o Tamse",
+        "tags": [
+            "Javascript", "IoT"
+        ],
+       "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/di3goleite"
+            },
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://br.linkedin.com/in/di3goleite"
+            },
+            {
+                "icon": "github",
+                "name": "Github",
+                "link": "https://github.com/di3goleite"
+            }
+        ]
     }
 }
