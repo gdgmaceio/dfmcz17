@@ -64,10 +64,15 @@
   },
   {
     "startTime": "14:30",
+    "endTime": "15:00",
+    "sessions": [[137], [101]]
+  },
+  {
+    "startTime": "15:00",
     "endTime": "18:00",
     "sessions": [[137]]
   },
-    {
+  {
     "startTime": "18:00",
     "endTime": "19:00",
     "sessions": [[137],[102]]

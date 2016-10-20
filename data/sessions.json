@@ -388,5 +388,16 @@
       "tags": [
           "Iot"
       ]
+    },
+      "101": {
+      "id": 101,
+      "title": "GOing: motivos para se usar Golang",
+      "description": "Entenda o motivo pelo qual Go cresce cada vez mais e por que você deveria dar uma chance a linguagem da Google.",
+      "speakers": [
+          28
+      ],
+      "tags": [
+          "Backend"
+      ]
     }
 }

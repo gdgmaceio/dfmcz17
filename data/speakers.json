@@ -770,5 +770,35 @@
                 "link": "https://github.com/di3goleite"
             }
         ]
+    },
+    "28": {
+        "id": 28,
+        "featured": false,
+        "name": "Igor de Moura",
+        "title": "Estudante",
+        "country": "Recife 🇧🇷",
+        "photoUrl": "/images/people/igor-de-moura.jpg",
+        "shortBio": "Curioso nato, estudante de Engenharia da Computação na UFPE, amante da tecnologia e sempre em busca de aprender mais e ter novos desafios...",
+        "bio": "Curioso nato, estudante de Engenharia da Computação na UFPE, amante da tecnologia e sempre em busca de aprender mais e ter novos desafios. Já teve experiências nas mais diversas áreas, como desenvolvimento web, desenvolvimento para sistemas embarcados e gerenciamento de redes e infraestrutura.",
+        "tags": [
+            "Web", "GO", "Linux"
+        ],
+       "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/igormp"
+            },
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://br.linkedin.com/in/igormp2"
+            },
+            {
+                "icon": "github",
+                "name": "Github",
+                "link": "https://github.com/igormp"
+            }
+        ]
     }
 }
