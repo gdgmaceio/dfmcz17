@@ -26,8 +26,7 @@
     "137": {
         "id": 137,
         "title": "Hackathon & Codelabs",
-        "description": "",
-        "image": "/images/backgrounds/party.jpg"
+        "description": ""
     },
     "136": {
         "id": 136,
@@ -123,7 +122,8 @@
         ],
         "tags": [
             "Firebase", "Mobile"
-        ]
+        ],
+        "presentation": "https://felipesousa.github.io/talks/devfestne2016/#/"
     },
     "126": {
         "id": 126,
@@ -145,7 +145,8 @@
         ],
         "tags": [
             "Firebase", "Mobile"
-        ]
+        ],
+        "presentation": "https://goo.gl/UfH22L"
     },
     "124": {
         "id": 124,
@@ -189,7 +190,8 @@
         ],
         "tags": [
             "Mobile"
-        ]
+        ],
+        "presentation": "https://goo.gl/lmtDMT"
     },
     "120": {
         "id": 120,
@@ -222,7 +224,8 @@
         "tags": [
             "Mobile",
             "UX"
-        ]
+        ],
+        "presentation": "https://goo.gl/GiDEhw"
     },
     "117": {
         "id": 117,
@@ -267,7 +270,8 @@
         ],
         "tags": [
             "Web"
-        ]
+        ],
+        "presentation": "https://goo.gl/wBR6Jn"
     },
     "113": {
         "id": 113,
@@ -278,7 +282,8 @@
         ],
         "tags": [
             "Mobile"
-        ]
+        ],
+        "presentation": "https://goo.gl/13y7iZ"
     },
     "112": {
         "id": 112,
@@ -311,7 +316,8 @@
         ],
         "tags": [
             "Web"
-        ]
+        ],
+      "presentation": "https://speakerdeck.com/cironunes/angular-2-um-framework-mobile-and-desktop"
     },
     "109": {
         "id": 109,
@@ -392,7 +398,8 @@
       ],
       "tags": [
           "Iot"
-      ]
+      ],
+      "presentation": "https://speakerdeck.com/di3goleite/explore-o-mundo-do-iot-com-o-matrix-creator"
     },
       "101": {
       "id": 101,
@@ -404,5 +411,17 @@
       "tags": [
           "Backend"
       ]
+    },
+      "100": {
+      "id": 100,
+      "title": "Machine Learning, WTF?!",
+      "description": "O que é e como começar com Machine Learning",
+      "speakers": [
+          1
+      ],
+      "tags": [
+          "Mobile"
+      ],
+      "presentation": "https://goo.gl/UepK8N"
     }
 }

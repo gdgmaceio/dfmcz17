@@ -17,7 +17,14 @@
     },
     "speakers": {
       "headerSettings": {
-        "backgroundColor": "#3f51b5",
+        "backgroundColor": "#df5248",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "schedule": {
+      "headerSettings": {
+        "backgroundColor": "#4c8bf5",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
@@ -43,6 +50,14 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
+    },
+    "quest": {
+      "headerSettings": {
+        "backgroundImage": "images/backgrounds/quest.jpg",
+        "backgroundColor": "#FF5722",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
     }
   },
   "navigation": [
@@ -61,6 +76,7 @@
   ],
   "url": "https://devfestne.com.br/",
   "mailchimp": {
+    "subscribePage": "https://gdg.us11.list-manage.com/subscribe?u=b7e853a79164ddfdbda3ed77b&id=7993e39fbe",
     "url": "https://devfestne.us8.list-manage.com/subscribe/post?u=89545d81cc2471a50c83a319d&amp;id=782140f19d",
     "name": "b_89545d81cc2471a50c83a319d_782140f19d"
   },
@@ -72,7 +88,7 @@
       "key": "en"
     }
   ],
-  "footerBlocks": [
+"footerBlocks": [
     {
       "title": "for-visitors",
       "links": [
@@ -117,16 +133,16 @@
     ]
   },
   "tickets": {
-    "url": "http://even.tc/dfne16-uma-experiencia-unica",
+    "url": "https://goo.gl/photos/ATMAU8YwxA1UpcWJ7",
     "elements": [
       {
         "name": "lazy-ticket",
-        "price": 70,
+        "price": 85,
         "currency": "R$",
         "starts": "lazy-ticket-starts",
         "ends": "lazy-ticket-ends",
         "info": "lazy-ticket-info",
-        "soldOut": false
+        "soldOut": true
       }
     ]
   },
@@ -134,11 +150,11 @@
   "teamPageText": "team-page-text",
   "statistics": [
     {
-      "counter": 400,
+      "counter": 450,
       "caption": "attendees"
     },
     {
-      "counter": "20+",
+      "counter": 29,
       "caption": "sessions"
     },
     {
@@ -168,16 +184,33 @@
       "url": "https://fb.com/devfestne"
     }
   ],
-  "tweetsSource": "/data/tweets.json",
+  "tweetsSource": "",
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cdpcrg6ff287chtnc3puqr0gt4c?sort=6",
-    "photos": {
-      "big": "/images/backgrounds/2014_1.jpg",
-      "small": [
-        "/images/backgrounds/2014_2.jpg",
-        "/images/backgrounds/2015_1.jpg"
-      ]
-    }
+    "albumUrl": "",
+    "sharedAlbumUrl": "https://goo.gl/photos/ATMAU8YwxA1UpcWJ7",
+    "photos": [
+      {
+        "big": "/images/backgrounds/2016_1.jpg",
+        "small": [
+          "/images/backgrounds/2016_2.jpg",
+          "/images/backgrounds/2016_3.jpg"
+        ]
+      },
+      {
+        "big": "/images/backgrounds/2016_4.jpg",
+        "small": [
+          "/images/backgrounds/2016_5.jpg",
+          "/images/backgrounds/2016_6.jpg"
+        ]
+      },
+      {
+        "big": "/images/backgrounds/2016_7.jpg",
+        "small": [
+          "/images/backgrounds/2016_8.jpg",
+          "/images/backgrounds/2016_9.jpg"
+        ]
+      }
+    ]
   },
   "location": {
     "apiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
@@ -197,5 +230,6 @@
       "/images/backgrounds/location_3.jpg",
       "/images/backgrounds/location_4.jpg"
     ]
-  }
+  },
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv"
 }

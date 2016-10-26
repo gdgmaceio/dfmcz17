@@ -114,7 +114,7 @@
 
         .home-wrapper {
           width: 50%;
-          max-width: 500px;
+          max-width: 440px;
         }
 
         app-toolbar {
@@ -138,7 +138,14 @@
                 {{localize('play-icon')}}
               </div>
               <div class="action-buttons">
-                <paper-button class="primary" on-tap="_scrollToTickets" raised>{{localize('buy-ticket')}}</paper-button>
+                <!--
+                <a href="/blog/posts/dfua-summary/" on-tap="_trackEventSummary">
+                  <paper-button>[[localize('open-summary')]]</paper-button>
+                </a>
+                -->
+                <a href="https://goo.gl/photos/ATMAU8YwxA1UpcWJ7" on-tap="_trackEventPhotos" target="_blank" rel="noopener noreferrer">
+                  <paper-button class="primary" raised>[[localize('view-photos')]]</paper-button>
+                </a>
               </div>
             </div>
           </div>
@@ -168,6 +175,11 @@
         <animatable-content name="cod">
           <div class="container">
             <h3 class="page-title">{{localize('cod')}}</h3>
+          </div>
+        </animatable-content>
+        <animatable-content name="quest">
+          <div class="container">
+            <h3 class="page-title">{{localize('quest')}}</h3>
           </div>
         </animatable-content>
       </neon-animated-pages>
@@ -200,8 +212,9 @@
         },
 
         _openVideo: function () {
-          HOVERBOARD.Elements.Template.openVideo('GDG DevFest Nordeste 2016', '9ALTl6dQrCc', true);
-          HOVERBOARD.Analytics.trackEvent('video', 'watch', 'GDG DevFest Nordeste 2016');
+          HOVERBOARD.Elements.Template.openVideo(this.app.data.pages.home.headerSettings.video.title,
+            this.app.data.pages.home.headerSettings.video.youtubeId, true);
+          HOVERBOARD.Analytics.trackEvent('video', 'watch', this.app.data.pages.home.headerSettings.video.title);
         },
 
         _scrollToTickets: function () {
@@ -211,6 +224,14 @@
             behavior: 'smooth',
             target: HOVERBOARD.Elements.Scroller
           });
+        },
+
+        _trackEventPhotos: function() {
+          HOVERBOARD.Analytics.trackEvent('photos', 'view', 'header');
+        },
+
+        _trackEventSummary: function() {
+          HOVERBOARD.Analytics.trackEvent('summary', 'open', 'header');
         }
 
       });

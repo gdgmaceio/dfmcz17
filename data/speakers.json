@@ -1,4 +1,37 @@
 {
+    "1": {
+        "id": 1,
+        "featured": true,
+        "name": "Ale Borba",
+        "title": "Program Manager",
+        "company": "Google",
+        "companyLogo": "/images/logos/google.svg",
+        "country": "São Paulo 🇧🇷",
+        "photoUrl": "/images/people/ale-borba.jpg",
+        "thumbUrl": "/images/people/thumb/ale-borba.jpg",
+        "shortBio": "Program Manager no Google, focado em comunidades técnicas e startups de tecnolgia.",
+        "bio": "Community Manager focus on Developers, Technical and Startups communities. Working hard to grow the communities that we are involved in.",
+        "tags": [
+            "Machine Learning"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/ale_borba"
+            },
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/al%C3%AA-borba-597bb918"
+            },
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "https://plus.google.com/+Al%C3%AABorba"
+            }
+        ]
+    },
     "2": {
         "id": 2,
         "featured": true,
@@ -8,6 +41,7 @@
         "companyLogo": "/images/logos/google.svg",
         "country": "São Paulo 🇧🇷",
         "photoUrl": "/images/people/gabriel-carvalho.jpg",
+        "thumbUrl": "/images/people/thumb/gabriel-carvalho.jpg",
         "shortBio": "Atualmente é responsável pela área de Desenvolvimento de Negócios na divisão Google Maps for Work...",
         "bio": "Gabriel Carvalho é bacharel em Geografia (sim, geógrafo, mas que sabe um pouco de tecnologia) pela Pontifícia Universidade Católica de São Paulo (PUC-SP) e Mestre em Engenharia com foco em Sistemas de Informações pela Escola Politécnica da Universidade de São Paulo (Poli-USP). Há mais de 11 anos atua no mercado de Tecnologias oferecendo soluções diversas para distintas verticais de negócio como Óleo&Gás, Mineração, Governo, Segurança Pública, entre outras. Trabalhou por mais de 7 anos na Sisgraph (Hexagon Group) e atualmente é responsável pela área de Desenvolvimento de Negócios na divisão Google Maps for Work. Também gosta muito de jogar e assistir futebol (torcedor do Tri-campeão mundial, São Paulo Futebol Clube), além de curtir muito séries de televisão como House of Card, Big Bang Theory, entre outras.",
         "tags": [
@@ -38,6 +72,7 @@
         "companyLogo": "/images/logos/cross-engage.svg",
         "country": "Berlim 🇩🇪",
         "photoUrl": "/images/people/ciro-nunes.jpg",
+        "thumbUrl": "/images/people/thumb/ciro-nunes.jpg",
         "shortBio": "Google Developer Expert in Angular, Angular contributor, Lead Front-end Engineer at CrossEngage GmbH in Berlin...",
         "bio": "Google Developer Expert in Angular, Angular contributor, Lead Front-end Engineer at CrossEngage GmbH in Berlin. Ciro is passionate about Front-end development and participated in many different large scale JavaScript projects from E-commerces, passing through Financial Trading to Marketing Tools. His goal as a speaker is to improve developers productivity and the performance of their apps. Currently in love with TypeScript and Angular 2.",
         "tags": [
@@ -73,6 +108,7 @@
         "companyLogo": "/images/logos/citibank.png",
         "country": "São Paulo 🇧🇷",
         "photoUrl": "/images/people/loiane-groner.jpg",
+        "thumbUrl": "/images/people/thumb/loiane-groner.jpg",
         "shortBio": "Possui 10+ anos de experiência em TI e ama compartilhar conhecimento! Já palestrou por vários eventos no Brasil e ministrou cursos nos Estados Unidos...",
         "bio": "Possui 10+ anos de experiência em TI e ama compartilhar conhecimento! Já palestrou por vários eventos no Brasil e ministrou cursos nos Estados Unidos. Autora dos livros: Ext JS 4 First Look, Mastering Ext JS (primeira e segunda edição), Sencha Architect App Development e Learning JavaScript Data Structures and Algorithms (primeira e segunda edição), JavaScript Regular Expressions - todos publicados pela editora Packt e lançados mundialmente em inglês (com tradução dos livros para chinês e coreano). Espera poder lançar livros em Português em breve. Entusiasta Java, Sencha, Angular e mobile híbrido (Phonegap/Ionic). Participa ativamente dessas comunidades. Escreve para o blog http://loiane.com e publica aulas e cursos em http://loiane.training",
         "tags": [
@@ -114,6 +150,7 @@
         "companyLogo": "/images/logos/google-developers-experts.png",
         "country": "Maceió 🇧🇷",
         "photoUrl": "/images/people/juarez-filho.jpg",
+        "thumbUrl": "/images/people/thumb/juarez-filho.jpg",
         "shortBio": "Apaixonado pela Califórnia e pela Web, um explorador que adora contar suas aventuras envolvendo Tecnologias Web e produtos do Google...",
         "bio": "Apaixonado pela Califórnia e pela Web, um explorador que adora contar suas aventuras envolvendo Tecnologias Web e produtos do Google. Já participou de equipes notáveis como Enjoei e madewithlove. Atualmente trabalha remotamente para uma empresa dos Estados Unidos e busca sempre contribuir para o crescimento da comunidade atuando como Google Developer Expert.",
         "tags": [
@@ -161,6 +198,7 @@
         "companyLogo": "/images/logos/mokriya.svg",
         "country": "Recife 🇧🇷",
         "photoUrl": "/images/people/nelson-glauber.jpg",
+        "thumbUrl": "/images/people/thumb/nelson-glauber.jpg",
         "shortBio": "Mestre em Engenharia de Software pelo Centro de Estudos e Sistemas Avançados do Recife (CESAR). Trabalha com a plataforma Android desde 2009 e atualmente é engenheiro de software na Mokriya...",
         "bio": "Nelson Glauber é mestre em Engenharia de Software pelo Centro de Estudos e Sistemas Avançados do Recife (CESAR). Trabalha com a plataforma Android desde 2009 e atualmente é engenheiro de software na Mokriya. Também é professor de tecnologias móveis em cursos de extensão, graduação e pós-graduação na Unibratec e em outras instituições do nordeste. Em 2014, foi nomeado pelo Google como primeiro Developer Expert de Android da América Latina. É autor do livro 'Dominando o Android' publicado pela editora Novatec.",
         "tags": [
@@ -200,6 +238,7 @@
         "companyLogo": "/images/logos/app-prova.png",
         "country": "Belo Horizonte 🇧🇷",
         "photoUrl": "/images/people/ana-paula-batista.jpg",
+        "thumbUrl": "/images/people/thumb/ana-paula-batista.jpg",
         "shortBio": "UX designer com dezesseis anos de experiência em projetos para diferentes segmentos. É especializada em estratégia de experiência do usuário, com foco na conversão em baixas custos em ambientes ágeis...",
         "bio": "UX designer com dezesseis anos de experiência em projetos para diferentes segmentos. É especializada em estratégia de experiência do usuário, com foco na conversão em baixas custos em ambientes ágeis. Atualmente, Google Expert em UX / UI, Head de Produto no AppProva, Certified Design Sprint Master e local leader do IxDA-BH. Mora em Belo Horizonte, Brasil. Atua também mentora de startups e palestrante sobre temas como UX design e métodos de pesquisa do usuário.",
         "tags": [
@@ -236,6 +275,7 @@
         "companyLogo": "/images/logos/m4u.png",
         "country": "Rio de Janeiro 🇧🇷",
         "photoUrl": "/images/people/walmyr-carvalho.jpg",
+        "thumbUrl": "/images/people/thumb/walmyr-carvalho.jpg",
         "shortBio": "Desenvolvedor Android Senior @ M4U, Google Developer Expert de Android no Brasil...",
         "bio": "Desenvolvedor Android Senior @ M4U, Google Developer Expert de Android no Brasil e co-organizador do Android Meetup Rio de Janeiro e do Android Dev BR, a maior comunidade brasileira de Android no Slack, com mais de 1300 membros. Já trabalhou em projetos para empresas como Hotel Urbano, CI&T e GloboEsporte.com além de ter experiência como professor e designer de interfaces para mobile.",
         "tags": [
@@ -275,6 +315,7 @@
         "companyLogo": "/images/logos/easy-taxi.png",
         "country": "São Paulo 🇧🇷",
         "photoUrl": "/images/people/augusto-pascutti.jpg",
+        "thumbUrl": "/images/people/thumb/augusto-pascutti.jpg",
         "shortBio": "Desenvolvedor web há 12 anos, fan-boy da internet, ótimo em iniciativas e péssimo em \"acabativas\" - a menos que o autor seja Asimov, Douglas Adams ou Bernard Cornwell.",
         "bio": "Web developer, passionate about people (community, agile practices), their code (open source, refactoring, web applications, continuous integration) and their languages (PHP, Javascript, Java, Web standards).",
         "tags": [
@@ -312,6 +353,7 @@
         "company": "BrodyCast",
         "country": "Natal 🇧🇷",
         "photoUrl": "/images/people/emmanuelle-richard.jpg",
+        "thumbUrl": "/images/people/thumb/emmanuelle-richard.jpg",
         "shortBio": "Desenvolvi meu primeiro aplicativo aos 12 anos e desde então minha vida mudou. Já palestrei em diversos eventos como a Campus Party, Flisol, PhP Experience e outros, mostrando a todos que programar é divertido...",
         "bio": "Desenvolvi meu primeiro aplicativo aos 12 anos e desde então minha vida mudou. Já palestrei em diversos eventos como a Campus Party, Flisol, PhP Experience e outros, mostrando a todos que programar é divertido além de ser uma atividade fascinante, e, graças à programação, tenho conhecido muitas pessoas inspiradoras fascinando-me cada vez mais com este novo mundo que surgiu à minha frente.",
         "tags": [
@@ -328,13 +370,14 @@
     },
     "11": {
         "id": 11,
-        "featured": true,
+        "featured": false,
         "company": "GDG Maceió",
         "companyLogo": "/images/gdg-logo.svg",
         "name": "Gustavo Costa",
         "title": "Front-end/Mobile Developer",
         "country": "Maceió 🇧🇷",
         "photoUrl": "/images/people/gustavo-costa.jpg",
+        "thumbUrl": "/images/people/thumb/gustavo-costa.jpg",
         "shortBio": "Já palestrou em mais de 12 estados falando sobre tecnologia web e móvel, com apenas 16 anos ganhou o segundo lugar em uma competição da Adobe, Foi destaque na revista INFO Exame 2015.2 (Garotos Geniais) contando um pouco da sua história onde foi uma das edições mais vendidas do ano.",
         "bio": "Gustavo Costa, 21 anos, Front-end e desenvolvedor móvel, referência em desenvolvimento híbrido no Brasil, palestrou em mais de 12 estados falando sobre tecnologia web e móvel, com apenas 16 anos ganhou o segundo lugar em uma competição da Adobe, Google Organizer, trabalhou em várias startups desenvolvendo aplicativos. Foi destaque na revista INFO Exame 2015.2 (Garotos Geniais) contando um pouco da sua história onde foi uma das edições mais vendidas do ano, cria screencasts sobre desenvolvimento no seu canal no youtube. Com 6 anos de experiência na área é usuário ativo na comunidade open source, criador do principal grupo de PhoneGap/Cordova no Facebook com mais de 15,000+ membros, criou um curso chamado bemobile.ninja que ensina desenvolvimento de aplicativos com Javascript (Angular.JS) com Android (Java) e iOS (swift) onde já fez o curso em mais de 6 estados com mais de 100 alunos formados.",
         "tags": [
@@ -375,6 +418,7 @@
         "companyLogo": "/images/logos/movile.png",
         "country": "Campinas 🇧🇷",
         "photoUrl": "/images/people/andrew-willard.jpg",
+        "thumbUrl": "/images/people/thumb/andrew-willard.jpg",
         "shortBio": "De entregador de jornais a desenvolvedor de sistemas na Movile há mais de nove anos...",
         "bio": "De entregador de jornais a desenvolvedor de sistemas na Movile há mais de nove anos. Hoje é Líder Técnico de Sistemas Web para e-commerce, antes disto trabalhou no Silicon Valley com desenvolvimento de aplicativos Android. Apaixonado por tecnologia, tem conhecimento em sistemas distribuídos e BI. Mesmo sendo workaholic é Pós-Graduado em Engenharia de Software na Universidade Estadual de Campinas (Unicamp). Nas horas vagas colabora na criação de elementos web open source na comunidade na qual é fundador, além de gostar de jogar vídeo-game e viajar.",
         "tags": [
@@ -411,6 +455,7 @@
         "companyLogo": "/images/logos/codeminer.png",
         "country": "Maceió 🇧🇷",
         "photoUrl": "/images/people/marina-limeira.jpg",
+        "thumbUrl": "/images/people/thumb/marina-limeira.jpg",
         "shortBio": "Estudante de Ciência da Computação na UFAL, atualmente trabalha como desenvolvedora na Codeminer 42. Apaixonada por software livre...",
         "bio": "Estudante de Ciência da Computação na UFAL, atualmente trabalha como desenvolvedora na Codeminer 42. Apaixonada por software livre, começou a contribuir para a comunidade Mozilla Brasil no final de 2014, focando em projetos sociais, como L10n e WoMoz. Vem trabalhando há mais de um ano com Ruby, e é organizer do Rails Girls Maceió.",
         "tags": [
@@ -439,6 +484,7 @@
         "companyLogo": "/images/logos/jusbrasil.svg",
         "country": "Salvador 🇧🇷",
         "photoUrl": "/images/people/vicente-alencar.jpg",
+        "thumbUrl": "/images/people/thumb/vicente-alencar.jpg",
         "shortBio": "Atualmente atua como Líder Técnico na startup Jusbrasil, responsável pelo maior site jurídico do mundo, atualmente com 20MM de visitantes únicos por mês...",
         "bio": "Vicente é formado em engenharia de computação pelo ITA e trabalhou na Microsoft, nos EUA, de 2008 a 2013 com desenvolvimento para iOS e Android. Lá, dentre outras coisas, ele ajudou a desenvolver um framework interno parecido com o Cordova utilizado para embarcar o Outlook Web App em aplicativos. Atualmente Vicente atua como Líder Técnico na startup Jusbrasil, responsável pelo maior site jurídico do mundo, atualmente com 20MM de visitantes únicos por mês. Em um ambiente extremamente desafiador de uma startup em expansão acelerada, Vicente aplica diversos dos conhecimentos adquiridos na sua vida acadêmica e profissional, usando uma gama de linguagens e tecnologias open source diferentes em uma arquitetura de micro serviços, para causar um grande impacto nos seus usuários, colocando em produção funcionalidades escaláveis e de alta performance. Além de programação, Vicente é apaixonado por Economia, Nutrição e Economia Comportamental.",
         "tags": [
@@ -462,6 +508,7 @@
         "companyLogo": "/images/logos/partners/liferay.svg",
         "country": "São Paulo 🇧🇷",
         "photoUrl": "/images/people/ciro-costa.jpg",
+        "thumbUrl": "/images/people/thumb/ciro-costa.jpg",
         "shortBio": "Engenheiro de Software na Liferay, está finalizando seus estudos na Universidade de São Paulo (USP) onde une seus interesses por Economia e Ciência da Computação...",
         "bio": "Engenheiro de Software na Liferay, está finalizando seus estudos na Universidade de São Paulo (USP) onde une seus interesses por Economia e Ciência da Computação. É apaixonado por web e tecnologias que empoderam seu desenvolvimento.",
         "tags": [
@@ -492,6 +539,7 @@
         "companyLogo": "/images/logos/cit.png",
         "country": "Belo Horizonte 🇧🇷",
         "photoUrl": "/images/people/felipe-arimateia.jpg",
+        "thumbUrl": "/images/people/thumb/felipe-arimateia.jpg",
         "shortBio": "Atualmente trabalha na CI&T com pesquisa e inovação no desenvolvimento mobile, além de organizar o Android Meetup BH...",
         "bio": "Mobile Developer desde 2010, apaixonado por tecnologias como Android e Firebase, e claro vidrado por séries. Já passou por empresas como Buscapé, Pontomobi, e atualmente trabalha na CI&T com pesquisa e inovação no desenvolvimento mobile, além de organizar o Android Meetup BH.",
         "tags": [
@@ -514,13 +562,14 @@
     },
     "18": {
         "id": 18,
-        "featured": true,
+        "featured": false,
         "name": "Thales Carvalho",
         "title": "Mobile Developer",
         "company": "Udacity",
         "companyLogo": "/images/logos/partners/udacity.svg",
         "country": "São Paulo 🇧🇷",
         "photoUrl": "/images/people/thales-carvalho.jpg",
+        "thumbUrl": "/images/people/thumb/thales-carvalho.jpg",
         "shortBio": "Course Manager na Udacity Brasil e desenvolvedor web nas horas vagas, cursou Engenharia de Computação na UFES...",
         "bio": "Course Manager na Udacity Brasil e desenvolvedor web nas horas vagas, cursou Engenharia de Computação na UFES (mesma universidade do carro autônomo que conheceu Ana Maria Braga) e criou do zero ainda na graduação um curso de programação para alunos de escolas públicas do Espírito Santo. Apaixonado por web, metodologias ágeis e educação online, está sempre preocupado em empoderar pessoas e aplicar tudo que aprende.",
         "tags": [
@@ -548,6 +597,7 @@
         "companyLogo": "/images/logos/labcodes.svg",
         "country": "Recife 🇧🇷",
         "photoUrl": "/images/people/thulioph.jpg",
+        "thumbUrl": "/images/people/thumb/thulioph.jpg",
         "shortBio": "Atualmente é Software Engineer na Labcodes. Possui graduação em Design Gráfico e pós em Desenvolvimento de Web Apps pela Universidade Brasileira de Tecnologia...",
         "bio": "Atualmente é Software Engineer na Labcodes. Possui graduação em Design Gráfico e pós em Desenvolvimento de Web Apps pela Universidade Brasileira de Tecnologia (Unibratec). Apaixonado por visualização de dados utilizando Google Maps é também entusiasta do offline-first. Nas horas vagas tenta ser um sommelier de cervejas que coda!",
         "tags": [
@@ -580,6 +630,7 @@
         "companyLogo": "/images/logos/pipoca-digital.png",
         "country": "Fortaleza 🇧🇷",
         "photoUrl": "/images/people/felipe-souza.jpg",
+        "thumbUrl": "/images/people/thumb/felipe-souza.jpg",
         "shortBio": "Felipe Sousa é um Front end Developer apaixonado pela internet, dedica a maior parte do seu tempo estudando novas tecnologias e criando projetos pessoais...",
         "bio": "Felipe Sousa é um Front end Developer apaixonado pela internet, dedica a maior parte do seu tempo estudando novas tecnologias e criando projetos pessoais. Trabalha atualmente na Pipoca Digital/RJ, é colaborador do GDG Fortaleza e deseja rodar o mundo fazendo o que ama.",
         "tags": [
@@ -611,6 +662,7 @@
         "company": "Praxis BPO",
         "country": "Recife 🇧🇷",
         "photoUrl": "/images/people/guilherme-farias.jpg",
+        "thumbUrl": "/images/people/thumb/guilherme-farias.jpg",
         "shortBio": "Pernambucano, Graduado em Sistemas de Informações, possui 6 anos de trabalho intenso com tecnologias web, já palestrou em vários estados, é fullstack, já foi de java até javascript passando por php...",
         "bio": "Pernambucano, Graduado em Sistemas de Informações, possui 6 anos de trabalho intenso com tecnologias web, já palestrou em vários estados, é fullstack, já foi de java até javascript passando por php, nas mais variadas funções desde front-end a back-end, incluindo devops, DBA e gerente de projetos, hoje continua fazendo tudo isso e mais um pouco na Praxis BPO.",
         "tags": [
@@ -638,6 +690,7 @@
         "companyLogo": "/images/logos/gdgaracaju.png",
         "country": "Aracaju 🇧🇷",
         "photoUrl": "/images/people/italo-marcel.jpg",
+        "thumbUrl": "/images/people/thumb/italo-marcel.jpg",
         "shortBio": "Um gamer nato e apaixonado por Android, formado em Programação de Sistemas pelo Instituto Federal de Sergipe e graduando em Ciência da Computação...",
         "bio": "Um gamer nato e apaixonado por Android, formado em Programação de Sistemas pelo Instituto Federal de Sergipe e graduando em Ciência da Computação pela Universidade Federal de Sergipe. Programa desde os 15 anos de idade, e já desenvolveu diversos aplicativos durante os mais de 6 anos como Developer Android. Inovar faz parte de seu DNA.",
         "tags": [
@@ -669,6 +722,7 @@
         "company": "Stebam",
         "country": "Maceió 🇧🇷",
         "photoUrl": "/images/people/iago-barbosa.jpg",
+        "thumbUrl": "/images/people/thumb/iago-barbosa.jpg",
         "shortBio": "Trabalhou como engenheiro de software em órgãos do serviço público (Tribunal de contas do estado de Alagoas e Justiça Federal do estado de Alagoas), BlackBerry Tech Center, onde criou a GAP (Graphical Aid Plus) Suite...",
         "bio": "Trabalhou como engenheiro de software em órgãos do serviço público (Tribunal de contas do estado de Alagoas e Justiça Federal do estado de Alagoas), BlackBerry Tech Center, onde criou a GAP (Graphical Aid Plus) Suite, um conjunto de ferramentas usadas globalmente por desenvolvedores BlackBerry que facilitam o processo de desenvolvimento de apps para a plataforma BlackBerry10. No laboratório de computação móvel e pervasiva (COMPE) da Universidade Federal de Alagoas criou o BalloonTour, um game para o tablet da BlackBerry com comandos de sopro, vencendo o AppContest Adobe Camp 2012. É co-fundador da startup QuantoGastei, um aplicativo mobile para controle financeiro pessoal com suporte à inserção de dados de forma automática e também é co-fundador da startup Stebam, um aplicativo web que fornece soluções inteligentes para campeonatos de pesca esportiva.",
         "tags": [
@@ -696,6 +750,7 @@
         "companyLogo": "/images/logos/partners/guia-bolso.png",
         "country": "São Paulo 🇧🇷",
         "photoUrl": "/images/people/alexandre-takinami.jpg",
+        "thumbUrl": "/images/people/thumb/alexandre-takinami.jpg",
         "shortBio": "Co-fundador e Líder Técnico do Guia Bolso formado em Ciência da Computação pela Universidade de São Paulo, atua muito próximo com o pessoal de produto ajudando a guiar os próximos passos da empresa...",
         "bio": "Co-fundador e Líder Técnico do Guia Bolso formado em Ciência da Computação pela Universidade de São Paulo, atua muito próximo com o pessoal de produto ajudando a guiar os próximos passos da empresa, e junto ao time de dev garantindo que o GuiaBolso trabalhe em constante inovação tecnológica. Trabalhou como desenvolvedor backend no Clickon bem no auge das compras coletivas e na Rocket Internet GmbH em Berlim como líder de desenvolvimento Java. Apaixonado por Startups, Agile e novas tecnologias. Gosta de uma boa cervejinha com os Devs, corrida de rua e viajar pelo mundo.",
         "tags": [
@@ -717,6 +772,7 @@
         "company": "ContaSystemer",
         "country": "Natal 🇧🇷",
         "photoUrl": "/images/people/henri-cavalcante.jpg",
+        "thumbUrl": "/images/people/thumb/henri-cavalcante.jpg",
         "shortBio": "Google Developer Organizer e Desenvolvedor há mais de 10 anos. Atualmente focado na linguagem JavaScript e tecnologias IoT...",
         "bio": "Google Developer Organizer e Desenvolvedor há mais de 10 anos. Atualmente focado na linguagem JavaScript e tecnologias IoT. CTO na plataforma de ensino hibrido Wiquadro e Full Stack Developer na empresa de gestão financeira na Noruega chamada ContaSystemer.",
         "tags": [
@@ -748,6 +804,7 @@
         "company": "AdMobilize and Tamse",
         "country": "Feira de Santana 🇧🇷",
         "photoUrl": "/images/people/diego-leite.jpg",
+        "thumbUrl": "/images/people/thumb/diego-leite.jpg",
         "shortBio": "Apaixonado por software livre, em especial JavaScript. Graduando em Engenharia de Computação pela UEFS. Trabalha no time de visão computacional...",
         "bio": "Apaixonado por software livre, em especial JavaScript. Graduando em Engenharia de Computação pela UEFS. Trabalha no time de visão computacional de uma startup norte-americana, a AdMobilize. Também é fundador e desenvolvedor full stack em uma startup de mobilidade urbana de Feira de Santana - Bahia, o Tamse",
         "tags": [
@@ -778,10 +835,11 @@
         "title": "Estudante",
         "country": "Recife 🇧🇷",
         "photoUrl": "/images/people/igor-de-moura.jpg",
+        "thumbUrl": "/images/people/thumb/igor-de-moura.jpg",
         "shortBio": "Curioso nato, estudante de Engenharia da Computação na UFPE, amante da tecnologia e sempre em busca de aprender mais e ter novos desafios...",
         "bio": "Curioso nato, estudante de Engenharia da Computação na UFPE, amante da tecnologia e sempre em busca de aprender mais e ter novos desafios. Já teve experiências nas mais diversas áreas, como desenvolvimento web, desenvolvimento para sistemas embarcados e gerenciamento de redes e infraestrutura.",
         "tags": [
-            "Web", "GO", "Linux"
+            "Web", "Go", "Linux"
         ],
        "socials": [
             {
