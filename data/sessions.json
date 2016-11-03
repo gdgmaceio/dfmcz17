@@ -78,7 +78,8 @@
         ],
         "tags": [
             "Firebase"
-        ]
+        ],
+        "presentation": "https://goo.gl/255njQ"
     },
     "130": {
         "id": 130,
@@ -111,7 +112,8 @@
         ],
         "tags": [
             "Backend"
-        ]
+        ],
+        "presentation": "https://goo.gl/9Pfiv3"
     },
     "127": {
         "id": 127,
@@ -123,7 +125,7 @@
         "tags": [
             "Firebase", "Mobile"
         ],
-        "presentation": "https://felipesousa.github.io/talks/devfestne2016/#/"
+        "presentation": "https://goo.gl/5E1nBS"
     },
     "126": {
         "id": 126,
@@ -134,7 +136,8 @@
         ],
         "tags": [
             "Firebase", "Web"
-        ]
+        ],
+        "presentation": "https://goo.gl/MvVm1H"
     },
     "125": {
         "id": 125,
@@ -157,7 +160,8 @@
         ],
         "tags": [
             "Google Maps"
-        ]
+        ],
+        "presentation": "https://goo.gl/cPJm4r"
     },
     "123": {
         "id": 123,
@@ -168,7 +172,8 @@
         ],
         "tags": [
             "Google Maps", "Mobile"
-        ]
+        ],
+        "presentation": "https://goo.gl/WyCQx5"
     },
     "122": {
         "id": 122,
@@ -201,7 +206,8 @@
         ],
         "tags": [
             "Backend"
-        ]
+        ],
+        "presentation": "https://goo.gl/ApWdJo"
     },
     "119": {
         "id": 119,
@@ -225,7 +231,7 @@
             "Mobile",
             "UX"
         ],
-        "presentation": "https://goo.gl/GiDEhw"
+        "presentation": "https://goo.gl/AhNcnU"
     },
     "117": {
         "id": 117,
@@ -236,8 +242,8 @@
         ],
         "tags": [
           "Google Maps"
-
-        ]
+        ],
+        "presentation": "https://goo.gl/iRtYi3"
     },
     "116": {
         "id": 116,
@@ -248,7 +254,8 @@
         ],
         "tags": [
             "Backend"
-        ]
+        ],
+        "presentation": "https://goo.gl/Bkj36Y"
     },
     "115": {
         "id": 115,
@@ -259,7 +266,8 @@
         ],
         "tags": [
             "Web"
-        ]
+        ],
+        "presentation": "https://goo.gl/COU4qL"
     },
     "114": {
         "id": 114,
@@ -317,18 +325,19 @@
         "tags": [
             "Web"
         ],
-      "presentation": "https://speakerdeck.com/cironunes/angular-2-um-framework-mobile-and-desktop"
+      "presentation": "https://goo.gl/3te3Sa"
     },
     "109": {
         "id": 109,
-        "title": "Progressive Web Apps",
+        "title": "Progressive Web Apps com Firebase",
         "description": "",
         "speakers": [
             5
         ],
         "tags": [
             "Web"
-        ]
+        ],
+        "presentation": "https://goo.gl/On6jxy"
     },
     "108": {
         "id": 108,
@@ -339,7 +348,8 @@
         ],
         "tags": [
             "Web"
-        ]
+        ],
+        "presentation": "https://goo.gl/xRZgiB"
     },
     "107": {
         "id": 107,
@@ -387,7 +397,8 @@
         ],
         "tags": [
             "Backend"
-        ]
+        ],
+        "presentation": "https://goo.gl/awUsuw"
     },
       "102": {
       "id": 102,
@@ -399,7 +410,7 @@
       "tags": [
           "Iot"
       ],
-      "presentation": "https://speakerdeck.com/di3goleite/explore-o-mundo-do-iot-com-o-matrix-creator"
+      "presentation": "https://goo.gl/6fDWJc"
     },
       "101": {
       "id": 101,
@@ -410,7 +421,8 @@
       ],
       "tags": [
           "Backend"
-      ]
+      ],
+      "presentation": "https://goo.gl/aswXQZ"
     },
       "100": {
       "id": 100,
