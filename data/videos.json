@@ -6,10 +6,34 @@
     "thumbnail": "/images/sessions/100.jpg"
   },
   {
+    "link": "https://goo.gl/xRZgiB",
+    "title": "Aplicativos híbridos com Ionic 2",
+    "speakers": "Loiane Groner",
+    "thumbnail": "/images/sessions/108.jpg"
+  },
+  {
+    "link": "https://goo.gl/On6jxy",
+    "title": "Progressive Web Apps com Firebase",
+    "speakers": "Juarez Filho",
+    "thumbnail": "/images/sessions/109.jpg"
+  },
+    {
+    "link": "https://goo.gl/3te3Sa",
+    "title": "Angular 2: Um framework. Mobile e desktop",
+    "speakers": "Ciro Nunes",
+    "thumbnail": "/images/sessions/110.jpg"
+  },
+  {
     "link": "https://goo.gl/lmtDMT",
     "title": "Construindo layouts complexos com ConstraintLayout",
     "speakers": "Felipe Arimateia",
     "thumbnail": "/images/sessions/121.jpg"
+  },
+  {
+    "link": "https://goo.gl/iRtYi3",
+    "title": "Google Maps de uma forma que você nunca viu",
+    "speakers": "Gabriel Carvalho",
+    "thumbnail": "/images/sessions/117.jpg"
   },
   {
     "link": "https://goo.gl/GiDEhw",
