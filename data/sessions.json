@@ -1,13 +1,24 @@
 {
-    "140": {
-        "id": 140,
-        "title": "Em breve",
+   "141": {
+        "id": 141,
+        "title": "NodeBots: Robôs com JavaScript",
+        "description": "",
         "speakers": [
-            25
+            13
         ],
         "tags": [
-            "Geral"
-        ]
+            "Iot"
+        ],
+        "presentation": "https://goo.gl/m78lff"
+    },
+    "140": {
+        "id": 140,
+        "title": "☕️ Coffee Break",
+        "description": "",
+        "image": "/images/backgrounds/coffee-break-2.jpg",
+        "track": {
+          "title": "Área externa"
+        }
     },
     "139": {
         "id": 139,
@@ -20,7 +31,7 @@
         "description": "",
         "image": "/images/backgrounds/coffee-break.jpg",
         "track": {
-          "title": "Foyer"
+          "title": "Área externa"
         }
     },
     "137": {
@@ -47,7 +58,7 @@
         "id": 134,
         "title": "🍴 Almoço",
         "description": "Apenas uma sugestão de horário, mas sinta-se à vontade para fazer o seu horário para alimentação",
-        "image": "/images/backgrounds/coffee-break.jpg",
+        "image": "/images/backgrounds/lunch.jpg",
         "track": {
           "title": "*Almoço não incluso"
         }
@@ -101,7 +112,8 @@
         ],
         "tags": [
             "Geral"
-        ]
+        ],
+        "presentation": "https://goo.gl/QK68tg"
     },
     "128": {
         "id": 128,
@@ -184,7 +196,8 @@
         ],
         "tags": [
             "Mobile"
-        ]
+        ],
+        "presentation": "https://goo.gl/SnrouK"
     },
     "121": {
         "id": 121,
@@ -302,7 +315,8 @@
         ],
         "tags": [
             "Mobile"
-        ]
+        ],
+        "presentation": "https://goo.gl/H6d1Xj"
     },
     "111": {
         "id": 111,
@@ -382,10 +396,10 @@
     },
     "104": {
         "id": 104,
-        "title": "Agradecimentos, Sorteios e Premiação do Hackathon",
-        "image": "/images/backgrounds/closing.jpg",
+        "title": "Agradecimentos, Sorteios e Premiação",
+        "image": "/images/backgrounds/closing-2.jpg",
         "track": {
-          "title": "Teatro"
+          "title": "Nos vemos em 2017 🙌"
         }
     },
     "103": {
