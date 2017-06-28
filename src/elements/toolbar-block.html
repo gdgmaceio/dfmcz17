@@ -99,7 +99,7 @@
             </template>
           </paper-tabs>
           <div class="action-button-wrapper" layout horizontal center-center>
-            <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
+            <a href="https://www.sympla.com.br/devfest-maceio-2017__158502" on-tap="_trackPrimaryAction" target="_blank" rel="noopener noreferrer">
               <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
             </a>
           </div>
@@ -144,8 +144,8 @@
           }
         },
 
-        _trackBuyClick: function () {
-          HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'toolbar');
+        _trackPrimaryAction: function () {
+          HOVERBOARD.Analytics.trackEvent('photos', 'view', 'toolbar');
         }
 
       });

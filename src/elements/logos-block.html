@@ -29,7 +29,7 @@
       }
 
       .container .heading {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
       }
 
       .container .block-link {
@@ -69,7 +69,6 @@
       <h4 class="heading text-center">[[localize('partners')]]</h4>
       <template is="dom-repeat" items="[[app.partners]]" as="block">
         <div class="logos-block-wrapper">
-          <h5 class="logos-block-title text-center">[[localize(block.title)]]</h5>
           <div class="logos">
             <template is="dom-repeat" items="[[block.logos]]" as="logo">
               <a class="logo-item" href="[[logo.url]]" title="[[logo.name]]" target="_blank" rel="noopener noreferrer">
@@ -86,9 +85,6 @@
           </div>
         </div>
       </template>
-      <a class="block-link" href$="[[app.data.partnershipProposition]]" target="_blank" rel="noopener noreferrer" on-tap="_trackClick">
-        <paper-button class="primary" raised>[[localize('become-a-partner')]]</paper-button>
-      </a>
     </div>
 
   </template>

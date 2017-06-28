@@ -1,460 +1,453 @@
 {
+   "141": {
+        "id": 141,
+        "title": "NodeBots: Robôs com JavaScript",
+        "description": "",
+        "speakers": [
+            13
+        ],
+        "tags": [
+            "Iot"
+        ],
+        "presentation": "https://goo.gl/m78lff"
+    },
     "140": {
         "id": 140,
-        "title": "TBD",
-        "description": "TBD",
-        "language": "English"
+        "title": "☕️ Coffee Break",
+        "description": "",
+        "image": "/images/backgrounds/coffee-break-2.jpg",
+        "track": {
+          "title": "Área externa"
+        }
     },
     "139": {
         "id": 139,
-        "title": "Keynote",
-        "description": "",
-        "language": "English"
+        "title": "Codelabs (Treinamento)",
+        "description": ""
     },
     "138": {
         "id": 138,
-        "title": "Conference closing and contest winners announcements",
-        "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
-        "image": "/images/backgrounds/closing.jpg"
+        "title": "☕️ Coffee Break",
+        "description": "",
+        "image": "/images/backgrounds/coffee-break.jpg",
+        "track": {
+          "title": "Área externa"
+        }
     },
     "137": {
         "id": 137,
-        "title": "Afterparty & Networking",
-        "description": "Afterparty is a great time to have some fun and meet new people",
-        "image": "/images/backgrounds/party.jpg"
+        "title": "Hackathon & Codelabs",
+        "description": ""
     },
     "136": {
         "id": 136,
-        "title": "GDG DevFest Ukraine 2016 Opening",
-        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
-        "language": "English",
+        "title": "Olá DevFest Nordeste 2016",
+        "description": "Para iniciar o #dfne16 teremos no 1º dia o DevFest Challenge no estilo Hackathon e muito aprendizado com os Codelabs",
         "image": "/images/backgrounds/opening.jpg"
     },
     "135": {
         "id": 135,
-        "title": "Morning coffee",
-        "description": "Coffeeeeeee!",
-        "image": "/images/backgrounds/morning.jpg"
+        "title": "Até amanhã pessoal! 🙌",
+        "description": "",
+        "image": "/images/backgrounds/closing.jpg",
+        "track": {
+          "title": "Prepare-se para um Sábado repleto de aprendizado e diversão"
+        }
     },
     "134": {
         "id": 134,
-        "title": "Coffee break",
-        "description": "Coffeeeeeee!",
-        "image": "/images/backgrounds/coffee-break.jpg"
+        "title": "🍴 Almoço",
+        "description": "Apenas uma sugestão de horário, mas sinta-se à vontade para fazer o seu horário para alimentação",
+        "image": "/images/backgrounds/lunch.jpg",
+        "track": {
+          "title": "*Almoço não incluso"
+        }
     },
     "133": {
         "id": 133,
-        "title": "Lunch",
-        "description": "Foooooooood!",
-        "image": "/images/backgrounds/lunch.jpg"
+        "title": "🍴 Almoço & Diversão ⛱",
+        "description": "Divirta-se com nossas atividades: SlackLine, Standup Paddle, Voleibol e muito networking. Recomendamos trazer roupas extras e não se preocupe pois teremos dois apartamentos (1 masculino e 1 feminino) exclusivos para tomar banho e trocar de roupa",
+        "image": "/images/backgrounds/having-a-good-time.jpg",
+        "track": {
+          "title": "*Almoço não está incluso no valor do ingresso"
+        }
     },
     "132": {
         "id": 132,
-        "title": "Registration & morning Coffee",
-        "description": "Get your badge, coffee, enjoy talking with tech edicts around",
-        "image": "/images/backgrounds/registration.jpg"
+        "title": "🎈 Credenciamento",
+        "image": "/images/backgrounds/registration.jpg",
+        "track": {
+          "title": "Recepção do Pratagy"
+        }
     },
     "131": {
         "id": 131,
-        "title": "Deal with it: Android DataBinding explained",
-        "description": "In this talk, I will reveal you all the deepest secrets of using MVVM architecture in Android. \nWe will discuss on how to organise your application, views, models, how to retrieve data from the model requested from the view via data binding. \nLightweight Activities and Fragments, is it even possible? \n\nYes, and I will show you how to achieve this with MVVM and DataBinding!",
-        "speakers": [
-            27
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
-    },
-    "130": {
-        "id": 130,
-        "title": "Designing an Android Wear Application",
-        "description": "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design a user experience for this type of devices.\nEvery platform has it's own design principles and approaches. But, in the core, they all need to follow same core rules. So, how we combine this core requirements with Google's Material Design and use them on an Android Wear device? Let's learn!",
+        "title": "Firebots: Criando 'coisas' controladas pelo Firebase",
+        "description": "'Oxente, será que dá certo juntar todo o potencial do Firebase com toda essa coisa de Arduino e Internet das Coisas que temos a disposição?' Este foi o questionamento feito por Henri Cavalcante quando estava tentando juntar tudo isso e construir algo e é sobre a experiência que ele teve que ele vai falar.",
         "speakers": [
             26
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
+            "Firebase"
+        ],
+        "presentation": "https://goo.gl/255njQ"
+    },
+    "130": {
+        "id": 130,
+        "title": "Interação Produto e Dev - como construímos o GuiaBolso",
+        "description": "Nessa palestra explico como foi a evolução do Guia Bolso desde nossa primeira versão até ser o aplicativo número 1 em finanças pessoais do Brasil. Explicarei como foi a evolução da empresa, os números e como crescemos nosso time. Com o crescimento vem os desafios de como manter o espírito inovador, entregar rápido com qualidade e manter a cultura da nossa empresa.",
+        "speakers": [
+            25
+        ],
+        "tags": [
+            "Mobile"
         ]
     },
     "129": {
         "id": 129,
-        "title": "Accessibility on Android",
-        "description": "Accessibility is a very important step to make sure that your app reaches everyone in an easy and fun way to use. \nGood accessibility support means much more than just making sure the app supports screen readers, different fonts sizes and good contrast ratios. It is a learning process, and one in which we ourselves still have much to learn and explore. ",
+        "title": "Arrebentando no Hackathon",
+        "description": "Primeira vez em um Hackaton? Receoso de não dar tempo de terminar o protótipo da aplicação? Ainda falta o pitch? Nesse talk, vou falar sobre dicas de como participar de um Hackaton vinda de experientes no assunto, como alguns de nossos engenheiros da Udacity e campeões de Hackaton no Brasil. Já lanço aqui a primeira dica: feijão com arroz.",
         "speakers": [
-            26
+            18
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
-        ]
+            "Geral"
+        ],
+        "presentation": "https://goo.gl/QK68tg"
     },
     "128": {
         "id": 128,
-        "title": "Android Wear 2.0: Great Changes Upcoming this Fall",
-        "description": "Google announced Android Wear 2.0 become available this Fall. This major update brings some revolutionary changes in platform, that should change our approaches in developing wearable apps, including freedom of BLE tethering, system support for complications and activity recognition by GoogleFit, developed mainly for Android Wear 2.0. We will talk deeper about these new features and look at some ways to implement them in the code.",
-        "speakers": [
-            25
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Android"
-        ]
-    },
-    "127": {
-        "id": 127,
-        "title": "ExoPlayer: Media playback without pain (almost...)",
-        "description": "If you have any experience with Android Media Player, you definitely know how hard it is to prepare it and do not lose your mind. ExoPlayer - is an alternative, which can help you deal with media with much less pain. So lets discuss if it really a \"silver bullet\" or yet another State Machine hell.",
-        "speakers": [
-            24
-        ],
-        "language": "Ukrainian",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
-    },
-    "126": {
-        "id": 126,
-        "title": "Android hacking for dummies: \u2018if\u2019 operator demolytion",
-        "description": "Imagine the world where you can get any application, look into its code (even if it is not open sourced) and modify any conditional operator in any way you like. Welcome, you are in the Android applications world! Let's discover how anyone can decompile your app and, for example, hack your 'if' operators. For the beginning, we will play a role of a script kiddie and try to hack some simple app. After this, we will pretend security-conscious Android developers and try to think how we can protect ourselves.",
-        "speakers": [
-            23
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
-    },
-    "125": {
-        "id": 125,
-        "title": "Kubernetes in a real world",
-        "description": "TBD",
+        "title": "Crawler e automações com NodeJS",
+        "description": "Precisa de informações e não encontra uma API decente? ou o custo dela é inviável para o seu projeto é para resolver esse tipo de problema que surge os crawlers, nesta palestra será apresentado as vantagens de criar crawlers e robôs para automatizar processos repetitivos que levaria longas horas de esforço humano, iremos desmistificar e mostrar com poucas linhas de código o necessário para você sair por ai crawleando a web e otimizando o tempo de pessoas que trabalham com processos repetitivos.",
         "speakers": [
             22
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Cloud"
-        ]
+            "Backend"
+        ],
+        "presentation": "https://goo.gl/9Pfiv3"
     },
-    "124": {
-        "id": 124,
-        "title": "Continues Integration in Android",
-        "description": "You are tired of building every patch for your QA ? Still deploying to google play manually ? You still think that build server is something that you don't need ? Than I will try to show you how you can make life of your team easier with CI.",
+    "127": {
+        "id": 127,
+        "title": "Ionic & Firebase, a super dupla na criação de aplicações dinâmicas",
+        "description": "Não é de hoje que aplicações híbridas vem tomando lugar no mercado, startups ou empresas, todos já ouviram falar sobre como construir aplicações de forma simples utilizando muito pouco, mas, já pensou como seria turbinar seu web app usando Firebase? Iremos ver mais sobre como unir os super poderes do Ionic e Firebase para podermos criar aplicações de forma rápida e dinâmica.",
         "speakers": [
             21
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
-        ]
-    },
-    "123": {
-        "id": 123,
-        "title": "TBD",
-        "description": "TBD",
-        "speakers": [
-            20
+            "Firebase", "Mobile"
         ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Web"
-        ]
+        "presentation": "https://goo.gl/5E1nBS"
     },
-    "122": {
-        "id": 122,
-        "title": "Firebase + Kotlin + RxJava + MVP: Practical Tips",
-        "description": "I would like to talk about architecture of our Settle Up app. It's all based on new Firebase announced on I/O with the help of modern frameworks like Rx, Kotlin and MVP.",
+    "126": {
+        "id": 126,
+        "title": "Construindo aplicações usando AngularJS e Firebase",
+        "description": "Combine o poder de um dos melhores e mais populares frameworks javascript com a facilidade das soluções backend oferecidas pelo Firebase e construa aplicativos com suporte à: Modularização (Padrão, Reuso, Compartilhamento), Banco de dados de tempo real que mantém todos os dados sincronizados entre todos os clientes,  Autenticação (email/senha, google, facebook, twitter, github), Push Notification, Storage de arquivos e muito mais.",
+        "speakers": [
+            24
+        ],
+        "tags": [
+            "Firebase", "Web"
+        ],
+        "presentation": "https://goo.gl/MvVm1H"
+    },
+    "125": {
+        "id": 125,
+        "title": "Construindo aplicativos Android com Firebase",
+        "description": "Ei developer! Você tem uma ideia de um app Android e não queria cirar um backend? Ou precisa de uma plataforma que te entregue serviços como database em tempo real, sistema de autenticação, serviço de push notification e muito mais? Então venha conhecer nessa talk o Firebase e o seu conjunto de ferramentas especializadas em mobile.",
+        "speakers": [
+            16
+        ],
+        "tags": [
+            "Firebase", "Mobile"
+        ],
+        "presentation": "https://goo.gl/UfH22L"
+    },
+    "124": {
+        "id": 124,
+        "title": "Google Maps: Serviços e APIs",
+        "description": "Conhece o Google Maps API? Geocode, autocomplete, distance matrix, street view e static map, são nomes conhecidos por você? Saiba como cada um funciona e como você pode criar aplicações web cada vez mais interativas com a google maps api.",
         "speakers": [
             19
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
-        ]
+            "Google Maps"
+        ],
+        "presentation": "https://goo.gl/cPJm4r"
+    },
+    "123": {
+        "id": 123,
+        "title": "Não deixe seus usuários perdidos, aprenda como utilizar a API do Google Maps no Android",
+        "description": "Aprenda a implementar e personalizar mapas para seu aplicativo Android. Faremos o passo a passo para enriquecer ainda mais sua aplicação utilizando as ferramentas que a Google Maps API disponibiliza como marcadores, polilinhas, polígonos e outras. Veja também como combinar outras API para tornar ainda mais agradável a experiência do usuário final.",
+        "speakers": [
+            23
+        ],
+        "tags": [
+            "Google Maps", "Mobile"
+        ],
+        "presentation": "https://goo.gl/WyCQx5"
+    },
+    "122": {
+        "id": 122,
+        "title": "Android 7.0 for Developers",
+        "description": "Prepare-se para o Android Nougat!  Tudo que você precisa saber para tornar a sua aplicação ainda melhor utilizando as novas funcionalidades que o Android disponibiliza em sua mais nova versão.",
+        "speakers": [
+            23
+        ],
+        "tags": [
+            "Mobile"
+        ],
+        "presentation": "https://goo.gl/SnrouK"
     },
     "121": {
         "id": 121,
-        "title": "Offline-first progressive web apps",
-        "description": "Using service workers and other modern progressive web apps capabilities we can update our web applications to be offline-fires. In this session we'll show how to easily convert your applications be usable without the internet connection.",
+        "title": "Construindo layouts complexos com ConstraintLayout",
+        "description": "Ei, preciso de ajuda! Qual gerenciador de layout eu escolho? Seus problemas acabaram! Nesta talk vou apresentar o ConstraintLayout e o novo editor de layouts do Android Studio. Com essa ferramenta, você não precisa ficar horas decidindo qual a especialização de ViewGroup escolher.",
         "speakers": [
-            18
+            16
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Web"
-        ]
+            "Mobile"
+        ],
+        "presentation": "https://goo.gl/lmtDMT"
     },
     "120": {
         "id": 120,
-        "title": "Progressive web apps - prepare your web for 2017",
-        "description": "\"Remember back when AJAX completely changed what was possible in the desktop web? Progressive web apps are that same fundamental shift for the mobile web.\" said Rahul Row-Chowdhury (Google\u2019s product lead for chrome and the web platform) on stage at Google I/O 2016. - Progressive web apps use service workers, app shell, push notifications, RAIL and other capabilities to deliver an app-like user experience.",
+        "title": "Melhorando a comunicação da API através de DSL",
         "speakers": [
-            18
+            9
         ],
-        "language": "English",
-        "complexity": "Beginner",
         "tags": [
-            "Web"
-        ]
+            "Backend"
+        ],
+        "presentation": "https://goo.gl/ApWdJo"
     },
     "119": {
         "id": 119,
-        "title": "Hands-on with UI testing for Android developers",
-        "description": "Writing Android apps is usually fun because you are actually building something. But what about writing tests? Boring stuff. Errr, UI tests? I am a developer!\n\nIn this talk we will take a look at options for UI tests on Android, why you should write them and how they help you with your app development workflow. No more untested apps!",
+        "title": "Containers 101 e o Mundo Real",
+        "description": "Isolamento, portabilidade e infraestrutura imutável. Estes são os termos mais vistos junto aos nomes Docker e Containers. Ao mesmo tempo, há um grande gap entre o uso desta tecnologia em desenvolvimento e sua aplicação em produção. Destrinchando o que são Linux Containers a talk busca apresentar como estes são formados e como um PaaS toma proveito da tecnologia para tornar trivial o deploy de aplicações modernas.",
         "speakers": [
-            17
+            15
         ],
-        "language": "English",
-        "complexity": "Beginner",
         "tags": [
-            "Android"
+            "Cloud"
         ]
     },
     "118": {
         "id": 118,
-        "title": "Kotlin + Android",
-        "description": "TBD",
+        "title": "Migrando para um mundo material",
+        "description": "Material Design todo mundo já conhece. Mas, como mudo meu aplicativo para Material Design? É só ler e seguir a especificação para ter bons resultados, certo? Vamos conversar um pouco sobre o caso do AppProva na migração de seu aplicativo para Material Design. Dificuldades encontradas e lições aprendidas deste “novo mundo”.",
         "speakers": [
-            16
+            7
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
-        ]
+            "Mobile",
+            "UX"
+        ],
+        "presentation": "https://goo.gl/AhNcnU"
     },
     "117": {
         "id": 117,
-        "title": "Building data pipelines: from simple to more advanced - hands-on experience",
-        "description": "Data is becoming one of the main decision-makers in an organisation. The more data we have the more challenges we face every day. Every decision we make will have long-term implications. In the talk we will go through different approaches to the data pipelines: from a simple in-house built, with comparison to open source solutions based on Apache stack(Apache Kafka, Apache Samza, Spark) and finally hosted auto-scaling solutions based Amazon(S3, Kinesis, Lambda, EMR) or Google(Pub/Sub, Dataflow, BigQuery). The talk covers the main aspects of data collecting processes altogether with further implications for data processing, highlighting appropriate solutions and architectures for the particular use-cases. ",
+        "title": "Google Maps de uma forma que você nunca viu",
+        "description": "Pokemon Go é apenas um dos fantásticos exemplos que podem ser desenvolvidos com a plataforma Google Maps. Este bate papo vai mostrar ideias malucas/inovadoras que foram desenvolvidas ao redor do mundo para quem quer viajar, comprar café, buscar lojas, etc. Quem sabe você não pode ser o próximo a criar algo completamente fora da caixa, hein?",
         "speakers": [
-            15
+            2
         ],
-        "language": "English",
-        "complexity": "Beginner",
         "tags": [
-            "Cloud"
-        ]
+          "Google Maps"
+        ],
+        "presentation": "https://goo.gl/iRtYi3"
     },
     "116": {
         "id": 116,
-        "title": "On Polymer and smileys... or Polysmileys",
-        "description": "One of my favourite things about the web are ASCII smileys. They're sweet, fun and simply make the web a better place. How could anyone not like them \u00af(\u30c4)/\u00af?\n\nThis talk is an overdose of smileys, because they're the perfect excuse to get started with Polymer. Polymer is a library built on top of the Web Components standards that helps developers create reusable components for the modern web. And since I know that everybody has been wondering how one could take over the world by creating a suite of Polymer animated emoticon components, we're going to do exactly that.",
-        "speakers": [
-            14
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Web"
-        ]
-    },
-    "115": {
-        "id": 115,
-        "title": "Android tool-chain and run-time improvements in N",
-        "description": "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
+        "title": "Qualidade de software: como e por quê.",
+        "description": "Como construir software de qualidade? Fazer entregas contínuas? Garantir que depois de um refatoramento a aplicação continua funcionando? Criar casos de teste é responsabilidade do programador também! Aquela conversa de 'sou pago para fazer código que funciona' já ficou para trás há muito tempo.",
         "speakers": [
             13
         ],
-        "language": "English",
-        "complexity": "Beginner",
         "tags": [
-            "Android"
-        ]
-    },
-    "114": {
-        "id": 114,
-        "title": "I\u2019ve been doing some syncing\u2026",
-        "description": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful\u2014and underrated\u2014account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
-        "speakers": [
-            12
+            "Backend"
         ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
+        "presentation": "https://goo.gl/Bkj36Y"
     },
-    "113": {
-        "id": 113,
-        "title": "Microservices in Google App Engine",
-        "description": "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
+    "115": {
+        "id": 115,
+        "title": "Angular.JS Estado atual",
+        "description": "Criado em 2009 o Angular.JS se tornou um dos frameworks mais populares de Front-End, mas por quê? Nessa palestra vamos entender o porque do sucesso e o estado atual da versão Angular.JS 1.x.x comentar e resolver um dos principais problemas da versão 1: A Performance. Veremos também como você desenvolvedor pode se preparar HOJE para o presente e futuro: A versão 2. E como obter todos os benefícios do ECMA 6 e muito mais inclusive na versão 1.",
         "speakers": [
             11
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Cloud"
-        ]
+            "Web"
+        ],
+        "presentation": "https://goo.gl/COU4qL"
+    },
+    "114": {
+        "id": 114,
+        "title": "Web Components: Mais simples e produtivo com Polymer!",
+        "description": "A Web mudou! E agora como desenvolver utilizando Web Components? Polymer é a resposta do Google para isto, a biblioteca que torna tudo mais simples, performático e produtivo! Nesta palestra vou explicar o uso da biblioteca, porque escolhemos Polymer para substituir o Angular.JS em grandes aplicações, nossos desafios e resultados. Mostraremos na prática a nova maneira de desenvolver para a internet.",
+        "speakers": [
+            12
+        ],
+        "tags": [
+            "Web"
+        ],
+        "presentation": "https://goo.gl/wBR6Jn"
+    },
+    "113": {
+        "id": 113,
+        "title": "Dominando o Data Binding no Android",
+        "description": "Com a biblioteca de Data Binding do Android os desenvolvedores podem implementar a lógica da interface gráfica do aplicativo de forma mais fácil, rápida e menos sujeita a bugs. Por meio da Expression Language (EL) podemos facilmente ligar as nossas classes de dados à UI do aplicativo. Tudo isso sem nenhum impacto na performance. Nessa apresentação, você conhecerá as principais técnicas para aplicar o data binding em seus projetos Android.",
+        "speakers": [
+            6
+        ],
+        "tags": [
+            "Mobile"
+        ],
+        "presentation": "https://goo.gl/13y7iZ"
     },
     "112": {
         "id": 112,
-        "title": "Building web apps in 2016",
-        "description": "Last year brought a lot of new capabilities to browsers, fundamentally changing the way we will build web apps in 2016. 60FPS, push messages, offline support and background sync became a reality marking the birth of Progressive Web Apps.",
+        "title": "VectorDrawables e AnimatedVectorDrawables - Trabalhando com vetores no Android de forma eficiente",
+        "description": "Cansado de gerar infinitos PNGs pros seus projetos Android? Já desistiu de fazer aquela animação bacana de loading por não se dar bem com as APIs de animação? Nesse talk eu vou falar um pouco sobre VectorDrawables, AnimatedVectorDrawables e como você pode trabalhar com vetores de forma eficiente no Android, inclusive em versões mais antigas!",
         "speakers": [
-            10
+            8
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Web"
-        ]
+            "Mobile"
+        ],
+        "presentation": "https://goo.gl/H6d1Xj"
     },
     "111": {
         "id": 111,
-        "title": "Dagger 2: dependency Injection Android way",
-        "description": "It's beauty, it's handy, it's fast, it's easy - all about Dagger 2",
+        "title": "Microservices FTW: Rewrite slowly, ship fast!",
+        "description": "Nessa apresentação explico como nós estamos fazendo para, aos poucos, quebrar nosso aplicativo web monolítico (escrito originalmente em python) em diversos aplicativos diferentes, adotando uma arquitetura de micro serviços com Mesos e Marathon. Nessa nossa arquitetura, cada seção diferente do Jusbrasil pode estar sendo servida utilizando um app escrito com uma stack completamente diferente.",
         "speakers": [
-            9
+            14
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
+            "Backend"
         ]
     },
     "110": {
         "id": 110,
-        "title": "The ultimate guide to MVP pattern on Android",
-        "description": "There's a lot of hype around MVP pattern in the Android world. Now it's time for concretes. During his presentation Mateusz will tell you how IG divided responsibilities between pattern's different components, how they tied Presenters' and Views' lifecycles and what they did to make it all testable. If you'd love to make your Fragments' and Activities' code simpler and increase your coverage, but you're confused how to glue it all together - don't miss Mateusz's talk.",
+        "title": "Angular 2: Um framework. Mobile e desktop.",
+        "description": "Entenda os princípios por trás da nova versão e conheça as ferramentas criadas ao redor que fazem desenvolver usando o framework uma experiência incrível.",
         "speakers": [
-            8
+            3
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
-        ]
+            "Web"
+        ],
+      "presentation": "https://goo.gl/3te3Sa"
     },
     "109": {
         "id": 109,
-        "title": "How much money Firebase can save you",
-        "description": "TBD",
+        "title": "Progressive Web Apps com Firebase",
+        "description": "",
         "speakers": [
-            7
+            5
         ],
-        "language": "English",
-        "complexity": "Beginner",
         "tags": [
-            "Cloud"
-        ]
+            "Web"
+        ],
+        "presentation": "https://goo.gl/On6jxy"
     },
     "108": {
         "id": 108,
-        "title": "New Data Architecture in Angular 2",
-        "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming using RxJS 5. We are really excited to see the new approach using Observable sequences aka Observables. We will cover a basic introduction of Angular 2 followed by RxJS 5 and the new HTTP API covering some basic use cases.",
+        "title": "Aplicativos híbridos com Ionic 2",
+        "description": "Ionic 2 é um framework open source para desenvolvimento de aplicativos mobile híbrido, onde se pode desenvolver o aplicativo usando HTML/CSS e JavaScript, fazer acesso nativo usando essas tecnologias e compilar o app para diferentes plataformas como iOS, Android e Windows Phone e publicá-lo nas respectivas app stores.",
         "speakers": [
-            6
+            4
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
             "Web"
-        ]
+        ],
+        "presentation": "https://goo.gl/xRZgiB"
     },
     "107": {
         "id": 107,
-        "title": "Introduction to Progressive Web Apps in Angular 2",
-        "description": "There's been much discussion about Progressive Web Apps. They're still a relatively new model. In this talk, I'll summarise few options and techniques for getting started with your own Progressive Web App",
-        "speakers": [
-            6
-        ],
-        "language": "English",
-        "complexity": "Beginner",
+        "title": "Firebase",
+        "image": "/images/backgrounds/firebase.jpg",
         "tags": [
-            "Web"
+            "Mobile"
         ]
     },
     "106": {
         "id": 106,
-        "title": "Fuelio. Success story",
-        "description": "Fuelio. Success story (I'll write more info later)",
-        "speakers": [
-            5
-        ],
-        "language": "English",
-        "complexity": "Beginner",
+        "title": "Firechat com todos palestrantes",
+        "description": "Que tal tirar todas suas dúvidas com nossos experts.",
         "tags": [
-            "Android"
+          "Web",
+          "Backend"
+
         ]
     },
     "105": {
         "id": 105,
-        "title": "Intro to TensorFlow",
-        "description": "TBD",
-        "speakers": [
-            4
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
+        "title": "Firechat com todos palestrantes",
+        "description": "Que tal tirar todas suas dúvidas com nossos experts.",
         "tags": [
-            "Cloud"
+            "Mobile",
+            "Google Maps",
+            "Cloud",
+            "UX"
         ]
     },
     "104": {
         "id": 104,
-        "title": "The Physical Web: Context is King!",
-        "description": "It's no longer just about digitizing our environment. It\u2019s rather about pervasive and ubiquitous computing. Almost all everyday things will turn into connected devices soon. This \u201cInternet of Things\u201d will allow the Web to be physically tangible. But what is the value, and how can one prevent IoT applications which just seem to be only more expensive and complicated than conventional solutions. Sascha will discuss the purpose and guide you through this complex topic showing inspiring solutions, tips from practice, and code samples in a variety of technologies from simple Bluetooth Eddystone Beacons to more sophisticated IoT platforms like Eclipse SmartHome.",
-        "speakers": [
-            3
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Web"
-        ]
+        "title": "Agradecimentos, Sorteios e Premiação",
+        "image": "/images/backgrounds/closing-2.jpg",
+        "track": {
+          "title": "Nos vemos em 2017 🙌"
+        }
     },
     "103": {
         "id": 103,
-        "title": "Knock knock! Who's there? Doze.",
-        "description": "Doze mode is just around the corner. \nIntroduced in Marshmallow, as the shy guy that was allowed to step in only when your device went to sleep. ZzzZzzzz\nWith the new N release, Doze mode becomes the rockstar. He rushes into the room with a big shabang by shooting all background services and network requests that forgot to get away. \nHe should no longer be shy. He just shoots and dances on bones of your scheduled alarms, while you wonder why this particular task is no longer running.\nWith the new Doze mode, you require to adapt your app architecture to the new reality.\nOn this talk, we will learn how to survive Doze mode using Job Scheduler, Content Provider and stay in one piece.",
+        "title": "Como eu integrei Ionic Framework com Ruby on Rails",
+        "description": "Nesta palestra, mostro como eu integrei AngularJs com Rails, utilizando Angularjs no client e Rails no server além de utilizar Ionic para gerar tanto a versão mobile quanto web, incluindo autenticação de usuários e a manutenção de dados offline.",
         "speakers": [
-            2
+            10
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
-        ]
+            "Backend"
+        ],
+        "presentation": "https://goo.gl/awUsuw"
     },
-    "102": {
-        "id": 102,
-        "title": "Hands-on gRPC experience building your own multiplayer game client",
-        "description": "Do you remember the game Simon says from the 80s? I don\u2019t know about you, but I know many that spent hours trying to press those specific sequences of red, green, blue and yellow buttons in the correct order. But why play on your own? We\u2019ve implemented a gRPC server that allows you to play Simon with other players over the internet!\n\nIn this workshop we will dive into the toolset and libraries to build your very own Simon Says client for this server. We will have a message description in Protocol Buffers format and some stub code in several languages ready for you to play with. The goal for this workshop is for you to have a working client that you can use to play (and beat!) other attendees of the workshop.",
-        "speakers": [
-            1
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Cloud"
-        ]
+      "102": {
+      "id": 102,
+      "title": "Explore o mundo do IoT com o MATRIX",
+      "description": "Olá Creator! Você já tentou desenvolver algo para IoT e teve que procurar o sensor certo para resolver o seu problema? Além de tudo, você já teve que aprender algum tipo de linguagem de baixo nível para dar vida a sua ideia? Então, nessa talk venha conhecer o projeto MATRIX. Com ele, é possível prototipar a sua solução de internet das coisas e tornar o seu senho realidade.",
+      "speakers": [
+          27
+      ],
+      "tags": [
+          "Iot"
+      ],
+      "presentation": "https://goo.gl/6fDWJc"
     },
-    "101": {
-        "id": 101,
-        "title": "Windows and .NET on Google Cloud Platform ",
-        "description": "In this session, we will take a look at Windows and .NET support on Google Cloud Platform. We will build a simple ASP.NET app, deploy to Google Compute Engine and take a look at some of the tools and APIs available to .NET developers on Google Cloud Platform. ",
-        "speakers": [
-            1
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Cloud"
-        ]
+      "101": {
+      "id": 101,
+      "title": "GOing: motivos para se usar Golang",
+      "description": "Entenda o motivo pelo qual Go cresce cada vez mais e por que você deveria dar uma chance a linguagem da Google.",
+      "speakers": [
+          28
+      ],
+      "tags": [
+          "Backend"
+      ],
+      "presentation": "https://goo.gl/aswXQZ"
+    },
+      "100": {
+      "id": 100,
+      "title": "Machine Learning, WTF?!",
+      "description": "O que é e como começar com Machine Learning",
+      "speakers": [
+          1
+      ],
+      "tags": [
+          "Mobile"
+      ],
+      "presentation": "https://goo.gl/UepK8N"
     }
 }

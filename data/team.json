@@ -166,7 +166,75 @@
             "name": "Facebook"
           }
         ],
-        "title": "Social and media"
+        "title": "Volunteers"
+      }
+    ]
+  },
+  {
+    "title": "Media team",
+    "members": [
+      {
+        "name": "Alina Yurenko",
+        "photoUrl": "/images/people/alina_yurenko.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/alina.yurenko",
+            "name": "Facebook"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/alinayurenko",
+            "name": "Linkedin"
+          }
+        ],
+        "title": "Emails and analytics"
+      },
+      {
+        "name": "Jule Palenuchka",
+        "photoUrl": "/images/people/jule_palenuchka.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/julepalenu4ka",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/Palenu4kaJulia",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Social networks"
+      }
+    ]
+  },
+  {
+    "title": "Design team",
+    "members": [
+      {
+        "name": "Olga Gorokh",
+        "photoUrl": "/images/people/olga_gorokh.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/olga.gorokh.1",
+            "name": "Facebook"
+          }
+        ],
+        "title": ""
+      },
+      {
+        "name": "Marta Ryzhok",
+        "photoUrl": "/images/people/marta_ryzhok.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/marta.ryzhok",
+            "name": "Facebook"
+          }
+        ],
+        "title": ""
       }
     ]
   },

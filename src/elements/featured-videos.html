@@ -20,7 +20,7 @@
         display: block;
         background: var(--default-primary-color);
         color: var(--text-primary-color);
-        --iron-icon-fill-color: var(--primary-text-color);
+        --iron-icon-fill-color: var(--text-primary-color);
         --paper-card-background-color: #fff;
         overflow: hidden;
       }
@@ -47,6 +47,12 @@
       .video-item {
         @apply(--layout);
         padding-right: 24px;
+        width: 100%;
+        min-width: 100%;
+      }
+
+      .video-item a {
+        display: block;
         width: 100%;
         min-width: 100%;
       }
@@ -117,41 +123,41 @@
       <div class="videos-header">
         <h4 class="heading">[[localize('featured-videos-title')]]</h4>
         <div class="controls">
-          <paper-icon-button icon="icons:chevron-left" on-tap="shiftContentLeft"></paper-icon-button>
-          <paper-icon-button icon="icons:chevron-right" on-tap="shiftContentRight"></paper-icon-button>
+          <paper-icon-button icon="chevron-left" on-tap="shiftContentLeft"></paper-icon-button>
+          <paper-icon-button icon="chevron-right" on-tap="shiftContentRight"></paper-icon-button>
         </div>
       </div>
       <div id="videos" class="videos">
         <template is="dom-repeat" items="[[_videos]]" as="video">
           <div class="video-item">
-            <paper-card class="card">
-              <div class="header paper-card">
-                <iron-image
-                  class="thumbnail"
-                  src="[[video.thumbnail]]"
-                  placeholder="[[video.preloadPlaceholder]]"
-                  sizing="cover"
-                  preload fade
-                ></iron-image>
-                <div class="play-video" on-tap="_playVideo">
-                  <iron-icon class="play-icon" icon="icons:play"></iron-icon>
+            <a href="[[video.link]]" target="_blank">
+              <paper-card class="card">
+                <div class="header paper-card">
+                  <iron-image
+                    class="thumbnail"
+                    src="[[video.thumbnail]]"
+                    sizing="cover"
+                    preload fade
+                  ></iron-image>
                 </div>
-              </div>
-              <div class="paper-card-container">
-                <div class="card-content list">
-                  <div class="title">[[video.title]] [[video.preloadPlaceholder]]</div>
-                  <div class="speakers">[[video.speakers]]</div>
+                <div class="paper-card-container">
+                  <div class="card-content list">
+                    <div class="title">[[video.title]]</div>
+                    <div class="speakers">[[video.speakers]]</div>
+                  </div>
                 </div>
-              </div>
-            </paper-card>
+              </paper-card>
+            </a>
           </div>
         </template>
       </div>
+      <!--
       <div layout>
         <a href$="[[app.data.videosSessionsUrl]]" class="block-link" target="_blank" rel="noopener noreferrer">
           <paper-button>[[localize('featured-videos-view-all')]]</paper-button>
         </a>
       </div>
+      -->
     </div>
 
   </template>
@@ -231,7 +237,7 @@
           var presenters = e.model.video.speakers ? (' by ' + e.model.video.speakers) : '';
           HOVERBOARD.Elements.Template.openVideo(e.model.video.title + presenters, e.model.video.youtubeId, true);
 
-          HOVERBOARD.Analytics.trackEvent('video', 'watch', 'featured video ' + this._selectedVideo.title);
+          HOVERBOARD.Analytics.trackEvent('video', 'watch', 'featured video ' + e.model.video.title);
         },
 
         shiftContentLeft: function () {
