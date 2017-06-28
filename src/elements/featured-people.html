@@ -13,11 +13,17 @@
 <dom-module id="featured-people">
 
   <template>
-
+      
     <style include="shared-styles">
       :host {
         display: block;
         background: #fff;
+      }
+
+      .c4p-button {
+        background-color: #67ae42;
+        color: #FAFAFA;
+        margin-top:30px;
       }
 
       .container {
@@ -92,7 +98,7 @@
 
     <div class="container">
       <h4 class="heading">[[localize('featured-people-title')]]</h4>
-      <div class="people-wrapper">
+      <!--<div class="people-wrapper">
         <template is="dom-repeat" items="[[featuredPeople]]" as="person">
           <a href$="/speakers/[[person.id]]" class="person">
             <iron-image
@@ -114,7 +120,13 @@
         <a href="/speakers" class="block-link">
           <paper-button>[[localize('featured-people-view-all')]]</paper-button>
         </a>
-      </div>
+      </div>-->
+      <div class="description">[[localize('c4p-description')]]</div>
+      <a href="https://goo.gl/forms/kgEkp6K6u11ARpx12" target="_blank">
+        <paper-button class="c4p-button" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">
+          [[localize('c4p-button')]]
+        </paper-button>
+      </a>
     </div>
 
   </template>

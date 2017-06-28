@@ -15,79 +15,11 @@
     "title": "kitkat-sponsor",
     "logos": [
       {
-        "name": "Pratagy Beach Resort",
-        "url": "http://pratagy.com.br",
-        "logoUrl": "/images/logos/partners/pratagy-wyndham.png",
-        "width": 150,
-        "height": 150
-      }
-    ]
-  },
-  {
-    "title": "jelly-sponsor",
-    "logos": [
-      {
-        "name": "Udacity",
-        "url": "https://br.udacity.com/",
-        "logoUrl": "/images/logos/partners/udacity.svg",
-        "width": 160
-      },
-      {
-        "name": "Conhecimento Digital",
-        "url": "http://www.conhecimentodigital.com.br/",
-        "logoUrl": "/images/logos/partners/conhecimento-digital.png",
-        "width": 140
-      }
-    ]
-  },
-  {
-    "title": "ice-sponsor",
-    "logos": [
-      {
-        "name": "Liferay",
-        "url": "https://www.liferay.com/pt",
-        "logoUrl": "/images/logos/partners/liferay.svg",
-        "width": 130
-      }
-    ]
-  },
-  {
-    "title": "honeycomb-sponsor",
-    "logos": [
-      {
-        "name": "SEBRAE",
-        "url": "http://www.sebrae.com.br/sites/PortalSebrae/ufs/al",
-        "logoUrl": "/images/logos/partners/sebrae-alagoas.png",
-        "width": 100
-      },
-      {
-        "name": "Ionic",
-        "url": "https://ionic.io/",
-        "logoUrl": "/images/logos/partners/ionic.png",
-        "width": 110
-      },
-      {
-        "name": "Movile",
-        "url": "https://www.movile.com/pt/",
-        "logoUrl": "/images/logos/movile.png",
-        "width": 110
-      },
-      {
-        "name": "GuiaBolso",
-        "url": "https://guiabolso.com.br",
-        "logoUrl": "/images/logos/partners/guia-bolso.png",
-        "width": 110
-      }
-    ]
-  },
-  {
-    "title": "gingerbread-sponsor",
-    "logos": [
-      {
-        "name": "Eventick",
-        "url": "http://www.eventick.com.br",
-        "logoUrl": "/images/logos/partners/eventick.png",
-        "width": 80
+        "name": "UNIT - Centro Universitário Tiradentes",
+        "url": "https://al.unit.br/",
+        "logoUrl": "/images/logos/partners/marca-unit.png",
+        "width": 125,
+        "height": 125
       }
     ]
   }

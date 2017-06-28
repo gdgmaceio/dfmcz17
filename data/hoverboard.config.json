@@ -3,11 +3,11 @@
     "home": {
       "headerSettings": {
         "backgroundColor": "#3c5b79",
-        "backgroundImage": "/images/backgrounds/home.jpg",
+        "backgroundImage": "/images/backgrounds/bg2.jpg",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Nordeste 2016",
+          "title": "GDG DevFest Maceió 2017",
           "youtubeId": "9ALTl6dQrCc",
           "text": "Assista nosso vídeo promocional #proibidocochilar"
         },
@@ -64,14 +64,6 @@
     {
       "route": "home",
       "permalink": "/"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/"
     }
   ],
   "url": "https://devfestne.com.br/",
@@ -80,8 +72,8 @@
     "url": "https://devfestne.us8.list-manage.com/subscribe/post?u=89545d81cc2471a50c83a319d&amp;id=782140f19d",
     "name": "b_89545d81cc2471a50c83a319d_782140f19d"
   },
-  "partnershipProposition": "https://drive.google.com/open?id=0Bydt4i3bNmYCRGMwZkM5WDYteTg",
-  "disqusShortName": "dfne16",
+  "partnershipProposition": "https://goo.gl/Gur7qt",
+  "disqusShortName": "devfestmcz17",
   "languages": [
     {
       "name": "English",
@@ -102,13 +94,8 @@
           "newTab": true
         },
         {
-          "text": "df-15",
-          "url": "https://2015.devfestne.com.br",
-          "newTab": true
-        },
-        {
-          "text": "df-14",
-          "url": "https://2014.devfestne.com.br",
+          "text": "df-17",
+          "url": "https://devfestne.com.br",
           "newTab": true
         }
       ]
@@ -118,7 +105,7 @@
       "links": [
         {
           "text": "partnership-proposition",
-          "url": "https://drive.google.com/open?id=0Bydt4i3bNmYCRGMwZkM5WDYteTg",
+          "url": "https://goo.gl/Gur7qt",
           "newTab": true
         }
       ]
@@ -127,8 +114,8 @@
   "contactBlock": {
     "links": [
       {
-        "text": "ola@devfestne.com.br",
-        "url": "mailto:ola@devfestne.com.br"
+        "text": "devfest@gdgmaceio.org",
+        "url": "mailto:devfest@gdgmaceio.org"
       }
     ]
   },
@@ -150,38 +137,34 @@
   "teamPageText": "team-page-text",
   "statistics": [
     {
-      "counter": 450,
+      "counter": 800,
       "caption": "attendees"
     },
     {
-      "counter": 29,
+      "counter": 28,
       "caption": "sessions"
     },
     {
       "counter": 2,
       "caption": "tracks"
-    },
-    {
-      "counter": 1,
-      "caption": "hackathon"
     }
   ],
-  "hashtag": "dfne16",
+  "hashtag": "dfmcz17",
   "social": [
     {
       "name": "twitter",
       "nickname": "devfestne",
-      "url": "https://twitter.com/devfestne"
+      "url": "https://twitter.com/gdgmaceio"
     },
     {
       "name": "gplus",
-      "nickname": "+DevfestNEBR",
-      "url": "https://plus.google.com/+DevfestNEBR"
+      "nickname": "+GDGMaceio",
+      "url": "https://plus.google.com/108908314484996855234"
     },
     {
       "name": "facebook",
-      "nickname": "DevFest Nordeste",
-      "url": "https://fb.com/devfestne"
+      "nickname": "GDG Maceió",
+      "url": "https://www.facebook.com/gdgmaceio/"
     }
   ],
   "tweetsSource": "",
@@ -214,21 +197,18 @@
   },
   "location": {
     "apiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
-    "link": "https://www.facebook.com/PratagyBeachResort",
+    "link": "https://al.unit.br",
     "pointer": {
-      "latitude": -9.550167,
-      "longitude": -35.630891,
+      "latitude": -9.6345957,
+      "longitude": -35.7037407,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": -9.550167,
-      "longitude": -35.630891
+      "latitude": -9.6345957,
+      "longitude": -35.7037407
     },
     "images": [
-      "/images/backgrounds/location_1.jpg",
-      "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg",
-      "/images/backgrounds/location_4.jpg"
+      "http://www.logestrategia.com.br/cms/timthumb.php?src=./cms/assets/uploads/_CASES/cf816f75ba0094831f6b783af0f3c577.jpg&w=500&h=350"
     ]
   },
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv"
