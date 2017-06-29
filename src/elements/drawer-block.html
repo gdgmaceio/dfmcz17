@@ -97,14 +97,14 @@
         <template is="dom-repeat" items="[[app.data.navigation]]" as="nav">
           <a class="navigation-link" name="[[nav.route]]" href$="[[nav.permalink]]" on-tap="closeDrawer">{{localize(nav.route)}}</a>
         </template>
-        <!--<a class="navigation-link" href="https://goo.gl/photos/ENVfFYTWk48K1vQJA" on-tap="_trackPrimaryAction"
+        <a class="navigation-link" href="https://www.sympla.com.br/devfest-maceio-2017__158502" on-tap="_trackPrimaryAction"
            target="_blank" rel="noopener noreferrer">
-          [[localize('view-photos')]]
+          [[localize('buy-ticket')]]
           <iron-icon
             class="open-in-new"
             icon="open-in-new"
           ></iron-icon>
-        </a>-->
+        </a>
       </paper-menu>
     </nav>
 
