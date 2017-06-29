@@ -66,7 +66,7 @@
       "permalink": "/"
     }
   ],
-  "url": "https://devfestne.com.br/",
+  "url": "https://devfest.gdgmaceio.org/",
   "mailchimp": {
     "subscribePage": "https://gdg.us11.list-manage.com/subscribe?u=b7e853a79164ddfdbda3ed77b&id=7993e39fbe",
     "url": "https://devfestne.us8.list-manage.com/subscribe/post?u=89545d81cc2471a50c83a319d&amp;id=782140f19d",
@@ -91,11 +91,6 @@
         {
           "text": "google-developers",
           "url": "https://developers.google.com/",
-          "newTab": true
-        },
-        {
-          "text": "df-17",
-          "url": "https://devfestne.com.br",
           "newTab": true
         }
       ]
