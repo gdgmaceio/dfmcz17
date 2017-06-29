@@ -33,6 +33,12 @@
         overflow: hidden;
       }
 
+      .action-button {
+        color: #3c5b79;
+        background: #fff;
+        font-size: 13px;
+      }
+
       app-toolbar {
         min-height: var(--min-header-height, 120px);
         max-height: 360px;
@@ -129,8 +135,8 @@
         <animatable-content name="home">
           <div class="container">
             <div class="home-wrapper">
-              <iron-image class="logo" src="/images/dfne2017-white.svg" sizing="contain"
-                          alt="GDG DevFest Ukraine 2016"></iron-image>
+              <iron-image class="logo" src="/images/logo-light-maceio.svg" sizing="contain"
+                          alt="GDG DevFest Maceió 2017"></iron-image>
               <h3 class="dates">{{localize('dates')}}</h3>
               <h2 class="motto">{{localize('motto')}}</h2>
               <!--<div class="open-video" on-tap="_openVideo">
@@ -138,6 +144,11 @@
                 {{localize('play-icon')}}
               </div>-->
               <div class="action-buttons">
+                <!--<div class="action-button-wrapper" layout horizontal center-center>-->
+                  <a href="https://www.sympla.com.br/devfest-maceio-2017__158502" on-tap="_trackPrimaryAction" target="_blank" rel="noopener noreferrer">
+                    <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
+                  </a>
+                <!--</div>-->
                 <!--
                 <a href="/blog/posts/dfua-summary/" on-tap="_trackEventSummary">
                   <paper-button>[[localize('open-summary')]]</paper-button>
