@@ -97,8 +97,8 @@
     </style>
 
     <div class="container">
-      <h4 class="heading">[[localize('featured-people-title')]]</h4>
-      <!--<div class="people-wrapper">
+      <h4 class="heading">[[localize('featured-people-title-new')]]</h4>
+      <div class="people-wrapper">
         <template is="dom-repeat" items="[[featuredPeople]]" as="person">
           <a href$="/speakers/[[person.id]]" class="person">
             <iron-image
@@ -120,7 +120,11 @@
         <a href="/speakers" class="block-link">
           <paper-button>[[localize('featured-people-view-all')]]</paper-button>
         </a>
-      </div>-->
+      </div>
+    </div>
+
+    <div class="container">
+      <h4 class="heading">[[localize('featured-people-title')]]</h4>
       <div class="description">[[localize('c4p-description')]]</div>
       <a href="https://goo.gl/forms/kgEkp6K6u11ARpx12" target="_blank">
         <paper-button class="c4p-button" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">

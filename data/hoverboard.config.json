@@ -64,6 +64,10 @@
     {
       "route": "home",
       "permalink": "/"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers"
     }
   ],
   "url": "https://devfest.gdgmaceio.org/",
