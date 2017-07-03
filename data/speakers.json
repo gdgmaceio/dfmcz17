@@ -9,7 +9,7 @@
         "country": "Recife 🇧🇷",
         "photoUrl": "/images/people/nelson-glauber.jpg",
         "thumbUrl": "/images/people/thumb/nelson-glauber.jpg",
-        "shortBio": "Mestre em Engenharia de Software pelo Centro de Estudos e Sistemas Avançados do Recife (CESAR). Trabalha com a plataforma Android desde 2009 e atualmente é engenheiro de software na Mokriya...",
+        "shortBio": "Mestre em Engenharia de Software pelo Centro de Estudos e Sistemas Avançados do Recife (CESAR). Trabalha com a plataforma Android desde 2009 e atualmente é engenheiro de software na Mokriya",
         "bio": "Nelson Glauber é mestre em Engenharia de Software pelo Centro de Estudos e Sistemas Avançados do Recife (CESAR). Trabalha com a plataforma Android desde 2009 e atualmente é engenheiro de software na Mokriya. Também é professor de tecnologias móveis em cursos de extensão, graduação e pós-graduação na Unibratec e em outras instituições do nordeste. Em 2014, foi nomeado pelo Google como primeiro Developer Expert de Android da América Latina. É autor do livro 'Dominando o Android' publicado pela editora Novatec.",
         "tags": [
             "Android"
@@ -49,8 +49,8 @@
         "country": "Rio de Janeiro 🇧🇷",
         "photoUrl": "/images/people/raphael-amorim.jpg",
         "thumbUrl": "/images/people/thumb/raphael-amorim.jpg",
-        "shortBio": "Software Developer na globo.com e membro da JS foundation, Em 2015, foi um dos desenvolvedores de software mais notáveis no GitHub, tendo feito contribuições significativas para projetos de código aberto por 500 dias seguidos. Orador em mais de vinte conferências dando palestras sobre tecnologias web como JavaScript / ES6, Web Performance, React e Canvas / WebGL",
-        "bio": "Entusiasta da open web e software livre. Software Developer na globo.com e membro da JS foundation. Já trabalhou como desenvolvedor em empresas como Videolog e Petrobras. Em 2015, foi um dos desenvolvedores de software mais notáveis no GitHub, tendo feito contribuições significativas para projetos de código aberto por 500 dias seguidos. Orador em mais de vinte conferências dando palestras sobre tecnologias web como JavaScript / ES6, Web Performance, React e Canvas / WebGL.",
+        "shortBio": "Entusiasta da open web e software livre. Software Developer na globo.com e membro da JS Foundation",
+        "bio": "Entusiasta da open web e software livre. Software Developer na globo.com e membro da JS Foundation. Já trabalhou como desenvolvedor em empresas como Videolog e Petrobras. Em 2015, foi um dos desenvolvedores de software mais notáveis no GitHub, tendo feito contribuições significativas para projetos de código aberto por 500 dias seguidos. Orador em mais de vinte conferências dando palestras sobre tecnologias web como JavaScript / ES6, Web Performance, React e Canvas / WebGL.",
         "tags": [
             "Javascript"
         ],
@@ -77,8 +77,8 @@
         "country": "Maceió 🇧🇷",
         "photoUrl": "/images/people/bruno-bessa.jpg",
         "thumbUrl": "/images/people/thumb/bruno-bessa.jpg",
-        "shortBio": "Bruno Bessa, é doutorando em Ciências da Computação pelo Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE),  mestre em Engenharia de Software, Pós-Graduado em Gerência de Projeto, Graduado em Sistema de Informação, pelo Instituto Federal de Alagoas (IFAL), Consultor e CEO da Innovate, uma empresa alagoana que oferece experiência de desenvolvimento focada em performance humana, empreendedorismo e soluções tecnológicas.",
-        "bio": " Bruno Bessa, é doutorando em Ciências da Computação pelo Centro de Informática (#CIn) da Universidade Federal de Pernambuco (#UFPE), mestre em Engenharia de Software, Pós-Graduado em Gerência de Projeto, Graduado em Sistema de Informação, pelo Instituto Federal de Alagoas (#IFAL), Consultor e Executor de projetos junto a empresas do setor público e privado, prestando consultoria e treinamentos, contribuindo para a melhoria dos processos e gestão do desenvolvimento na área de tecnologia da informação. Também atua como Professor e pesquisador na área educacional e ciências da  computação. Foi um dos idealizadores do Conselho de Jovens Empreendedores de Alagoas (CJE-AL) e Diretor de Tecnologia e Inovação da Associação das Empresas Brasileiras de Tecnologia da Informação de Alagoas. #CEO da Innovate, uma empresa alagoana que oferece experiência de desenvolvimento focada  em #performance humana, #empreendedorismo e soluções tecnológicas.",
+        "shortBio": "CEO da Innovate, uma empresa alagoana que oferece experiência de desenvolvimento focada  em performance humana, empreendedorismo e soluções tecnológicas",
+        "bio": "Bruno Bessa, é doutorando em Ciências da Computação pelo Centro de Informática (#CIn) da Universidade Federal de Pernambuco (#UFPE), mestre em Engenharia de Software, Pós-Graduado em Gerência de Projeto, Graduado em Sistema de Informação, pelo Instituto Federal de Alagoas (#IFAL), Consultor e Executor de projetos junto a empresas do setor público e privado, prestando consultoria e treinamentos, contribuindo para a melhoria dos processos e gestão do desenvolvimento na área de tecnologia da informação. Também atua como Professor e pesquisador na área educacional e ciências da  computação. Foi um dos idealizadores do Conselho de Jovens Empreendedores de Alagoas (CJE-AL) e Diretor de Tecnologia e Inovação da Associação das Empresas Brasileiras de Tecnologia da Informação de Alagoas. CEO da Innovate, uma empresa alagoana que oferece experiência de desenvolvimento focada  em performance humana, empreendedorismo e soluções tecnológicas.",
         "tags": [
             "Empreendedorismo"
         ],
@@ -87,6 +87,39 @@
                 "icon": "facebook",
                 "name": "Facebook",
                 "link": "https://www.facebook.com/professorbessa"
+            }
+        ]
+    },
+    "4": {
+        "id": 4,
+        "featured": true,
+        "name": "Suelen Carvalho",
+        "title": "Agile Coach & Tech Leader",
+        "company": "Moip",
+        "companyLogo": "/images/logos/moip.png",
+        "country": "São Paulo 🇧🇷",
+        "photoUrl": "/images/people/suelen-carvalho.jpg",
+        "thumbUrl": "/images/people/thumb/suelen-carvalho.jpg",
+        "shortBio": "Participante ativa de diversos eventos de tecnologia e agilidade. Participou do Google IO'16 e Google IO'17 no Vale do Silício. Atualmente é Agile Coach & Tech Leader no Moip e há 5 anos instrutora de diversos cursos na Caelum",
+        "bio": "Suelen trabalha há 12 anos com liderança e desenvolvimento de software. É mestranda em Ciência da Computação pela USP. Se pós-graduou com nota máxima pelo ITA. Foi co-organizer ou organizer de grandes eventos como Agile Brazil e GDG-SP Android Meetup. Realizou + de 25 palestras voluntárias nos últimos 6 anos. É participante ativa de diversos eventos de tecnologia e agilidade. Participou do Google IO'16 e Google IO'17 no Vale do Silício. Atualmente é Agile Coach & Tech Leader no Moip e há 5 anos instrutora de diversos cursos na Caelum. É persistente, detalhista e apaixonada por esportes e gatos, do qual tem 2",
+        "tags": [
+            "Android", "Agile", "Leadership"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/suelengc"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/suelengc"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "https://linkedin.com/in/suelengc"
             }
         ]
     }
