@@ -23,11 +23,11 @@
 <dom-module id="speaker-details">
 
   <template>
-
+    
     <style include="shared-styles dialog-styles"></style>
 
     <paper-scroll-header-panel id="scrollHeaderPanel" condenses="{{app.isPhoneSize}}" no-reveal="{{!app.isPhoneSize}}">
-      <paper-toolbar class="tall">
+      <!--<paper-toolbar class="tall">
         <a href="/speakers">
           <paper-icon-button class="back-button" dialog-dismiss icon="arrow-back"></paper-icon-button>
         </a>
@@ -36,7 +36,7 @@
                       alt="[[localize('title')]]"></iron-image>
         </div>
         <div id="title" class="bottom title toolbar-title" hidden$="{{!app.isPhoneSize}}">[[speaker.name]]</div>
-      </paper-toolbar>
+      </paper-toolbar>-->
       <div class="content">
         <div class="metadata-wrapper">
           <div class="main-info">
@@ -67,7 +67,7 @@
 
       </div>
 
-      <template is="dom-if" if="{{speaker.sessions.length}}">
+      <!--<template is="dom-if" if="{{speaker.sessions.length}}">
         <div class="sections-wrapper content">
           <h4 class="block-title">[[localize('sessions')]]</h4>
           <div class="sections">
@@ -92,7 +92,7 @@
             </template>
           </div>
         </div>
-      </template>
+      </template>-->
     </paper-scroll-header-panel>
 
   </template>
