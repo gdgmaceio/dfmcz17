@@ -122,5 +122,61 @@
                 "link": "https://linkedin.com/in/suelengc"
             }
         ]
+    },
+    "5": {
+        "id": 5,
+        "featured": true,
+        "name": "Fernanda Bernardo",
+        "title": "Engenheira de Software",
+        "company": "Elo7",
+        "companyLogo": "/images/logos/elo7.svg",
+        "country": "São Paulo 🇧🇷",
+        "photoUrl": "/images/people/fernanda-bernardo.jpg",
+        "thumbUrl": "/images/people/thumb/fernanda-bernardo.jpg",
+        "shortBio": "Tenho 22 anos e trabalho como front-end no Elo7. Me formei em Sistemas de Informação na USP Leste e cai na área de tecnologia meio que por sorte.",
+        "bio": "Tenho 22 anos e trabalho como front-end no Elo7. Me formei em Sistemas de Informação na USP Leste e cai na área de tecnologia meio que por sorte. Gosto tanto de back-end quanto de front-end e também de assuntos relacionados a UX. Adoro palestrar e estudar assuntos novos. Gosto de assuntos relacionados à saúde, sou diabética e tenho um blog sobre o assunto. Apesar disso, adoro doces.",
+        "tags": [
+            "Front-end", "CSS", "Javascript"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/Feh_Bernardo"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/FernandaBernardo"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "https://linkedin.com/in/fernandabernardo"
+            }
+        ]
+    },
+    "6": {
+        "id": 6,
+        "featured": true,
+        "name": "Isabela Terribili",
+        "title": "Engenheira de Software",
+        "company": "Elo7",
+        "companyLogo": "/images/logos/elo7.svg",
+        "country": "São Paulo 🇧🇷",
+        "photoUrl": "/images/people/isabela-terribili.jpg",
+        "thumbUrl": "/images/people/thumb/isabela-terribili.jpg",
+        "shortBio": "Desenvolvedora mobile no Elo7(maior marketplace de artesanato do Brasil), trabalha com Android e React Native. Nas horas vagas gosta de cozinhar e atividades ao ar livre.",
+        "bio": "Desenvolvedora mobile no Elo7(maior marketplace de artesanato do Brasil), trabalha com Android e React Native. Nas horas vagas gosta de cozinhar e atividades ao ar livre.",
+        "tags": [
+            "Android", "React Native", "Firebase"
+        ],
+        "socials": [
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://facebook.com/isabelacristina.reisterribili"
+            }
+        ]
     }
 }
