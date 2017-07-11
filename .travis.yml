@@ -1,24 +1,34 @@
 language: node_js
-node_js: 6
-
+node_js: 7
 cache:
   directories:
-  - node_modules  # NPM packages
-  - bower_components  # bower packages
-  - /home/travis/.nvm/versions/node/v6.5.0/lib/node_modules  # global NPM packages
-
+  - node_modules
+  - bower_components
+  - "${NVM_PATH}_modules"
+env:
+- CXX=g++-4.8
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
 install:
-  - npm install -g bower polymer-cli@0.12.0
-  - bower install
-
+- npm install
 script: echo "Deploying!"
-
-before_deploy: polymer build
+before_deploy: npm run build
 deploy:
-  - provider: firebase
-    skip_cleanup: true
-    on:
-      tags: true
-    project: hoverboard-firebase
-    token:
-      secure: "hLdsE9fmjZlJo8VSfeitL/4jm7OMhKC0kesJLLvS1lXo4MarXwRU86F2a7bxiRA3jrq71zI59f3d2pYfWQwyzaDxO2VOoX0IxRVxBrcRTvo8WbDIFab5x7SJQIdYxXUCsZ8/+y8VCPXBbRF2mC04BSV0rE6qLTBV6vtY5GejGunb0D+7+DLP9c8JOV6ynjLs4ENS5f0QdW7/W6OlCqU8ebd7XaXqmFNYZ36ED9OAXAYuK8iY/m2YpJy9Z0xLsXFMWRLgDhFCa0i/5Ho8G2UnCAG8+jjvuHBAD84LHpbuXTPdUNuBkNx2u810y9EENg1+ycCfarmQ5OGvrWC4fekNwRZh1BnrEhsaTm+wdI9cPfRRBNTUzhL3BkHjnYKhcszajcfXhHr1TO0mvGRY3xkLyEZVo5LBNW37mcV2JvaBdFFr8lR2YMQuvyjcIjdZN9QxqjZH4FH2cMpx5oh/XCUSaOcq17sxtOuS9qt7V3365W4CL6pPVTPSBYBpO+64XdtwocbkU4S1MpTAeyEvEeTEnzgk5nFXbmXu9mHK/irpt79Wh5t4NtVfxlvwuJxLWX+hMhU5LMASE5ogfKC42G4ZEJFIKpR11gGneiMFJ3/rPsf82PBkkLGVD4BoscN0GxhTzt+KOK/xt8QLJzTSiO8JQ8tYuxHB3Mrw7d3U0PjLz3Y="
+- provider: firebase
+  skip_cleanup: true
+  on:
+    branch: master
+  project: hoverboard-master
+  token:
+    secure: fQOOIF4mkqH438Dawy2v27Qw7UsVizfJ1ZIeTno2sGfq9an8mZk13YWBuYJcOc1hSnEEp3G7/pkBcwykCj1CYpoOS+wMxpVbOQw6ogMGFD8rv+208Ddt1VJw/uUuFdf4k07+eRGokykCsCmcv2J+5wnLw34CKzXYTxLpL6JrxGzkuAcKIRNNda13yxJfYXz7HtQiNo3aMYnv2MCffNnSaR+OJ9Cl0JGYDCg3zuJIqrq7CFJqnUXE5TsO0VGCLY46rLvICY6inNlgZvA4RWi6Yf4rs2swzgC7HKbcIipjptlCRpPdRigLKoxhv6HZUIpkVgDu10Jq6OWU5gj4VpNYYd+c+E4F23nvm+3BEToUuEGURZ9Ins1SSHr3d+WxneQ+jreHCGrEBhKkLknbPQuOQF3khtk9CHu+07fBafBCLt4dGC6oQu+QwTdn+JQ/rYxWAUq8yJjrTsKevgXAVyMqDTU1Fy7FH5QP7HRyI71C6Q7Ij3cVwrFrVXNGzg2h2q8qTX2Yn6Ph9NJUpS+QmVsymblh38zwlyThZ1T4XudYM5iZTzNKKVqCmR9upl8nSLMEez1ukhBETJCslb2nFXJI3k7dsFA5cGO51sbYB44bxIXJwZkQ0s9p8XBNsU9gI2hX6UvE5+tephbohd6YGHmfc+qaJkLpcYKjRbhFsysf60k=
+- provider: firebase
+  skip_cleanup: true
+  on:
+    branch: develop
+  project: hoverboard-dev
+  token:
+    secure: Quq/Ys1GKDYFjqMCD107saKj005L0RaM7Ian9yLIW/er4KdMzwjYw7TVXmtMeJPIfEy/e2/4WJ63K1SaXieBoFndoUcpGWqPOoTrnkkj5K7tzeZKM32XqIarF+BNmOoqW5M7+kuN8L7N3RLp00ywFDOgKgiZJeoaDV6sIRRAIFVh+xHWabVWpFCwCUSeBZpufOsZhMXkicyRe0XhMmkUvS1P5CI3AyZZdIfWG+sguFsPOWRjMFKWrbnsilDFDjf7N0Wd8Z1H2Z0LBn/V00bNb95MSIuOhkdk3a1wP0P5Eollet+Y8g+NpdWyFq0/C+6+ECvFLBjtvbtMY1BVfdxkCo5XlogZx31OmkMWVX6PXOD5Va8aFoJnwvjovUT8oZbSCWEuyMxI91jDsLxXZt542MNfUfQ1Q2+SpUShdcRlwoV2c/XOYvme95HnI1LSqzLubooKWxz8wpa/aovkdZbum54t/z5nA54AXN1lYKsi+hcAFHOeucqd/kHOLG0bx05Ev86wcvNH8qGx+v7S644YH37No7PGnKU3g3Jq/m6quo1B/bMEIaatVnR40D301wAi8tsNWnqEdWFKnAlGrTIDd1qek9OHnApmgBQI8o0FOy6WbzLMwl9PnMl+t+wew/ggSY0IdWhjFWR/S1d6xML8cYHXHVpE0wxkat5ETbIYXlg=

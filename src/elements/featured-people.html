@@ -7,23 +7,16 @@
 
 <link rel="import" href="../styles/shared-styles.html">
 <link rel="import" href="../behaviors/utils-behavior.html">
-<link rel="import" href="../behaviors/localize-behavior.html">
 
 
 <dom-module id="featured-people">
 
   <template>
-      
+
     <style include="shared-styles">
       :host {
         display: block;
         background: #fff;
-      }
-
-      .c4p-button {
-        background-color: #67ae42;
-        color: #FAFAFA;
-        margin-top:30px;
       }
 
       .container {
@@ -97,13 +90,13 @@
     </style>
 
     <div class="container">
-      <h4 class="heading">[[localize('featured-people-title-new')]]</h4>
+      <h4 class="heading">{$ featuredPeopleTitle $}</h4>
       <div class="people-wrapper">
         <template is="dom-repeat" items="[[featuredPeople]]" as="person">
           <a href$="/speakers/[[person.id]]" class="person">
             <iron-image
               class="photo"
-              src="[[person.thumbUrl]]"
+              src="[[person.photoUrl]]"
               sizing="cover"
             ></iron-image>
             <iron-image
@@ -119,13 +112,15 @@
     </div>
 
     <div class="container">
-      <h4 class="heading">[[localize('featured-people-title')]]</h4>
-      <div class="description">[[localize('c4p-description')]]</div>
-      <a href="https://goo.gl/forms/kgEkp6K6u11ARpx12" target="_blank">
-        <paper-button class="c4p-button" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">
-          [[localize('c4p-button')]]
-        </paper-button>
-      </a>
+      <h4 class="heading">{$ call4papersTitle $}</h4>
+      <div>
+        {$ call4papersDescription $}
+      </div>
+      <div>
+        <a href="https://goo.gl/forms/kgEkp6K6u11ARpx12" target="_blank" class="block-link">
+          <paper-button  class="primary" raised>{$ call4papersButton $}</paper-button>
+        </a>
+      </div>
     </div>
 
   </template>
@@ -139,7 +134,6 @@
         is: 'featured-people',
 
         behaviors: [
-          HOVERBOARD.LocalizeBehavior,
           HOVERBOARD.UtilsBehavior
         ],
 

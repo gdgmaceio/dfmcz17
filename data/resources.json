@@ -1,0 +1,120 @@
+{
+  "title": "GDG DevFest Maceió 2017",
+  "description": "No dia 23 de Setembro conecte-se com profissionais, Startups e empresas de várias regiões do Brasil. Com temas focados em Tecnologia, Produtos do Google, cases do sucessso e áreas de experimento",
+  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, firebase, androiddev",
+  "dates": "23 de Setembro, 2017",
+  "locationAddressShort": "Maceió, Alagoas",
+  "motto": "Web, Mobile, Cloud/Firebase, IoT, tendências e muitas oportunidades para sua carreira 💡",
+  "playIcon": "See how it was in 2015",
+  "c4p": "Become a speaker",
+  "buyTicket": "Compre seu ticket",
+  "backToTop": "Voltar para o topo",
+  "subscribe": "Subscribe",
+  "yourEmail": "Your email",
+  "subscribeNote": "No spam, only the latest news and updates!",
+  "contactUs": "Entre em contato",
+  "ticketsTitle": "Tickets",
+  "ticketsDetails": "O ticket garante o acesso em todas as salas do evento e coffee break. Acomodação NÃO está inclusa nesse ticket.",
+  "close": "Close",
+  "soldOutTickets": "Sold Out",
+  "socialTitle": "Social",
+  "socialMotto": "Curta, siga, conecte-se conosco!",
+  "beforeHashtag": "Acompanhe",
+  "clickToViewPhotos": "Veja todas fotos",
+  "partners": "NOSSOS PARCEIROS",
+  "becomePartner": "Seja um parceiro",
+  "featuredVideosTitle": "#dfmcz16 ",
+  "featuredVideosViewAll": "View all videos",
+  "featuredPeopleTitle": "Palestrantes rockstars",
+  "featuredPeopleViewAll": "Veja todos os palestrantes",
+  "call4papersTitle": "🎙 CALL 4 PAPERS",
+  "call4papersDescription": "Submeta sua proposta e venha compartilhar sua experiência conosco no #dfmcz17",
+  "call4papersButton": "SEJA  UM PALESTRANTE",
+  "action": "See how it was",
+  "locationTitle": "UNIT - Centro Universitário Tiradentes",
+  "locationDescription": "O Centro Universitário Tiradentes – Unit é uma instituição que tem como objetivo oferecer educação superior de alta qualidade por meio de estudo, pesquisa, ensino e difusão das ciências e da Cultura, através do espírito crítico e do pensamento reflexivo.",
+  "locationAddress": "Av. Comendador Gustavo Paiva, 5017 - Cruz das Almas, Maceió - AL, 57038-000",
+  "organizerTitle": "REALIZAÇÃO",
+  "aboutOrganizers": "<a href='http://gdgmaceio.org' target='_blank'>GDG Maceió </a> com o apoio de comunidades e empresas da região.",
+  "openTeamPage": "Ver organizadores",
+  "whatIsGdg": "O que é GDG?",
+  "aboutGdg": "Google Developers Group (GDG) - é uma comunidade voluntária e aberta que compartilha e discute conteúdos e conhecimentos sobre tecnologias Google.",
+  "readMore": "Leia mais",
+  "copyLink": "Copy link",
+  "filteredBy": "filtrar por",
+  "clearAll": "Clear all",
+  "filter": "Filter",
+  "latestNews": "Latest news",
+  "continueReading": "Continue lendo",
+  "viewPresentation": "Ver Slides",
+  "viewVideo": "View video",
+  "skills": "Skills",
+  "share": "Compartilhar",
+  "shareWith": "Share with",
+  "signIn": "Login",
+  "signOut": "Logout",
+  "mySchedule": "Minha Programação",
+  "browseMore": "Browse more events",
+  "youShouldSignInSessions": "Sign in to save sessions",
+  "youShouldSignInRating": "Sign in to rate sessions",
+  "offlineMessage": "Você está offline",
+  "removedFromSchedule": "Remover da Minha Programação",
+  "addedToSchedule": "Adicionado a sua Programação",
+  "rateSession": "Avalie essa sessão",
+  "footerBlocks": [
+    {
+      "title": "Para visitantes",
+      "links": [
+        {
+          "text": "Equipe",
+          "url": "/team/",
+          "newTab": false
+        },
+        {
+          "text": "Codigo de conduta",
+          "url": "/cod/",
+          "newTab": false
+        },
+        {
+          "text": "Google Developers",
+          "url": "https://developers.google.com/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Para parceiros",
+      "links": [
+        {
+          "text": "Torne-se um parceiro",
+          "url": "https://goo.gl/Gur7qt",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "contactBlock": {
+    "links": [
+      {
+        "text": "devfest@gdgmaceio.org",
+        "url": "mailto:devfest@gdgmaceio.org"
+      }
+    ]
+  },
+  "teamPageTitle": "Equipe",
+  "teamPageText": "O Dev Fest Maceió 2017 é feito com muito amor pelo <a href='gdgmaceio.org' target='_blank'>GDG Maceió</a> e esse é o nosso time:",
+  "statistics": [
+    {
+      "counter": 800,
+      "caption": "Participantes"
+    },
+    {
+      "counter": 28,
+      "caption": "Sessões"
+    },
+    {
+      "counter": 2,
+      "caption": "Trilhas Paralelas"
+    }
+  ]
+}

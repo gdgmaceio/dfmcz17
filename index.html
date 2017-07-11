@@ -1,32 +1,30 @@
 <!doctype html>
-<html lang="en" itemscope itemtype="http://schema.org/Event">
+<html lang="pt-BR" itemscope itemtype="http://schema.org/Event">
 <head>
   <base href="/">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-  <meta name="description"
-        content="Web, Mobile, Cloud, Firebase, IoT, tendências e muitas oportunidades para sua carreira.">
-  <meta name="keywords"
-        content="event, gdg, gde, devfest, google, programming, android, firebase, angular, chrome, polymer, developers, web, cloud, androiddev">
-  <meta name="author" content="GDG Maceió">
+  <meta name="description" content="{$ description $}">
+  <meta name="keywords" content="{$ keywords $}">
+  <meta name="author" content="{$ organizer.name $}">
 
-  <title>DevFest Maceió, 23 de Setembro de 2017</title>
+  <title>{$ title $}</title>
 
-  <link rel="canonical" href="https://devfest.gdgmaceio.org">
-  <link rel="shortcut icon" sizes="32x32" href="/images/favicon/favivon-32.png">
+  <link rel="canonical" href="{$ url $}">
+  <link rel="shortcut icon" sizes="32x32" href="/images/favicon/favicon-32.png">
 
-  <meta name="theme-color" content="#fff">
+  <meta name="theme-color" content="{$ webapp.themeColor $}">
   <link rel="manifest" href="manifest.json">
 
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes"> <!-- fallback for manifest.json -->
-  <meta name="application-name" content="GDG DevFest Maceió 2017"> <!-- fallback for manifest.json -->
+  <meta name="application-name" content="{$ title $}"> <!-- fallback for manifest.json -->
 
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="GDG DevFest Maceió 2017">
+  <meta name="apple-mobile-web-app-title" content="{$ title $}">
 
   <!-- Homescreen icons. -->
   <link rel="shortcut icon" href="/images/favicon/favicon-72.png">
@@ -42,30 +40,26 @@
   <meta name="msapplication-tap-highlight" content="no">
 
   <!-- G+ sharing meta data -->
-  <meta itemprop="name" content="GDG DevFest Maceió 2017">
-  <meta itemprop="description"
-        content="Web, Mobile, Cloud, Firebase, IoT, tendências e muitas oportunidades para sua carreira.">
-  <meta itemprop="image" content="https://devfest.gdgmaceio.org/images/social-share.png">
-  <meta itemprop="startDate" content="2017-09-23T08:00:00+03:00">
-  <meta itemprop="endDate" content="2017-09-23T19:00:00+03:00">
+  <meta itemprop="name" content="{$ title $}">
+  <meta itemprop="description" content="{$ description $}">
+  <meta itemprop="image" content="https://devfest.gdgmaceio.org/images/social-share.png/images/social-share.png">
+  <meta itemprop="startDate" content="{$ startDate $}">
+  <meta itemprop="endDate" content="{$ endDate $}">
 
   <!-- Facebook sharing meta data -->
-  <meta property="og:title" content="GDG DevFest Maceió 2017">
-  <meta property="og:site_name" content="GDG DevFest Maceió 2017">
-  <meta property="og:url" content="https://devfest.gdgmaceio.org/">
-  <meta property="og:description"
-        content="Web, Mobile, Cloud, Firebase, IoT, tendências e muitas oportunidades para sua carreira">
+  <meta property="og:title" content="{$ title $}">
+  <meta property="og:site_name" content="{$ title $}">
+  <meta property="og:url" content="{$ url $}">
+  <meta property="og:description" content="{$ description $}">
   <meta property="og:type" content="Event">
-  <meta property="event:start_time" content="2017-09-23T05:00:00-03:00">
   <meta property="og:image" content="https://devfest.gdgmaceio.org/images/social-share.png">
-
+  <meta property="og:image:type" content="image/png" />
 
   <!-- Twitter meta data -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="@gdgmaceio">
-  <meta name="twitter:title" content="GDG DevFest Maceió 2017">
-  <meta name="twitter:description"
-        content="Web, Mobile, Cloud, Firebase, IoT, tendências e muitas oportunidades para sua carreira">
+  <meta name="twitter:creator" content="@{$ organizer.twitter $}">
+  <meta name="twitter:title" content="{$ title $}">
+  <meta name="twitter:description" content="{$ description $}">
   <meta name="twitter:image" content="https://devfest.gdgmaceio.org/images/social-share.png">
 
   <link rel="dns-prefetch" href="https://www.google-analytics.com">
@@ -93,7 +87,7 @@
 
 
     window.HOVERBOARD = window.HOVERBOARD || {};
-    window.ENV = 'prod';
+    window.ENV = 'dev';
     window.PREFIX = '/';
 
     // setup Polymer options
@@ -107,7 +101,7 @@
 
     // Creates the tracker.
     ga('create', {
-      trackingId: window.ENV === 'prod' ? 'UA-101893191-1' : 'UA-79724971-9',
+      trackingId: window.ENV === 'prod' ? '{$ analytics.prod $}' : '{$ analytics.dev $}',
       cookieDomain: 'auto',
       cookiePath: window.ENV !== 'dev' ? window.PREFIX || '/' : null,
       siteSpeedSampleRate: 10 // 10% of users.
@@ -130,23 +124,6 @@
   </script>
 
   <link rel="import" href="/src/hoverboard-app.html" async>
-
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Event",
-      "name": "GDG DevFest Maceió 2017",
-      "description": "Web, Mobile, Cloud/Firebase, IoT, tendências e muitas oportunidades para sua carreira 💡",
-      "startDate": "2017-09-23T08:00:00+03:00",
-      "endDate": "2017-09-23T20:00:00+03:00",
-      "url": "http://devfest.gdgmaceio.org/",
-      "location": {
-        "@type" : "Place",
-        "name" : "UNIT - Centro Universitário Tiradentes",
-        "address": "Av. Comendador Gustavo Paiva, 5017 - Cruz das Almas, Maceió - AL, 57038-000"
-      }
-    }
-  </script>
 
 </head>
 <body>

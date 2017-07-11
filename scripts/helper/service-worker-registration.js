@@ -41,7 +41,7 @@ HOVERBOARD.ServiceWorkerRegistration = (function () {
                 case 'installed':
                   if (!navigator.serviceWorker.controller) {
                     HOVERBOARD.Elements.Template.$.toast.showMessage(
-                      'Arretado! Em suas próximas visitas você terá acesso ao conteúdo mesmo estando offline.');
+                      'Yay! Esse site agora funciona offline.');
                   }
                   break;
 
@@ -72,7 +72,7 @@ HOVERBOARD.ServiceWorkerRegistration = (function () {
         if (HOVERBOARD.Elements && HOVERBOARD.Elements.Template &&
           HOVERBOARD.Elements.Template.$.toast.showMessage) {
           HOVERBOARD.Elements.Template.$.toast.showMessage(
-            'Uma nova versão está disponível =)', tapHandler, 'Atualizar agora',
+            'A new version of this app is available.', tapHandler, 'Refresh',
             null, 0); // duration 0 indications shows the toast indefinitely.
         } else {
           tapHandler(); // Force reload if user never was shown the toast.

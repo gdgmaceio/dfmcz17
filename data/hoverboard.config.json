@@ -1,65 +1,39 @@
 {
-  "pages": {
-    "home": {
-      "headerSettings": {
-        "backgroundColor": "#3c5b79",
-        "backgroundImage": "/images/backgrounds/bg2.jpg",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff",
-        "video": {
-          "title": "GDG DevFest Maceió 2017",
-          "youtubeId": "9ALTl6dQrCc",
-          "text": "Assista nosso vídeo promocional #proibidocochilar"
-        },
-        "hideLogo": true,
-        "minHeight": "360px"
-      }
-    },
-    "speakers": {
-      "headerSettings": {
-        "backgroundColor": "#df5248",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "schedule": {
-      "headerSettings": {
-        "backgroundColor": "#4c8bf5",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "team": {
-      "headerSettings": {
-        "backgroundColor": "#009688",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "cod": {
-      "headerSettings": {
-        "backgroundColor": "#673ab7",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "hub": {
-      "headerSettings": {
-        "backgroundImage": "images/backgrounds/hub.jpg",
-        "backgroundColor": "#4caf50",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "quest": {
-      "headerSettings": {
-        "backgroundImage": "images/backgrounds/quest.jpg",
-        "backgroundColor": "#FF5722",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    }
+  "url": "https://devfest.gdgmaceio.org",
+  "startDate": "2016-09-23T09:00:00-04:00",
+  "endDate": "2016-09-23T18:00:00-04:00",
+  "analytics": {
+    "prod": "UA-101893191-1",
+    "dev": "UA-79724971-9"
   },
+  "organizer": {
+    "name": "GDG Maceió",
+    "twitter": "gdgmaceio"
+  },
+  "webapp": {
+    "shortName": "DevFest Maceió 2017",
+    "themeColor": "#3c5b79",
+    "backgroundColor": "#3c5b79"
+  },
+  "firebase": {
+    "name": "devfest-maceio",
+    "domain": "devfest-maceio.firebaseapp.com",
+    "database": "https://devfest-maceio.firebaseio.com",
+    "api": "AIzaSyDvaIPMezJfpZHtTh_eEdfEJ3k-unqnEvg",
+    "userSessionsPath": "/userSessions",
+    "ratingsPath": "/ratings",
+    "indexedDbSession": "devfestmcz17"
+  },
+  "dateFormat": {
+    "locale": "pt-BR",
+    "blog": {"day": "numeric", "month": "short", "year": "numeric"}
+  },
+  "hashtag": "dfmcz17",
+  "disqusShortName": "devfest-gdg-maceio",
+  "tweetsSource": "/data/tweets.json",
+  "partnershipProposition": "https://goo.gl/Gur7qt",
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "enableSessionsRating": true,
   "navigation": [
     {
       "route": "home",
@@ -67,148 +41,98 @@
     },
     {
       "route": "speakers",
-      "permalink": "/speakers"
-    }
-  ],
-  "url": "https://devfest.gdgmaceio.org/",
-  "mailchimp": {
-    "subscribePage": "https://gdg.us11.list-manage.com/subscribe?u=b7e853a79164ddfdbda3ed77b&id=7993e39fbe",
-    "url": "https://devfestne.us8.list-manage.com/subscribe/post?u=89545d81cc2471a50c83a319d&amp;id=782140f19d",
-    "name": "b_89545d81cc2471a50c83a319d_782140f19d"
-  },
-  "partnershipProposition": "https://goo.gl/Gur7qt",
-  "disqusShortName": "devfestmcz17",
-  "languages": [
-    {
-      "name": "English",
-      "key": "en"
-    }
-  ],
-"footerBlocks": [
-    {
-      "title": "for-visitors",
-      "links": [
-        {
-          "text": "cod",
-          "url": "/cod/"
-        },
-        {
-          "text": "google-developers",
-          "url": "https://developers.google.com/",
-          "newTab": true
-        }
-      ]
+      "permalink": "/speakers/"
     },
     {
-      "title": "for-partners",
-      "links": [
-        {
-          "text": "partnership-proposition",
-          "url": "https://goo.gl/Gur7qt",
-          "newTab": true
-        }
-      ]
+      "route": "team",
+      "permalink": "/team/"
     }
   ],
-  "contactBlock": {
-    "links": [
-      {
-        "text": "devfest@gdgmaceio.org",
-        "url": "mailto:devfest@gdgmaceio.org"
-      }
-    ]
-  },
-  "tickets": {
-    "url": "https://goo.gl/photos/ATMAU8YwxA1UpcWJ7",
-    "elements": [
-      {
-        "name": "lazy-ticket",
-        "price": 85,
-        "currency": "R$",
-        "starts": "lazy-ticket-starts",
-        "ends": "lazy-ticket-ends",
-        "info": "lazy-ticket-info",
-        "soldOut": true
-      }
-    ]
-  },
-  "teamPageTitle": "team-page-title",
-  "teamPageText": "team-page-text",
-  "statistics": [
-    {
-      "counter": 800,
-      "caption": "attendees"
-    },
-    {
-      "counter": 28,
-      "caption": "sessions"
-    },
-    {
-      "counter": 2,
-      "caption": "tracks"
-    }
-  ],
-  "hashtag": "dfmcz17",
   "social": [
     {
       "name": "twitter",
-      "nickname": "devfestne",
+      "nickname": "GDGMaceio",
       "url": "https://twitter.com/gdgmaceio"
     },
     {
       "name": "gplus",
-      "nickname": "+GDGMaceio",
+      "nickname": "108908314484996855234",
       "url": "https://plus.google.com/108908314484996855234"
     },
     {
       "name": "facebook",
-      "nickname": "GDG Maceió",
-      "url": "https://www.facebook.com/gdgmaceio/"
+      "nickname": "GDGMaceio",
+      "url": "https://www.facebook.com/gdgmaceio"
     }
   ],
-  "tweetsSource": "",
-  "gallery": {
-    "albumUrl": "",
-    "sharedAlbumUrl": "https://goo.gl/photos/ATMAU8YwxA1UpcWJ7",
-    "photos": [
-      {
-        "big": "/images/backgrounds/2016_1.jpg",
-        "small": [
-          "/images/backgrounds/2016_2.jpg",
-          "/images/backgrounds/2016_3.jpg"
-        ]
-      },
-      {
-        "big": "/images/backgrounds/2016_4.jpg",
-        "small": [
-          "/images/backgrounds/2016_5.jpg",
-          "/images/backgrounds/2016_6.jpg"
-        ]
-      },
-      {
-        "big": "/images/backgrounds/2016_7.jpg",
-        "small": [
-          "/images/backgrounds/2016_8.jpg",
-          "/images/backgrounds/2016_9.jpg"
-        ]
-      }
-    ]
-  },
   "location": {
-    "apiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
+    "apiKey": "AIzaSyCeLK8KE4ktOdeuyw9Wn4vv7w7xuBtsTjM",
+    "name": "UNIT - Centro Universitário Tiradentes",
+    "address": "Av. Comendador Gustavo Paiva, 5017 - Cruz das Almas, Maceió - AL, 57038-000",
     "link": "https://al.unit.br",
     "pointer": {
-      "latitude": -9.6345957,
-      "longitude": -35.7037407,
+      "latitude": -9.6341860,
+      "longitude": -35.7021203,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": -9.6345957,
-      "longitude": -35.7037407
+      "latitude": -9.6341860,
+      "longitude": -35.7021203
     },
     "images": [
-      "http://www.logestrategia.com.br/cms/timthumb.php?src=./cms/assets/uploads/_CASES/cf816f75ba0094831f6b783af0f3c577.jpg&w=500&h=350"
+      "/images/backgrounds/unit.jpg"
     ]
   },
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv"
+  "gallery": {
+    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "photos": {
+      "big": "/images/backgrounds/2015_1.jpg",
+      "small": [
+        "/images/backgrounds/2015_2.jpg",
+        "/images/backgrounds/2015_3.jpg"
+      ]
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "headerSettings": {
+        "backgroundColor": "#3c5b79",
+        "backgroundImage": "/images/backgrounds/home.jpg",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff",
+        "video": {
+          "title": "GDG DevFest Ukraine 2016",
+          "youtubeId": "TdpbgRgz6eE",
+          "text": "See how it was in 2016"
+        },
+        "hideLogo": true,
+        "minHeight": "360px"
+      }
+    },
+    "speakers": {
+      "title": "Palestrantes",
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "team": {
+      "title": "Organizadores",
+      "headerSettings": {
+        "backgroundColor": "#009688",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "cod": {
+      "title": "Código de conduta",
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    }
+  }
 }
