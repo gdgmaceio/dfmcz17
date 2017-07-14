@@ -72,7 +72,7 @@ HOVERBOARD.ServiceWorkerRegistration = (function () {
         if (HOVERBOARD.Elements && HOVERBOARD.Elements.Template &&
           HOVERBOARD.Elements.Template.$.toast.showMessage) {
           HOVERBOARD.Elements.Template.$.toast.showMessage(
-            'A new version of this app is available.', tapHandler, 'Refresh',
+            'Uma nova versão do nosso site está disponível.', tapHandler, 'Atualizar',
             null, 0); // duration 0 indications shows the toast indefinitely.
         } else {
           tapHandler(); // Force reload if user never was shown the toast.
