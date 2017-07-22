@@ -67,20 +67,20 @@
   ],
   "location": {
     "apiKey": "AIzaSyCeLK8KE4ktOdeuyw9Wn4vv7w7xuBtsTjM",
-    "name": "UNIT - Centro Universitário Tiradentes",
-    "address": "Av. Comendador Gustavo Paiva, 5017 - Cruz das Almas, Maceió - AL, 57038-000",
-    "link": "https://al.unit.br",
+    "name": "Ritz Lagoa da Anta",
+    "address": "Av. Brigadeiro Eduardo Gomes de Brito, 546 - Lagoa da Anta, Maceió - AL, 57038-230",
+    "link": "https://ritzlagoadaanta.com.br",
     "pointer": {
-      "latitude": -9.6341860,
-      "longitude": -35.7021203,
+      "latitude": -9.6392722,
+      "longitude": -35.6988233,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": -9.6341860,
-      "longitude": -35.7021203
+      "latitude": -9.6392722,
+      "longitude": -35.6988233
     },
     "images": [
-      "/images/backgrounds/unit.jpg"
+      "https://cdn.zarpo.com.br/media/catalog/product/cache/1/base/640x360/9df78eab33525d08d6e5fb8d27136e95/r/i/ritz_entrada.jpg"
     ]
   },
   "gallery": {
