@@ -52,7 +52,6 @@
         @apply(--shadow-elevation-4dp);
         @apply(--shadow-transition);
         color: #fff;
-        background: var(--accent-color);
       }
 
       paper-fab[disabled]:not(.calendar-check) {
@@ -99,15 +98,14 @@
                       alt="{$ title $}"></iron-image>
         </div>
       </paper-toolbar>
-      <div class="content">
-        <paper-fab
-          class$="float-button header-action [[fabIcon]]"
-          icon="[[fabIcon]]"
-          session-id$="[[session.id]]"
-          on-tap="toggleMyScheduleSession"
-          disabled$="[[!online]]"
-        ></paper-fab>
-
+      <paper-fab
+        class$="float-button header-action [[fabIcon]]"
+        icon="[[fabIcon]]"
+        session-id$="[[session.id]]"
+        on-tap="toggleMyScheduleSession"
+        disabled$="[[!online]]"
+      ></paper-fab>
+      <div class="content header">
         <div class="metadata-wrapper">
           <div class="main-info">
             <div class="info">
@@ -179,37 +177,36 @@
                         disabled$="[[_isRatingDisabled(online, app.user)]]"
                         on-tap="_rate"></rating-element>
         {% endif %}
-      </div>
+        <template is="dom-if" if="{{session.speakers.length}}">
+          <div class="sections-wrapper content">
+            <h4 class="block-title">{$ speakers $}</h4>
+            <div class="sections">
+              <template is="dom-repeat" items="[[session.speakers]]" as="speaker">
+                <div class="section">
+                  <div class="section-photo" style$="background-image: url('[[speaker.photoUrl]]')"></div>
+                  <div class="section-info">
+                    <h3 class="section-title">[[speaker.name]]</h3>
+                    <span class="section-sub-title">[[speaker.company]], [[speaker.country]]</span>
+                    <div class="badges">
+                      <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
+                        <a class="badge" href$="[[badge.link]]" target="_blank"
+                          rel="noopener noreferrer">[[badge.name]]</a>
+                      </template>
+                    </div>
+                    <truncate-marked-text
+                      text="[[speaker.bio]]"
+                      characters="220"
+                      break-last-word
+                    ></truncate-marked-text>
 
-      <template is="dom-if" if="{{session.speakers.length}}">
-        <div class="sections-wrapper content">
-          <h4 class="block-title">{$ speakers $}</h4>
-          <div class="sections">
-            <template is="dom-repeat" items="[[session.speakers]]" as="speaker">
-              <div class="section">
-                <div class="section-photo" style$="background-image: url('[[speaker.photoUrl]]')"></div>
-                <div class="section-info">
-                  <h3 class="section-title">[[speaker.name]]</h3>
-                  <span class="section-sub-title">[[speaker.company]], [[speaker.country]]</span>
-                  <div class="badges">
-                    <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
-                      <a class="badge" href$="[[badge.link]]" target="_blank"
-                         rel="noopener noreferrer">[[badge.name]]</a>
-                    </template>
+                    <a class="read-more" href$="/speakers/[[speaker.id]]" dialog-dismiss>{$ readMore $}</a>
                   </div>
-                  <truncate-marked-text
-                    text="[[speaker.bio]]"
-                    characters="220"
-                    break-last-word
-                  ></truncate-marked-text>
-
-                  <a class="read-more" href$="/speakers/[[speaker.id]]" dialog-dismiss>{$ readMore $}</a>
                 </div>
-              </div>
-            </template>
+              </template>
+            </div>
           </div>
-        </div>
-      </template>
+        </template>
+      </div>
     </paper-scroll-header-panel>
 
   </template>
@@ -338,6 +335,26 @@
       });
 
     }());
-  </script>
+</script>
+
+<style>
+
+
+.header.content {
+  
+  overflow: scroll;
+  height: 80%;
+  position: relative;
+  z-index: 99;
+}
+
+.header-action {
+  right: 21px;
+  top: 21px;
+  z-index: 9999;
+  background: #3c5b79;
+}
+
+</style>
 
 </dom-module>
