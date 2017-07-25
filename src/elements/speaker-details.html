@@ -18,7 +18,6 @@
 <link rel="import" href="../behaviors/utils-behavior.html">
 <link rel="import" href="truncate-marked-text.html">
 
-
 <dom-module id="speaker-details">
 
   <template>
@@ -36,7 +35,7 @@
         </div>
         <div id="title" class="bottom title toolbar-title" hidden$="{{!app.isPhoneSize}}">[[speaker.name]]</div>
       </paper-toolbar>
-      <div class="content">
+      <div class="content header">
         <div class="metadata-wrapper">
           <div class="main-info">
             <div class="photo" style$="background-image: url('[[speaker.photoUrl]]')" hidden$="{{app.isPhoneSize}}"></div>
@@ -64,33 +63,32 @@
           </template>
         </div>
 
-      </div>
-
-      <template is="dom-if" if="{{speaker.sessions.length}}">
-        <div class="sections-wrapper content">
-          <h4 class="block-title">{$ sessions $}</h4>
-          <div class="sections">
-            <template is="dom-repeat" items="[[speaker.sessions]]" as="session">
-              <div class="section">
-                <div class="section-info">
-                  <h3 class="section-title">[[session.title]]</h3>
-                  <div class="badges">
-                    <template is="dom-repeat" items="[[session.tags]]" as="tag">
-                      <span class="badge" target="_blank" rel="noopener noreferrer">[[tag]]</span>
-                    </template>
+        <template is="dom-if" if="{{speaker.sessions.length}}">
+          <div class="sections-wrapper content">
+            <h4 class="block-title">{$ sessions $}</h4>
+            <div class="sections">
+              <template is="dom-repeat" items="[[speaker.sessions]]" as="session">
+                <div class="section">
+                  <div class="section-info">
+                    <h3 class="section-title">[[session.title]]</h3>
+                    <div class="badges">
+                      <template is="dom-repeat" items="[[session.tags]]" as="tag">
+                        <span class="badge" target="_blank" rel="noopener noreferrer">[[tag]]</span>
+                      </template>
+                    </div>
+                    <truncate-marked-text
+                      text="[[session.description]]"
+                      characters="220"
+                      break-last-word
+                    ></truncate-marked-text>
+                    <a class="read-more" hidden$="{{!session.day}}" href$="/schedule/day[[session.day]]?sessionId=[[session.id]]" dialog-dismiss>{$ readMore $}</a>
                   </div>
-                  <truncate-marked-text
-                    text="[[session.description]]"
-                    characters="220"
-                    break-last-word
-                  ></truncate-marked-text>
-                  <a class="read-more" hidden$="{{!session.day}}" href$="/schedule/day[[session.day]]?sessionId=[[session.id]]" dialog-dismiss>{$ readMore $}</a>
                 </div>
-              </div>
-            </template>
+              </template>
+            </div>
           </div>
-        </div>
-      </template>
+        </template>
+      </div>
     </paper-scroll-header-panel>
 
   </template>
@@ -173,6 +171,17 @@
       });
 
     }());
-  </script>
+</script>
+
+<style>
+
+
+.header.content {
+  
+  overflow: scroll;
+  height: 80%;
+}
+
+</style>
 
 </dom-module>
