@@ -58,8 +58,8 @@
   "youShouldSignInSessions": "Faça o login para salvar as sessões",
   "youShouldSignInRating": "Faça o login para votar nas sessões",
   "offlineMessage": "Você está offline",
-  "removedFromSchedule": "Remover da Minha Programação",
-  "addedToSchedule": "Adicionado a sua Programação",
+  "removedFromSchedule": "Palestra removida da sua programação",
+  "addedToSchedule": "Palestra adicionada a sua programação",
   "rateSession": "Avalie essa sessão",
   "footerBlocks": [
     {
