@@ -22,7 +22,7 @@
   "beforeHashtag": "",
   "clickToViewPhotos": "Veja todas fotos",
   "partners": "Nossos parceiros",
-  "becomePartner": "Seja um parceiro",
+  "becomePartner": "Torne-se um parceiro",
   "featuredVideosTitle": "#dfmcz16 ",
   "featuredVideosViewAll": "Ver todos os vídeos",
   "featuredPeopleTitle": "Palestrantes Confirmados",
@@ -30,9 +30,9 @@
   "call4papersTitle": "🎙 CALL 4 PAPERS",
   "call4papersDescription": "Submeta sua proposta e venha compartilhar sua experiência conosco no #dfmcz17",
   "call4papersButton": "SEJA  UM PALESTRANTE",
-  "action": "Seja como foi",
+  "action": "Veja como foi",
   "locationTitle": "",
-  "locationDescription": "Escolhemos o Ritz Lagoa da Anta para realização do DevFest Maceió 2017 por sua localização privilegiada e além de que contar com uma infraestrutura incrível para receber nossa comunidade ávida por conhecimento e imersão em novas Tecnologias.",
+  "locationDescription": "Escolhemos o Ritz Lagoa da Anta para realização do DevFest Maceió 2017 por sua localização privilegiada e além de contar com uma infraestrutura incrível para receber nossa comunidade ávida por conhecimento e imersão em novas Tecnologias.",
   "locationAddress": "Av. Brigadeiro Eduardo Gomes de Brito, 546 - Lagoa da Anta, Maceió - AL, 57038-230",
   "organizerTitle": "Realização",
   "aboutOrganizers": "<a href='http://gdgmaceio.org' target='_blank'>GDG Maceió </a> com o apoio de comunidades e empresas da região.",
@@ -102,7 +102,7 @@
     ]
   },
   "teamPageTitle": "Equipe",
-  "teamPageText": "O Dev Fest Maceió 2017 é feito com muito amor pelo <a href='gdgmaceio.org' target='_blank'>GDG Maceió</a> e esse é o nosso time:",
+  "teamPageText": "O DevFest Maceió 2017 é feito com muito amor pelo <a href='gdgmaceio.org' target='_blank'>GDG Maceió</a> e esse é o nosso time:",
   "statistics": [
     {
       "counter": 800,
