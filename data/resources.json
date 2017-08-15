@@ -113,8 +113,12 @@
       "caption": "Sessões"
     },
     {
-      "counter": 2,
+      "counter": 3,
       "caption": "Trilhas Paralelas"
+    },
+    {
+      "counter": 1,
+      "caption": "Hackathon"
     }
   ]
 }
