@@ -1,0 +1,42 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<dom-module id="appfest-block">
+
+  <template>
+
+    <style include="shared-styles">
+      :host {
+        display: block;
+        position: relative;
+        min-height: 400px;
+        background: url("/images/backgrounds/firebase-appfest.png") no-repeat 70% 50%;
+        background-size: cover;
+        color: var(--text-primary-color);
+      }
+
+      .block-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+    </style>
+
+      <a class="block-link" href="{$ firebaseAppFestLink $}" target="_blank" rel="noopener noreferrer">
+    </div>
+
+  </template>
+
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+        is: 'appfest-block'
+      });
+
+    }());
+  </script>
+
+</dom-module>

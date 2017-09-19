@@ -89,6 +89,11 @@
         margin-top: 40px;
       }
 
+      .action-join-hackathon {
+        background-color: var(--firebase);
+        color: #FFF;
+      }
+
       paper-button {
         font-size: 0.8em;
         color: #fff;
@@ -104,6 +109,12 @@
 
       .open-video iron-icon {
         margin-right: 5px;
+      }
+
+      @media (max-width: 450px) {
+        .action-buttons a {
+          font-size: 14px;
+        }
       }
 
       @media (min-width: 601px) {
@@ -139,6 +150,10 @@
               <div class="action-buttons">
                 <a href="https://www.sympla.com.br/devfest-maceio-2017__158502" target="_blank">
                     <paper-button class="primary" raised>{$ buyTicket $}</paper-button>
+                </a>
+
+                <a href="{$ firebaseAppFestLink $}" target="_blank">
+                  <paper-button class="action-join-hackathon" raised>{$ joinHackathon $}</paper-button>
                 </a>
               </div>
             </div>

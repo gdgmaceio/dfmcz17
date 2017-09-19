@@ -13,13 +13,14 @@
 <link rel="import" href="../elements/social-feed.html">
 <link rel="import" href="../elements/logos-block.html">
 <link rel="import" href="../elements/map-block.html">
-
+<link rel="import" href="../elements/appfest-block.html">
 
 <dom-module id="home-page">
 
   <template>
 
     <statistics-block app="{{app}}" cascaded></statistics-block>
+    <appfest-block app="{{app}}" cascaded></appfest-block>
     <featured-people app="{{app}}" people="{{people}}" cascaded></featured-people>
     <social-feed app="{{app}}" cascaded></social-feed>
     <about-block app="{{app}}" cascaded></about-block>

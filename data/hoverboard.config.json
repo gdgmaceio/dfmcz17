@@ -34,6 +34,7 @@
   "partnershipProposition": "https://goo.gl/Gur7qt",
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
   "enableSessionsRating": true,
+  "firebaseAppFestLink": "https://www.meetup.com/preview/GDG-Maceio/events/242975472",
   "navigation": [
     {
       "route": "home",
