@@ -1,13 +1,13 @@
 {
   "title": "GDG DevFest Maceió 2017",
-  "description": "No dia 23 de Setembro conecte-se com profissionais, Startups e empresas de várias regiões do Brasil. Com temas focados em Tecnologia, Produtos do Google, cases do sucessso e áreas de experimento",
+  "description": "O #dfmcz17 foi um dia excepcional com a participação de profissionais, Startups e empresas de diversas regiões do Brasil. Tecnologia, produtos do Google, cases de sucesso, áreas de experimento e muita diversão.",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, firebase, androiddev",
   "dates": "23 de Setembro, 2017",
   "locationAddressShort": "Maceió, Alagoas",
   "motto": "Web, Mobile, Cloud/Firebase, IoT, tendências e muitas oportunidades para sua carreira 💡",
   "playIcon": "Veja como foi em 2016",
   "c4p": "Seja um palestrante",
-  "buyTicket": "Compre seu ticket",
+  "buyTicket": "Veja as fotos do evento",
   "joinHackathon": "Participe do Hackathon",
   "backToTop": "Voltar para o topo",
   "subscribe": "Inscrever",
@@ -26,7 +26,7 @@
   "becomePartner": "Torne-se um parceiro",
   "featuredVideosTitle": "#dfmcz16 ",
   "featuredVideosViewAll": "Ver todos os vídeos",
-  "featuredPeopleTitle": "Palestrantes Confirmados",
+  "featuredPeopleTitle": "Palestrantes",
   "featuredPeopleViewAll": "Veja todos os palestrantes",
   "call4papersTitle": "🎙 CALL 4 PAPERS",
   "call4papersDescription": "Submeta sua proposta e venha compartilhar sua experiência conosco no #dfmcz17",
@@ -82,16 +82,6 @@
           "newTab": true
         }
       ]
-    },
-    {
-      "title": "Para parceiros",
-      "links": [
-        {
-          "text": "Torne-se um parceiro",
-          "url": "https://goo.gl/Gur7qt",
-          "newTab": true
-        }
-      ]
     }
   ],
   "contactBlock": {
@@ -106,7 +96,7 @@
   "teamPageText": "O DevFest Maceió 2017 é feito com muito amor pelo <a href='gdgmaceio.org' target='_blank'>GDG Maceió</a> e esse é o nosso time:",
   "statistics": [
     {
-      "counter": 800,
+      "counter": "1k+",
       "caption": "Participantes"
     },
     {
