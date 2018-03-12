@@ -48,6 +48,11 @@
                 </template>
               </div>
             </div>
+            <template is="dom-repeat" items="[[speaker.sessions]]" as="session">
+              <template is="dom-if" if="{{session.link}}">
+                  <a href$="[[session.link]]" target="_blank" style="color:#212121">Slides da palestra</a>
+              </template>
+            </template>
           </div>
         </div>
 

@@ -110,6 +110,12 @@
           <div class="main-info">
             <div class="info">
               <h1 class="main-title">[[session.title]]</h1>
+
+              <template is="dom-if" if="{{session.link}}">
+                  <a href$="[[session.link]]" target="_blank" style="color:#212121">Slides da palestra</a>
+                  <br/>
+              </template>              
+
               <div class="meta highlight">[[session.dateReadable]] / [[session.startTime]] - [[session.endTime]] /
                 [[session.track.title]]
                 <span hidden$="[[!session.language]]">
@@ -171,11 +177,11 @@
           </div>
         </div>
 
-        {% if enableSessionsRating %}
+        <!-- {% if enableSessionsRating %}
         <div class="label">{$ rateSession $}</div>
         <rating-element rate={{rate}}
                         disabled$="[[_isRatingDisabled(online, app.user)]]"
-                        on-tap="_rate"></rating-element>
+                        on-tap="_rate"></rating-element> -->
         {% endif %}
         <template is="dom-if" if="{{session.speakers.length}}">
           <div class="sections-wrapper content">
